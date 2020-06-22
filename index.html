@@ -20,15 +20,85 @@
 <h1>Family history website</h1>
 
 <h2>Goal</h2>
-<p>Create a website to display the Copplestone family tree. The information has been exported from some family history software as a GEDCOM file.</p>
+<p>Create a website to display the Copplestone family tree. The information has been exported from some family history software as a GEDCOM file. Should include names, date of birth, photos if available, notes, gender, other?</p>
 
-<h2>Researching Gedcom</h2>
+
+
+<h2>Meetings and subsequent research</h2>
+
+<h3>Meeting 1 - 8 June 2020</h3>
+<p>There are 3 chunks of work:</p>
+<ol>
+    <li>Copplestone history files - Include these on the website</li>
+    <li>Family Historian work - Try and get GEDCOM viewable as a website</li>
+    <li>Leonard Copplestone work - want to find somewhere to put</li>
+</ol>
+<p>For now we will tackle 2) and a bit of 1).</p>
+<ul>
+    <li>Mum has put a lot of work into the populating the family tree using Family Historian software.</li>
+    <li>From Family Historian you can export a GEDCOM file. This is a standard format used through geneology software.</li>
+    <li>Mum will send it to me and I will play around with it</li>
+    <li>Think about privacy of sharing all the folders</li>
+    <li>Didn’t talk about Leonard Copplestone’s book, it’s unfinished, he only wrote two-thirds. It's about the history of the family name from the very beginning but doesn't relate to the recent past.</li>
+    <li>Grace to try and load up some of the photos from the folder as static HTML pages.</li>
+</ul>
+    <img src="assets/img/meeting1a.png" style="float: left; width: 60%; margin-left: 20%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+    <img src="assets/img/meeting1b.png" style="float: left; width: 60%; margin-left: 20%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+
+
+<h3>Meeting 2 - 22 June 2020</h3>
+<h3>Questions for Mum</h3>
+<ul>
+    <li>Try to export the file and include all the photos in the process? Or manually send the photos? Are they in the current folder structure containing all the photos?</li>
+    <li>Try and export a PDF from Family Historian of all the information that the GEDCOM file sholid contain so that I can cross check why names aren't showing up.</li>
+    <li>What information do we want to show other than name? On the Family Echo page you can toggle different things on and off but that shows that some things aren't popliated.</li>
+    <li>What domain name shall we use? For now we can stick with Github one</li>
+</ul>
+
+<h3>Researching Gedcom</h3>
 <p>Information from Wikipedia:</p>
 <ul>
     <li>Top level records begin with on a row with a zero e.g. individuals = INDI and family = FAM.</li>
     <li>Multimedia like photos are linked within the GEDCOM file so need to figure out how to download them from software when exporting the file.</li>
 </ul>
 
-<p>Attempts to find programs that already 
+<h3>Pre-existing GEDCOM viewers and other software options</h3>
+    <p><a href="http://www.drawmyfamilytree.co.uk/gedcom_viewer.php">Draw My Family tree</a> is very quick and easy but not a nice layout.</p>
+    <img src="assets/img/existing_software_drawmyfamilytree.png" style="float: left; width: 60%; margin-left: 20%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+
+    <p><a href="http://www.ged4web.com/genealogy/ep_15.aspx#52">Ged4web</a> creates a set of webpages for you, although the layout of the tree isn't very intuative.</p>
+    <img src="assets/img/existing_software_ged4web.png" style="float: left; width: 60%; margin-left: 20%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+
+    <p><a href="https://gramps-project.org/blog/">GRAMPS</a> is open source software and has different viewing formats. When I imported the GEDCOM file it didn't notice a lot of the notes of the photos (which are links to locations on Mum's computer).</p>
+    <img src="assets/img/existing_software_gramps1.png" style="float: left; width: 31.5%; margin-left:11%; margin-top:20px; margin-bottom: 0.5em;">
+    <img src="assets/img/existing_software_gramps2.png" style="float: left; width: 40%; margin-left: 1%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+
+    <p><a href="https://www.familyecho.com/">Family Echo</a> Produces a family tree which is nicely zoomable. <a href="family_echo.html">You can also export the html version</a> of the page which I could edit a lot. Although perhaps this is enough. I'm not sure why all 213 people aren't showing up in the tree though. At the bottom of the page is the option to view Plain Text version. This helps to show all the information that we managed to export from Family Historian.  </p>
+    <img src="assets/img/existing_software_familyecho.png" style="float: left; width: 60%; margin-left: 20%; margin-top:20px; margin-bottom: 0.5em;">
+    <p style="clear: both;"><br>
+
+    <p>Mind mapping software like Lucid Charts or Mural are good but would require re-inputting all of the information again, although this could possibly be automated slightly.</p>
+
+<h3>Example of displaying images from folder structure</h3>
+<p>Github has a repository limit of 100MB so I'd need to figure out a way to store them somewhere else.</p>
+    <img src="assets/img/archive/Auntie Rene,Claire Wills,J,L,N,@ Dingle,Shrewsbury July 1960.jpg" style="float: left; width: 30%; margin-left: 19%; margin-top:0px; margin-bottom: 0.5em;">
+    <img src="assets/img/archive/Grandad,Grandma,J,L,N.jpg" style="float: left; width: 30%; margin-left: 2%; margin-right:2%; margin-top:0px; margin-bottom: 0.5em;">
+    <p>Left - Auntie Rene,Claire Wills,J,L,N,@ Dingle,Shrewsbury July 1960. <br><br>Right - Grandad,Grandma,J,L,N</p>
+    <p style="clear: both;"><br>
+
+    <img src="assets/img/archive/J,L,N with pets & grandma.jpg" style="float: left; width: 30%; margin-left: 19%; margin-top:0px; margin-bottom: 0.5em;">
+    <img src="assets/img/archive/Society of County Treasurers Conference, June 1953.Mum&Dad in centre.jpg" style="float: left; width: 30%; margin-left: 2%; margin-right:2%; margin-top:0px; margin-bottom: 0.5em;">
+    <p>Left - J,L,N with pets & grandma <br><br>Right - Society of County Treasurers Conference, June 1953.Mum&Dad in centre</p>
+    <p style="clear: both;"><br>
+
+<h3>Predicited costs</h3>
+<p>12 EUR per year for a domain name, or we can just use www.gracecopplestone.com/familyhistory for free.</p>
+
+
 
 </body>
