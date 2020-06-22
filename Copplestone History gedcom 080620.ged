@@ -1,0 +1,3764 @@
+0 HEAD
+1 SOUR FAMILY_HISTORIAN
+2 VERS 5.0
+2 NAME Family Historian
+2 CORP Calico Pie Limited
+1 FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History gedcom 080620.ged
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+2 _VAR DSR
+1 CHAR ANSI
+1 _UID {BD8C5F1A-D8F2-448f-B645-11A8E9064B30}
+0 @I1@ INDI
+1 NAME Nancy /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 10 JUL 1951
+2 PLAC Shrewsbury Shropshire
+1 OCCU Architect, Governor, Restorative Justice practitioner
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 19:54:09
+0 @I2@ INDI
+1 NAME Leonard /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 24 MAR 1911
+1 OCCU County Treasurer
+1 DEAT
+2 DATE 6 AUG 1984
+2 PLAC St Bartholomews Hospital London
+2 ADDR 107 The Mount Shrewsbury Shropshire SY3 8PH
+1 FAMC @F4@
+1 FAMS @F1@
+1 OBJE @O29@
+2 _ASID 1
+1 NOTE Home address at time of death: 107 The Mount Shrewsbury Shropshire
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 16:48:19
+0 @I3@ INDI
+1 NAME Kathleen Mary /Thomas/
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 1911
+2 PLAC Burnham on Sea
+1 RESI
+2 DATE FROM 1951 TO 1990
+2 ADDR 107 The Mount Shrewsbury Shropshire SY3 8PH
+1 DEAT
+2 DATE 15 MAY 1990
+2 PLAC Hillcrest Nursing Home Minsterley Shropshire
+2 ADDR 107 The Mount Shrewsbury Shropshire SY3 8PH
+1 FAMC @F7@
+1 FAMS @F1@
+1 OBJE @O6@
+2 _ASID 1
+1 OBJE @O1@
+2 _ASID 1
+1 OBJE @O2@
+2 _ASID 1
+1 OBJE @O3@
+2 _ASID 1
+1 OBJE @O4@
+2 _ASID 1
+1 OBJE @O5@
+2 _ASID 1
+1 OBJE @O7@
+2 _ASID 1
+1 OBJE @O8@
+2 _ASID 1
+1 OBJE @O9@
+2 _ASID 1
+1 OBJE @O10@
+2 _ASID 1
+1 OBJE @O11@
+2 _ASID 1
+1 OBJE @O12@
+2 _ASID 1
+1 OBJE @O13@
+2 _ASID 1
+1 OBJE @O14@
+2 _ASID 1
+1 OBJE @O15@
+2 _ASID 1
+1 OBJE @O16@
+2 _ASID 1
+1 OBJE @O17@
+2 _ASID 1
+1 OBJE @O18@
+2 _ASID 1
+1 OBJE @O19@
+2 _ASID 1
+1 OBJE @O20@
+2 _ASID 1
+1 OBJE @O21@
+2 _ASID 1
+1 OBJE @O22@
+2 _ASID 1
+1 OBJE @O23@
+2 _ASID 1
+1 OBJE @O24@
+2 _ASID 1
+1 OBJE @O25@
+2 _ASID 1
+1 OBJE @O26@
+2 _ASID 1
+1 OBJE @O27@
+2 _ASID 1
+1 NOTE Home in 1990 was 107 The Mount Shrewsbury Shropshire SY3 8 PH
+1 CHAN
+2 DATE 4 JUN 2020
+3 TIME 15:18:39
+0 @I4@ INDI
+1 NAME Alfred Henry /Perry/
+1 SEX M
+1 BIRT
+2 DATE 14 DEC 1951
+2 PLAC Birmingham
+1 DEAT
+2 DATE 2 NOV 2016
+2 PLAC Bristol
+1 FAMC @F67@
+1 FAMS @F2@
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 16:55:19
+0 @I5@ INDI
+1 NAME Grace May Perry /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 25 APR 1991
+1 FAMC @F2@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:28:37
+0 @I6@ INDI
+1 NAME Will /Perry/
+1 SEX M
+1 BIRT
+2 DATE 27 APR 1988
+1 FAMC @F2@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:28:03
+0 @I7@ INDI
+1 NAME Solomon Henry Perry /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 9 FEB 1993
+1 FAMC @F2@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:29:26
+0 @I10@ INDI
+1 NAME Joseph Edward /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 1880
+2 PLAC Dartmouth, Devon
+1 OCCU Dockyard fitter and foreman
+1 RESI
+2 DATE 1910
+2 ADDR 26 St George's Terrace, Stoke, Devonport
+1 DEAT
+2 DATE 13 MAY 1959
+2 PLAC Plymouth
+1 FAMC @F8@
+1 FAMS @F4@
+1 OBJE @O30@
+2 _ASID 1
+1 NOTE Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport. Address for Annie Maria was Totnes Road Dartmouth
+1 NOTE @N1@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:51:15
+0 @I11@ INDI
+1 NAME Annie Maria /Lavers/
+1 SEX F
+1 BIRT
+2 DATE 28 JAN 1882
+2 PLAC Dartmouth
+2 SOUR @S2@
+1 RESI
+2 DATE 1909
+2 PLAC Totnes Road, Dartmouth
+1 DEAT
+2 DATE 4 SEP 1975
+1 FAMC @F9@
+1 FAMS @F4@
+1 OBJE @O31@
+2 _ASID 1
+1 NOTE @N1@
+1 CHAN
+2 DATE 24 JUL 2016
+3 TIME 11:14:23
+0 @I12@ INDI
+1 NAME Jill /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 8 AUG 1947
+1 FAMC @F1@
+1 FAMS @F5@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:48:29
+0 @I13@ INDI
+1 NAME Linda /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 22 MAY 1949
+1 FAMC @F1@
+1 FAMS @F6@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:49:22
+0 @I14@ INDI
+1 NAME Roger /Briggs/
+1 SEX M
+1 FAMS @F5@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:48:40
+0 @I15@ INDI
+1 NAME Ronald /Keen/
+1 SEX M
+1 FAMS @F6@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 12:49:35
+0 @I16@ INDI
+1 NAME Frank /Thomas/
+1 SEX M
+1 BIRT
+2 DATE 12 DEC 1875
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 OCCU Painter and Decorator
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 OCCU OR in RFC /RAF in WW1 Plumber
+2 DATE (1914 to 1918)
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 DEAT
+2 DATE 16 MAY 1938
+2 PLAC Burnham on Sea
+2 ADDR 55 High Street Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+2 NOTE Burnham on Sea Cemetery
+1 BURI
+2 DATE 19 MAY 1938
+2 PLAC Baptist Church Burnham on Sea
+2 SOUR @S4@
+2 NOTE KMC stayed at  home with her mother, who did not attend the funeral.  See photo of newscutting for list of relatives and mourners.
+1 BURI
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 FAMC @F33@
+1 FAMS @F7@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:43:00
+0 @I17@ INDI
+1 NAME Georgina Augusta /Dade/
+1 SEX F
+1 BIRT
+2 DATE 10 DEC 1877
+2 PLAC Huntspill Somerset
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 DEAT
+2 DATE ABT DEC 1963
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 FAMC @F42@
+1 FAMS @F7@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:37:02
+0 @I18@ INDI
+1 NAME Richard /Copplestone/
+2 SOUR @S9@
+1 SEX M
+1 BIRT
+2 DATE 1832
+2 PLAC Westport County Mayo Ireland
+2 SOUR @S9@
+1 OCCU Coastguard
+2 SOUR @S9@
+1 FAMC @F60@
+1 FAMS @F8@
+1 FAMS @F59@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:19:36
+0 @I19@ INDI
+1 NAME George Henry /Lavers/
+1 SEX M
+1 BIRT
+2 DATE 10 JAN 1840
+2 PLAC Falmouth
+1 DEAT
+2 DATE 10 OCT 1911
+2 PLAC Dartmouth
+1 OCCU Merchant Seaman
+1 FAMC @F16@
+1 FAMS @F9@
+1 FAMS @F15@
+1 SOUR @S2@
+1 NOTE GH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. 
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:03:03
+0 @I20@ INDI
+1 NAME Maria /Wills/
+1 SEX F
+1 BIRT
+2 DATE 27 APR 1850
+2 PLAC Blackawton near Dartmouth
+1 DEAT
+2 DATE 16 NOV 1932
+2 PLAC Dartmouth
+1 FAMS @F9@
+1 SOUR @S2@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:03:15
+0 @I21@ INDI
+1 NAME Elizabeth /Lavers/
+2 NICK Bess or Bessie
+1 SEX F
+1 BIRT
+2 DATE 8 NOV 1885
+1 DEAT
+2 DATE 26 JUN 1974
+1 FAMC @F9@
+1 FAMS @F10@
+1 SOUR @S2@
+1 NOTE Great Aunt Bess to NC.  No children.
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:58:11
+0 @I22@ INDI
+1 NAME Ernest John /Lavers/
+1 SEX M
+1 BIRT
+2 DATE 7 JUL 1888
+1 DEAT
+2 DATE (20 May 1956 or 5?")
+1 FAMC @F9@
+1 FAMS @F14@
+1 SOUR @S2@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:16:52
+0 @I23@ INDI
+1 NAME Elsie Maud /Lavers/
+1 SEX F
+1 BIRT
+2 DATE 29 DEC 1889
+1 RESI
+2 PLAC Dartmouth
+2 ADDR 1 Underdale Cottages, Fordham? Valley
+2 SOUR @S2@
+3 DATA
+4 DATE JAN 1991
+3 QUAY 3
+3 NOTE Doreen's brother Edgar sent Doreen's records to NC in 1991. Edgar lived in a flat below Doreen in Dartmouth
+1 RESI
+2 ADDR 20, Amberley Slope, Werrington, Peterborough PE4 6QQ
+2 SOUR @S7@
+1 DEAT
+2 DATE 12 JUN 1969
+1 FAMC @F9@
+1 FAMS @F11@
+1 SOUR @S2@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:03:09
+0 @I24@ INDI
+1 NAME Florence May /Lavers/
+1 SEX F
+1 BIRT
+2 DATE 8 MAY 1895
+1 FAMC @F9@
+1 FAMS @F13@
+1 SOUR @S2@
+1 NOTE Known both as Aunt May and Aunt Flo to Leonard C.
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:04:43
+0 @I26@ INDI
+1 NAME Frederick /Pyne/
+1 SEX M
+1 FAMS @F10@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:00:49
+0 @I27@ INDI
+1 NAME Charles Arthur Weatherdon //
+1 SEX M
+1 FAMS @F11@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:01:30
+0 @I28@ INDI
+1 NAME Bertie /Lavers/
+1 SEX M
+1 BIRT
+2 DATE 8 OCT 1883
+2 PLAC Southford Road, Dartmouth
+2 SOUR @S2@
+1 OCCU Apprentice boatbuilder
+2 PLAC Dartmouth
+2 SOUR @S7@
+2 NOTE at age 14 in Noss shipyard for 6 years
+1 OCCU Dockyard  worker
+2 DATE 1904
+2 PLAC Plymouth
+2 ADDR Devonport Dockyard
+2 AGE 20y
+2 SOUR @S7@
+1 OCCU Lay preacher
+2 DATE 1908
+2 PLAC Dartmouth Methodist Church
+2 SOUR @S7@
+2 SOUR @S8@
+2 NOTE For 25 years until the church closed.
+1 OCCU Boatyard owner
+2 DATE 1920
+2 ADDR Coombe Mud Dartmouth
+2 NOTE He took over his father's boatyard. The yard later became Coronation Park
+1 OCCU Fishing boat inspector
+2 DATE 1945
+2 NOTE Ministry of Fisheries inspecting trawler installations
+1 OCCU Borough Councillor
+2 DATE 1947
+2 PLAC Dartmouth
+1 OCCU Mayor of Dartmouth
+2 DATE 1947
+2 NOTE 1947 to 1950 and also 1956 to 1957
+1 OCCU Devon County Councillor
+2 DATE 1961
+2 PLAC Dartmouth
+2 NOTE until 1964
+1 DEAT
+2 DATE 4 AUG 1985
+1 FAMC @F9@
+1 FAMS @F12@
+1 SOUR @S2@
+1 NOTE Served as Mayor of Dartmouth four times, see occupations. He was founder member of Dtmth OAP Assoc and chairman for 20 years. Chairman of Dtmth Liberal Assoc., Road Safety Committee, National Savings Committee, Dartmouth Harbour Commission. Pres
+2 CONC ident of the Young Men's Recreation Club, member of Salcombe and Kingsbridge Water Board. Represented Dartmouth on the Torbay Education Committee, Manager of Dartmouth Primary School and Governor of Dartmouth Secondary Modern and Grammar School.
+2 SOUR @S7@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:54:24
+0 @I29@ INDI
+1 NAME Beatrice Maud /Coaker/
+1 SEX F
+1 BIRT
+2 DATE 18 JUL 1884
+1 DEAT
+2 DATE 11 DEC 1950
+1 FAMS @F12@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:25:34
+0 @I30@ INDI
+1 NAME James /Leonard/
+1 SEX M
+1 OCCU Naval Administrator
+1 FAMS @F13@
+1 NOTE Leonard Copplestone's "Uncle Jim"
+2 SOUR @S7@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:10:00
+0 @I31@ INDI
+1 NAME Alice Mary /Toms/
+1 SEX F
+1 FAMS @F14@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:18:18
+0 @I32@ INDI
+1 NAME Matilda //
+1 SEX F
+1 DEAT
+2 DATE (9.Dev 1878 aged 44")
+1 FAMS @F15@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:06:56
+0 @I33@ INDI
+1 NAME George Henry /Lavers/
+1 SEX M
+1 BIRT
+2 DATE 14 DEC 1872
+1 DEAT
+2 DATE 17 DEC 1899
+2 PLAC Monte Video
+2 AGE 27y
+2 NOTE Drowned.  Tombstone in Dartmouth Cemetery
+1 FAMC @F15@
+1 NOTE Drowned at Monte Video aged 27. Tombstone in Dartmouth cemetery
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 17:20:10
+0 @I34@ INDI
+1 NAME Doreen /Lavers/
+1 SEX F
+1 DEAT
+2 DATE 30 MAR 1998
+2 PLAC Dartmouth
+1 FAMC @F12@
+1 NOTE Doreen wrote up the records used here for all of the Lavers family. She did research in Nova Scotia when she accompanied her father as Mayor of Dartmouth. There are additional Lavers records not entered here as they do not link up, held by NC
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:52:04
+0 @I35@ INDI
+1 NAME Edgar /Lavers/
+1 SEX M
+1 FAMC @F12@
+1 FAMS @F17@
+1 NOTE Lived below Doreen at 23B South Town Dartmouth. Edgar carried on the boatyard business until 1973 when he retired and sold the business. A few years later it was sold again and redeveloped.  See letter dated 1991. Edgar had a son and a daughte
+2 CONC r both married and living in Somerset in 1991 
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:20:54
+0 @I36@ INDI
+1 NAME Frank /Lavers/
+1 SEX M
+1 OCCU Sea Captain
+1 FAMS @F16@
+1 SOUR @S2@
+1 NOTE Lost at sea.  Note from Aunt Bess that her father's mother lived to the age of 96
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 17:38:27
+0 @I37@ INDI
+1 NAME Margery /Lavers/
+1 SEX F
+1 RESI
+2 DATE 1991
+2 ADDR 5 Dartmouth Court, South Embankment, Dartmouth
+1 FAMC @F12@
+1 FAMS @F18@
+1 NOTE Margery Redfern Allen is her name from Edgar Lavers in 1991, perhaps she remarried.
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:54:26
+0 @I38@ INDI
+1 NAME /Lavers/
+1 SEX M
+1 FAMC @F17@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:53:01
+0 @I39@ INDI
+1 NAME /Lavers/
+1 SEX F
+1 FAMC @F17@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:53:07
+0 @I40@ INDI
+1 NAME Alan /Redfern/
+1 SEX M
+1 FAMS @F18@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:18:47
+0 @I41@ INDI
+1 SEX M
+1 FAMC @F18@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:54:40
+0 @I42@ INDI
+1 SEX M
+1 FAMC @F18@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:54:46
+0 @I43@ INDI
+1 NAME Desmond /Lavers/
+1 SEX M
+1 FAMC @F14@
+1 FAMS @F19@
+1 NOTE Lamorna, Scott Close, Farnham Common Slough. Jill B has current address.
+2 CONT 01753 645420
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:00:22
+0 @I45@ INDI
+1 NAME Audrey? //
+1 SEX F
+1 FAMC @F11@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:02:39
+0 @I46@ INDI
+1 SEX F
+1 FAMC @F11@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:02:19
+0 @I47@ INDI
+1 NAME Barbara //
+1 SEX F
+1 FAMS @F19@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:04:22
+0 @I48@ INDI
+1 NAME Gordon /Leonard/
+1 SEX M
+1 BIRT
+2 DATE 1919
+1 RESI
+2 DATE 1991
+2 ADDR 22 Linketty Lane, Plympton, Plymouth
+2 SOUR @S7@
+1 FAMC @F13@
+1 FAMS @F20@
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 17:41:43
+0 @I49@ INDI
+1 NAME Gerald /Leonard/
+1 SEX M
+1 RESI
+2 DATE 1991
+2 ADDR 15 Harroford Road, River Dawn, Helen Vale, Gold Coast, Queensland 4210 Australia
+2 SOUR @S7@
+1 FAMC @F13@
+1 FAMS @F21@
+1 NOTE 15 Harroford Road River Dawn, Helen Vale Gold Coast Queensland 4210 Australia  as of 1991
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:07:10
+0 @I50@ INDI
+1 NAME Norman /Leonard/
+1 SEX M
+1 RESI
+2 ADDR 26 Lindsay Road, Poole, Branscome? Park,Dorset in 1991 tel 01202 762192
+2 SOUR @S7@
+1 FAMC @F13@
+1 FAMS @F22@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:08:34
+0 @I51@ INDI
+1 NAME Joan //
+1 SEX F
+1 FAMS @F20@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:20
+0 @I52@ INDI
+1 NAME Barbara /Leonard/
+1 SEX F
+1 FAMC @F20@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:29
+0 @I53@ INDI
+1 NAME Betty //
+1 SEX F
+1 FAMS @F21@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:42
+0 @I54@ INDI
+1 NAME /Leonard/
+1 FAMC @F21@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:43
+0 @I55@ INDI
+1 NAME Joyce //
+1 SEX F
+1 FAMS @F22@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:10:01
+0 @I56@ INDI
+1 NAME Jackie /Leonard/
+1 FAMC @F22@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:10:15
+0 @I57@ INDI
+1 NAME Edward John /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 1915
+2 PLAC Devonport
+1 DEAT
+2 DATE 1979
+1 FAMC @F4@
+1 FAMS @F23@
+1 NOTE Known as "Jack" or Uncle John to J L and N. Fitter in Plymouth Dockyard. Myrtle's second marriage, She was a sweet person, fond of Jack. Grandma Cop not that kind to her.
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 18:55:23
+0 @I58@ INDI
+1 NAME Myrtle //
+1 SEX F
+1 FAMS @F23@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 17:08:03
+0 @I59@ INDI
+1 NAME Irene May /Thomas/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 19 APR 1903
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 DEAT
+2 DATE 12 MAY 1982
+2 PLAC Cheltenham
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 CREM
+2 DATE ABT MAY 1982
+2 PLAC St Philip and St James Up Hatherley Cheltenham
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 FAMC @F7@
+1 FAMS @F24@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 13:57:44
+0 @I60@ INDI
+1 NAME Stanley William /Wills/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 NAME Stanley William /Wills/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 12 NOV 1902
+2 SOUR @S3@
+1 DEAT
+2 DATE 19 OCT 1967
+2 SOUR @S3@
+2 SOUR @S3@
+1 FAMS @F24@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:20:15
+0 @I61@ INDI
+1 NAME Winston Howard /Thomas/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 28 NOV 1909
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 OCCU Painter and Decorator
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 OCCU local historian
+2 DATE 1981
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 DEAT
+2 DATE 1991
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 CREM
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+2 NOTE Ashes with Una his wife Burnham on Sea Crematorium
+1 FAMC @F7@
+1 FAMS @F25@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 14:04:28
+0 @I62@ INDI
+1 NAME Una Doreen /Clapp/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 NAME Una Doreen /Clapp/
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1913
+2 SOUR @S3@
+1 DEAT
+2 DATE 1971
+2 SOUR @S3@
+1 FAMC @F40@
+1 FAMS @F25@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:31:19
+0 @I63@ INDI
+1 NAME Ernest Ronald /Thomas/
+1 SEX M
+1 BIRT
+2 DATE 1913
+1 DEAT
+2 DATE 12 MAY 1944
+2 PLAC Cassino Italy
+2 SOUR @S3@
+2 NOTE Ernest was a lieutenant in the Somerset Light Infantry in World War Two and died in fierce action near the Rapido River. See photo of KMC note and magazine photo of devastation in file.
+1 BURI
+2 PLAC Cassino War Cemetery Italy
+2 SOUR @S3@
+1 FAMC @F7@
+1 FAMS @F26@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:11:01
+0 @I64@ INDI
+1 NAME Joyce Neal /Popham/
+1 SEX F
+1 BIRT
+2 DATE 1914
+1 DEAT
+2 DATE 2007
+1 FAMS @F26@
+1 FAMS @F27@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:05:31
+0 @I65@ INDI
+1 NAME 
+2 SOUR @S3@
+1 NAME William David Edmund /Howell/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F27@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:05:31
+0 @I66@ INDI
+1 NAME Martin /Howell/
+2 SOUR @S3@
+1 FAMC @F27@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:06:17
+0 @I67@ INDI
+1 NAME Patricia /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1931
+2 SOUR @S3@
+1 FAMC @F26@
+1 SOUR @S3@
+1 NOTE Living in Burnham on sea in 2012
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:07:30
+0 @I68@ INDI
+1 NAME John /Wills/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1925
+2 SOUR @S3@
+1 FAMC @F24@
+1 FAMS @F28@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:09:10
+0 @I69@ INDI
+1 NAME David /Wills/
+2 SOUR @S3@
+1 SEX M
+1 FAMC @F24@
+1 FAMS @F29@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:23:09
+0 @I70@ INDI
+1 NAME Clare //
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F28@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:22:57
+0 @I71@ INDI
+1 NAME Anne //
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F29@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:23:39
+0 @I72@ INDI
+1 NAME Helen /Wills/
+2 SOUR @S3@
+1 SEX F
+1 FAMC @F28@
+1 FAMS @F30@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:24:19
+0 @I73@ INDI
+1 NAME Richard /Rossington/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F30@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:24:29
+0 @I74@ INDI
+1 NAME Graham /Wills/
+2 SOUR @S3@
+1 SEX M
+1 FAMC @F28@
+1 FAMS @F31@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:24:56
+0 @I75@ INDI
+1 NAME Judy //
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F31@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:25:04
+0 @I76@ INDI
+1 NAME James /Rossington/
+2 SOUR @S3@
+1 FAMC @F30@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:25:42
+0 @I77@ INDI
+1 NAME /Wills/
+2 SOUR @S3@
+1 FAMC @F28@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:25:55
+0 @I78@ INDI
+1 NAME Suzanne /Wills/
+2 SOUR @S3@
+1 SEX F
+1 FAMC @F29@
+1 FAMS @F32@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:30:47
+0 @I79@ INDI
+1 NAME Matthew //
+2 SOUR @S3@
+1 FAMC @F32@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:31:01
+0 @I80@ INDI
+1 NAME Tom /Wills/
+2 SOUR @S3@
+1 SEX M
+1 FAMC @F31@
+1 SOUR @S3@
+1 NOTE 17 in Dec 2012
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:33:27
+0 @I81@ INDI
+1 NAME Justin /Wills/
+2 SOUR @S3@
+1 SEX M
+1 FAMC @F31@
+1 SOUR @S3@
+1 NOTE 11 in Dec 2012
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:33:59
+0 @I82@ INDI
+1 NAME Ernest E /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1866
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+1 FAMC @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:43:37
+0 @I83@ INDI
+1 NAME Alice /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1867 AND 1868
+2 SOUR @S3@
+1 FAMC @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:44:37
+0 @I84@ INDI
+1 NAME Harry /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE BET 1868 AND 1869
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+1 FAMC @F33@
+1 FAMS @F34@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:47:12
+0 @I85@ INDI
+1 NAME 
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F34@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:48:38
+0 @I86@ INDI
+1 NAME Fred /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1871
+2 SOUR @S3@
+1 FAMC @F33@
+1 FAMS @F35@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:47:59
+0 @I87@ INDI
+1 NAME Laura E /Dade/
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F35@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:48:07
+0 @I88@ INDI
+1 NAME Herbert Morris /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1873
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+1 FAMC @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:49:35
+0 @I89@ INDI
+1 NAME Sidney Herbert /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1878
+2 SOUR @S3@
+1 FAMC @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:50:43
+0 @I90@ INDI
+1 NAME Ellen Francis /Thomas/
+2 NICK May
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1882 AND 1883
+2 SOUR @S3@
+1 FAMC @F33@
+1 FAMS @F36@
+1 SOUR @S3@
+1 NOTE  known as Aunt May
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:55:44
+0 @I91@ INDI
+1 NAME Frederick /Gale/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F36@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:55:07
+0 @I92@ INDI
+1 NAME Edward /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE BET 1834 AND 1835
+2 SOUR @S3@
+1 OCCU Railway Engineer
+2 SOUR @S3@
+1 DEAT
+2 DATE 1888
+2 SOUR @S3@
+1 BURI
+2 DATE ABT OCT 1888
+2 PLAC Burnham on Sea Cemetery
+2 SOUR @S3@
+1 FAMC @F37@
+1 FAMS @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:06:14
+0 @I93@ INDI
+1 NAME Ellen /Morris/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1848 AND 1849
+2 SOUR @S3@
+1 DEAT
+2 DATE 30 NOV 1927
+2 SOUR @S3@
+1 OCCU Refreshment Room Keeper
+2 SOUR @S3@
+1 BURI
+2 PLAC Burnham on Sea Cemetery
+2 SOUR @S3@
+1 FAMS @F33@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:02:57
+0 @I94@ INDI
+1 NAME William /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE BET 1799 AND 1800
+2 SOUR @S3@
+1 OCCU Farm Labourer
+2 SOUR @S3@
+1 FAMC @F38@
+1 FAMS @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:08:37
+0 @I95@ INDI
+1 NAME Charlotte /Nethway/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1800 AND 1801
+2 SOUR @S3@
+1 OCCU Nurse
+2 SOUR @S3@
+1 FAMS @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:07:50
+0 @I96@ INDI
+1 NAME James /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BURI
+2 DATE 20 MAR 1808
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMS @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:10:11
+0 @I97@ INDI
+1 NAME Betty //
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:09:26
+0 @I98@ INDI
+1 NAME Sarah /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BAPM
+2 DATE 11 FEB 1794
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMC @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:12:17
+0 @I99@ INDI
+1 NAME James /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BAPM
+2 DATE 12 FEB 1795
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMC @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:13:03
+0 @I100@ INDI
+1 NAME Betty /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BAPM
+2 DATE 5 JUN 1800
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMC @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:14:13
+0 @I101@ INDI
+1 NAME Henry /Thomas/
+2 SOUR @S3@
+1 BAPM
+2 DATE 20 MAY 1804
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMC @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:15:03
+0 @I102@ INDI
+1 NAME Mary /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BAPM
+2 DATE 17 JUL 1807
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 FAMC @F38@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:15:49
+0 @I103@ INDI
+1 NAME Henry /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE BET 1831 AND 1832
+2 SOUR @S3@
+1 BAPM
+2 DATE 17 FEB 1833
+2 PLAC St Mary the Virgin
+2 ADDR Yatton
+2 SOUR @S3@
+1 OCCU Agricultural labourer
+2 SOUR @S3@
+1 FAMC @F37@
+1 FAMS @F39@
+1 SOUR @S3@
+1 NOTE 
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:23:39
+0 @I104@ INDI
+1 NAME /Thomas/
+2 SOUR @S3@
+1 FAMC @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:23:18
+0 @I105@ INDI
+1 NAME Martha /Lovell/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1835
+2 SOUR @S3@
+1 FAMS @F39@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:23:57
+0 @I106@ INDI
+1 NAME Harriet /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1832 AND 1833
+2 SOUR @S3@
+1 FAMC @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:25:02
+0 @I108@ INDI
+1 NAME William /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE BET 1836 AND 1837
+2 SOUR @S3@
+1 FAMC @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:28:29
+0 @I109@ INDI
+1 NAME Eliza /Thomas/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE BET 1837 AND 1838
+2 SOUR @S3@
+1 FAMC @F37@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:29:11
+0 @I110@ INDI
+1 NAME Sheila /Clapp/
+2 SOUR @S3@
+1 SEX F
+1 FAMC @F40@
+1 FAMS @F41@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:31:42
+0 @I111@ INDI
+1 NAME Sue /Harvey/
+2 SOUR @S3@
+1 SEX F
+1 FAMC @F41@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:31:55
+0 @I112@ INDI
+1 NAME // Harvey
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F41@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:32:22
+0 @I113@ INDI
+1 NAME Robert Frank /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1939
+2 PLAC Burnham on Sea
+2 SOUR @S3@
+1 FAMC @F25@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:33:34
+0 @I114@ INDI
+1 NAME Alfred /Dade/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1845
+2 PLAC Huntspill ,Bridgwater, Somerset
+2 SOUR @S3@
+1 OCCU Assistant Stone Haulier, Railway Engineer
+2 SOUR @S3@
+1 BURI
+2 DATE 1897
+2 SOUR @S3@
+1 FAMS @F42@
+1 SOUR @S3@
+1 NOTE Jean Webb noted that most of the ten children of Alfred and Edith were buried in Mark Churchyard
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:40:38
+0 @I115@ INDI
+1 NAME Edith Jane /Plomer/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1846
+2 SOUR @S3@
+1 DEAT
+2 DATE 1930
+2 SOUR @S3@
+1 FAMS @F42@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:52:43
+0 @I118@ INDI
+1 NAME Constance Rose /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1870
+2 PLAC Highbridge
+2 SOUR @S3@
+1 FAMC @F42@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:01:57
+0 @I119@ INDI
+1 NAME Laura Ellen /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1871
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F43@
+1 SOUR @S3@
+1 NOTE "Auntie Laurie"
+2 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:10:56
+0 @I120@ INDI
+1 NAME Fred /Thomas/
+2 SOUR @S3@
+1 SEX M
+1 OCCU Tobacconist, Baker
+2 SOUR @S3@
+1 FAMS @F43@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:03:37
+0 @I121@ INDI
+1 NAME Alice Maud /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1873
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F44@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:04:49
+0 @I122@ INDI
+1 NAME Thomas Edward /Brooks/
+2 SOUR @S3@
+1 SEX M
+1 OCCU Engine Driver
+2 SOUR @S3@
+1 FAMS @F44@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:05:33
+0 @I123@ INDI
+1 NAME Ada Kate /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 6 DEC 1875
+2 SOUR @S3@
+1 BURI
+2 DATE 1973
+2 SOUR @S3@
+1 OCCU Draper, Milliner
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F45@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:07:14
+0 @I124@ INDI
+1 NAME William Cutler /Bridle/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F45@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:07:28
+0 @I125@ INDI
+1 NAME Bessie Louise /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1879
+2 PLAC Huntspill ,Bridgwater, Somerset
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F46@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:08:34
+0 @I126@ INDI
+1 NAME Edward Arthur /Major/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1874
+2 PLAC Stockton on Tees
+2 SOUR @S3@
+1 FAMS @F46@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:09:22
+0 @I127@ INDI
+1 NAME Ethel Annie /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1883
+2 PLAC Wimborne  Dorset
+1 FAMC @F42@
+1 FAMS @F47@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:37:28
+0 @I128@ INDI
+1 NAME Bertie /Bridle/
+1 SEX M
+1 DEAT
+2 DATE 1948
+1 FAMS @F47@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:38:28
+0 @I129@ INDI
+1 NAME Lilian Gertrude /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1885
+2 PLAC Wimborne  Dorset
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F48@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:40:46
+0 @I130@ INDI
+1 NAME Samuel Headley /White/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F48@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:40:32
+0 @I131@ INDI
+1 NAME Alfred John /Dade/
+2 SOUR @S3@
+1 SEX M
+1 BIRT
+2 DATE 1887
+2 PLAC Wimborne  Dorset
+2 SOUR @S3@
+1 DEAT
+2 DATE 1960
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F49@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:41:53
+0 @I132@ INDI
+1 NAME Amy Eileen /Wensley/
+2 SOUR @S3@
+1 SEX F
+1 FAMS @F49@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:42:07
+0 @I133@ INDI
+1 NAME Olive Edith /Dade/
+2 SOUR @S3@
+1 SEX F
+1 BIRT
+2 DATE 1890
+2 SOUR @S3@
+1 FAMC @F42@
+1 FAMS @F50@
+1 SOUR @S3@
+1 NOTE John S Wills' favourite Aunt and Uncle, they lived by railway in Highbridge
+2 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:47:05
+0 @I134@ INDI
+1 NAME Arthur J /Wensley/
+2 SOUR @S3@
+1 SEX M
+1 FAMS @F50@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:45:21
+0 @I135@ INDI
+1 NAME Gwendoline /Dade/
+2 SOUR @S3@
+2 SOUR @S6@
+1 SEX F
+1 FAMC @F49@
+1 FAMS @F51@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:17:21
+0 @I136@ INDI
+1 NAME Gilbert /Wall/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMS @F51@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:17:35
+0 @I137@ INDI
+1 NAME Sonny /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:17:45
+0 @I138@ INDI
+1 NAME Doris /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:18:00
+0 @I139@ INDI
+1 NAME Stuart /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 OCCU Baker
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 FAMC @F49@
+1 FAMS @F52@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 NOTE Stuart lived in Church Stretton. He often visited KMC at 107 The Mount Shrewsbury as he worked in Morris's bakery there
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:19:37
+0 @I140@ INDI
+1 NAME Margaret //
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMS @F52@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:18:30
+0 @I141@ INDI
+1 NAME Dennis /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:19:57
+0 @I142@ INDI
+1 NAME Kathleen /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F49@
+1 FAMS @F53@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:20:33
+0 @I144@ INDI
+1 NAME Pauline //
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F53@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:21:07
+0 @I145@ INDI
+1 NAME William /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 NOTE "Bill"
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:21:47
+0 @I146@ INDI
+1 NAME /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:21:57
+0 @I147@ INDI
+1 NAME Audrey /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F49@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:22:19
+0 @I148@ INDI
+1 NAME Jean /Dade/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 RESI
+2 DATE 2012
+2 ADDR Stone House Farm, Soudley, Church Stretton, Shropsshire SY6 7DE
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+2 NOTE jean@@latenight.demon.co.uk
+3 CONT tel 01694 722793
+1 FAMC @F52@
+1 FAMS @F54@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 NOTE Jean is a physiotherapist and with her two daughters, raises and trains horses. She plays in Telford Orchestra and is a Morris dancer.
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:35:50
+0 @I149@ INDI
+1 NAME Jeff /Webb/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMS @F54@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:23:00
+0 @I151@ INDI
+1 NAME Dave //
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMS @F55@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:31:39
+0 @I152@ INDI
+1 NAME Allison /Webb/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F54@
+1 FAMS @F56@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:32:24
+0 @I153@ INDI
+1 NAME Dave //
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMS @F56@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:32:30
+0 @I154@ INDI
+1 NAME Libby /Webb/
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX F
+1 FAMC @F54@
+1 FAMS @F57@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:33:00
+0 @I155@ INDI
+1 NAME Simon //
+2 SOUR @S6@
+3 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 SEX M
+1 FAMS @F57@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:33:05
+0 @I156@ INDI
+1 NAME Catherine /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 1874
+2 PLAC St Martins, Isle of Scilly
+1 DEAT
+2 DATE 1962
+2 PLAC Paignton?
+1 FAMC @F8@
+1 NOTE Known as Aunt Kate  
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 18:41:21
+0 @I157@ INDI
+1 NAME Beatrice /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 1887
+2 PLAC Langton Dorset
+2 SOUR @S9@
+1 FAMC @F8@
+1 FAMS @F58@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:49:28
+0 @I158@ INDI
+1 NAME Tom /Trace/
+2 SOUR @S9@
+1 SEX M
+1 FAMS @F58@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:49:40
+0 @I159@ INDI
+1 NAME George A /Copplestone/
+2 SOUR @S9@
+1 SEX M
+1 BIRT
+2 DATE 1866
+2 PLAC St Marys Isles of Scilly
+2 SOUR @S9@
+1 FAMC @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:52:03
+0 @I160@ INDI
+1 NAME Ellen L /Copplestone/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE 1868
+2 PLAC St Marys Isles of Scilly
+2 SOUR @S9@
+1 FAMC @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:53:08
+0 @I161@ INDI
+1 NAME Albert H /Copplestone/
+2 SOUR @S9@
+1 SEX M
+1 BIRT
+2 DATE 1870
+2 PLAC St Martins, Isle of Scilly
+2 SOUR @S9@
+1 FAMC @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:54:22
+0 @I162@ INDI
+1 NAME Gertie /Copplestone/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE 1884
+2 SOUR @S9@
+1 FAMC @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:55:29
+0 @I163@ INDI
+1 NAME unknown Copplestone /sibling?/
+2 SOUR @S9@
+1 FAMC @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:55:50
+0 @I164@ INDI
+1 NAME Mary Jane /Rowe/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE (1865" error)
+2 PLAC Noss Mayo Plymouth
+2 SOUR @S9@
+1 FAMS @F8@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:06:23
+0 @I165@ INDI
+1 NAME Amelia /Townshend/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE 10 FEB 1859
+2 PLAC Stoke Damerel Plymouth
+2 SOUR @S9@
+1 FAMS @F59@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:16:20
+0 @I166@ INDI
+1 NAME Mary Ann Amelia Avery /Copplestone/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE 14 JAN 1860
+2 PLAC Torquay Devon
+2 SOUR @S9@
+1 FAMC @F59@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:18:48
+0 @I167@ INDI
+1 NAME William /Copplestone/
+2 SOUR @S9@
+1 SEX M
+1 BIRT
+2 DATE 5 JUL 1833
+2 PLAC Westport County Mayo Ireland
+2 SOUR @S9@
+1 OCCU Seaman
+2 SOUR @S9@
+1 FAMC @F60@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:20:25
+0 @I168@ INDI
+1 NAME Elizabeth /Copplestone/
+2 SOUR @S9@
+1 SEX F
+1 FAMC @F60@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:21:14
+0 @I169@ INDI
+1 NAME Louisa /Copplestone/
+2 SOUR @S9@
+1 SEX F
+1 BIRT
+2 DATE (1828)
+2 PLAC "Austr"
+2 SOUR @S9@
+1 FAMC @F60@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:22:36
+0 @I170@ INDI
+1 NAME Joseph Parsons /Copplestone/
+2 SOUR @S9@
+1 SEX M
+1 BIRT
+2 DATE 1799
+2 PLAC Fowey Cornwall
+2 SOUR @S9@
+1 OCCU Coastguard
+2 SOUR @S9@
+1 FAMC @F61@
+1 FAMS @F60@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:28:23
+0 @I171@ INDI
+1 NAME Mary Louise /Williams/
+2 SOUR @S9@
+1 SEX F
+1 DEAT
+2 DATE 1886
+1 FAMS @F60@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:25:22
+0 @I172@ INDI
+1 NAME unknown /Copplestone/
+1 FAMC @F60@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:25:32
+0 @I173@ INDI
+1 NAME unknown /Copplestone/
+1 FAMC @F60@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:25:43
+0 @I174@ INDI
+1 NAME unkown /Copplestone/
+1 FAMC @F60@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:26:15
+0 @I175@ INDI
+1 NAME unknown /Copplestone/
+1 FAMC @F60@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:26:24
+0 @I176@ INDI
+1 NAME Cath Parsons /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 16 APR 1797
+1 FAMC @F61@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:28:57
+0 @I177@ INDI
+1 NAME Richard /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1765
+1 OCCU Miller
+1 FAMC @F63@
+1 FAMS @F61@
+1 FAMS @F62@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:44:16
+0 @I178@ INDI
+1 NAME Mary /Parsons/
+1 SEX F
+1 FAMS @F61@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:32:20
+0 @I179@ INDI
+1 NAME Mary /Dawe/
+1 SEX F
+1 BIRT Y
+1 DEAT
+2 DATE 1792
+2 PLAC Fowey Cornwall
+1 FAMS @F62@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:39:37
+0 @I180@ INDI
+1 NAME Elizabeth /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 1790
+1 FAMC @F62@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:36:18
+0 @I181@ INDI
+1 NAME Richard /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 1792
+1 BURI
+2 DATE 22 APR 1821
+1 FAMC @F62@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:41:10
+0 @I182@ INDI
+1 NAME Thomas /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1763
+2 PLAC Fowey
+1 BAPM
+2 PLAC Fowey
+1 OCCU Cordwainer
+1 FAMC @F63@
+1 FAMS @F64@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:46:02
+0 @I183@ INDI
+1 NAME Charlotte /Trethaway/
+1 SEX F
+1 FAMS @F64@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:46:21
+0 @I184@ INDI
+1 NAME John Trethaway /Copplestone/
+1 SEX M
+1 BAPM
+2 DATE 27 JUL 1793
+1 BURI
+2 DATE 21 JUL 1795
+1 FAMC @F64@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:49:15
+0 @I185@ INDI
+1 NAME Thomas /Copplestone/
+1 SEX M
+1 BIRT
+2 DATE 12 OCT 1794
+1 OCCU Miner
+1 FAMC @F64@
+1 FAMS @F65@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:50:40
+0 @I186@ INDI
+1 NAME Susan /Hall/
+1 SEX F
+1 FAMS @F65@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:50:50
+0 @I187@ INDI
+1 NAME unkown /Copplestone/
+1 FAMC @F65@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:51:28
+0 @I188@ INDI
+1 NAME Charlotte /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1797
+1 FAMC @F64@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:52:05
+0 @I189@ INDI
+1 NAME Anne /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 3 FEB 1767
+1 FAMC @F63@
+1 FAMS @F66@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:29:19
+0 @I190@ INDI
+1 NAME Thomas /Kendall/
+1 SEX M
+1 BIRT
+2 PLAC Lanteglos
+1 OCCU Customs Officer
+1 FAMS @F66@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:30:38
+0 @I191@ INDI
+1 NAME Elizabeth /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 14 FEB 1769
+1 BURI
+2 DATE 29 MAY 1771
+1 FAMC @F63@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:32:05
+0 @I192@ INDI
+1 NAME Elizabeth /Copplestone/
+1 SEX F
+1 BIRT
+2 DATE 1 FEB 1774
+1 FAMC @F63@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:34:29
+0 @I193@ INDI
+1 NAME Thomas /Briggs/
+1 SEX M
+1 BIRT
+2 PLAC Cambridge
+1 FAMC @F5@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 22:14:53
+0 @I194@ INDI
+1 NAME Simon /Briggs/
+1 SEX M
+1 BIRT
+2 PLAC Cambridge
+1 FAMC @F5@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 22:14:41
+0 @I195@ INDI
+1 NAME Joanna /Keen/
+1 SEX F
+1 BIRT
+2 PLAC Birmingham
+1 FAMC @F6@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 22:15:29
+0 @I196@ INDI
+1 NAME Joan Lucy /Marwood/
+1 SEX F
+1 BIRT
+2 DATE 16 SEP 1916
+2 PLAC Liverpool
+1 DEAT
+2 DATE 17 MAY 1980
+2 PLAC Newton Abbot
+1 FAMS @F67@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:24:53
+0 @I197@ INDI
+1 NAME Douglas Timmins /Perry/
+1 SEX M
+1 BIRT
+2 DATE 29 JUL 1917
+2 PLAC Birmingham
+1 OCCU Railway Ticket Collector
+1 DEAT
+2 DATE 15 JAN 1991
+2 PLAC Newton Abbot
+1 FAMC @F68@
+1 FAMS @F67@
+1 NOTE Army number 1924032
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:30:54
+0 @I198@ INDI
+1 NAME Florence Emily Large //
+2 NICK Flossie
+1 SEX F
+1 BIRT
+2 DATE 26 APR 1891
+1 DEAT
+2 DATE 30 AUG 1985
+2 PLAC Poole Dorset
+1 FAMC @F71@
+1 FAMS @F68@
+1 FAMS @F69@
+1 NOTE When Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks
+2 CONT 
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 19:26:53
+0 @I199@ INDI
+1 NAME Alfred Henry /Perry/
+1 SEX M
+1 FAMS @F68@
+1 NOTE died when children were young
+1 NOTE Army number 7162
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:35:09
+0 @I200@ INDI
+1 NAME John Edward /Jervis/ "Pop"
+1 SEX M
+1 DEAT
+2 DATE 2 JUL 1979
+2 ADDR 61 Compton Avenue, Parkstone, Poole
+1 FAMS @F69@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:52:28
+0 @I201@ INDI
+1 NAME Raymond John /Jervis/
+1 SEX M
+1 FAMC @F69@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:39:41
+0 @I202@ INDI
+1 NAME Thelma Beatrice /Jervis/
+1 SEX F
+1 FAMC @F69@
+1 FAMS @F70@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:41:26
+0 @I203@ INDI
+1 NAME Moore //
+1 SEX M
+1 FAMS @F70@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:41:50
+0 @I204@ INDI
+1 NAME Mrs /Large/
+1 SEX F
+1 FAMS @F71@
+1 NOTE Married twice?
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:48:42
+0 @I205@ INDI
+1 NAME Mr /Large/
+1 SEX M
+1 FAMS @F71@
+1 NOTE Addresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire
+2 CONT Dog Inn, Sutton Coldfield
+2 CONT Sandicot, Panorama Road, Sandbanks
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:54:17
+0 @I206@ INDI
+1 NAME Leslie /Perry/
+1 SEX M
+1 DEAT
+2 DATE 16 OCT 1970
+1 FAMC @F68@
+1 FAMS @F72@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:56:13
+0 @I207@ INDI
+1 NAME Nanette //
+1 SEX F
+1 FAMS @F72@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:56:26
+0 @I208@ INDI
+1 NAME Lorraine /Perry/
+1 SEX F
+1 FAMC @F72@
+1 FAMS @F73@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:58:29
+0 @I211@ INDI
+1 NAME Peter /Riley/
+1 SEX M
+1 FAMS @F73@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:58:48
+0 @I212@ INDI
+1 NAME Kenneth Robert /Perry/
+1 SEX M
+1 BIRT Y
+1 FAMC @F68@
+1 FAMS @F74@
+1 NOTE KP's birthday 19.2.? year not known.
+2 CONT Both died in 1990's
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:04:40
+0 @I213@ INDI
+1 NAME Beryl //
+1 SEX F
+1 FAMS @F74@
+1 NOTE Died in 1990's
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:10:32
+0 @I214@ INDI
+1 NAME Suzanne /Perry/
+1 SEX F
+1 FAMC @F74@
+1 FAMS @F75@
+1 NOTE Address  (as of July 16?)
+2 CONT 27 Lakeside Road, Branksome Park, Poole, Dorset
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:08:18
+0 @I215@ INDI
+1 NAME John /Blakemore/
+1 SEX M
+1 FAMS @F75@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:06:45
+0 @I216@ INDI
+1 NAME Andrew /Perry/
+1 FAMC @F74@
+1 NOTE Married but no details.  Died approx 1996
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:09:49
+0 @I217@ INDI
+1 NAME Raymond /Perry/
+1 SEX M
+1 FAMC @F68@
+1 FAMS @F76@
+1 NOTE Birthday 8.7.? year not known
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:12:00
+0 @I218@ INDI
+1 NAME Elizabeth /"Betty"/
+1 SEX F
+1 FAMC @F77@
+1 FAMS @F76@
+1 NOTE Betty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:15:42
+0 @I219@ INDI
+1 NAME Vanessa /Perry/
+1 FAMC @F76@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:13:00
+0 @I220@ INDI
+1 NAME Elizabeth /Perry/
+1 FAMC @F76@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:13:14
+0 @I221@ INDI
+1 NAME John /Perry/
+1 FAMC @F76@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:13:35
+0 @I222@ INDI
+1 NAME "Nell" //
+1 SEX F
+1 FAMS @F77@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:14:24
+0 @I223@ INDI
+1 NAME Patricia Amie /Perry/
+1 SEX F
+1 BIRT
+2 DATE ABT 1949
+1 FAMC @F67@
+1 FAMS @F78@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:18:25
+0 @I224@ INDI
+1 NAME Andrew /Burkitt/
+1 SEX M
+1 FAMS @F78@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:18:40
+0 @F1@ FAM
+1 MARR
+2 DATE 18 MAY 1940
+2 PLAC Rochdale Registry Office
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I1@
+1 CHAN
+2 DATE 24 JUL 2016
+3 TIME 10:58:48
+0 @F2@ FAM
+1 MARR
+2 DATE 28 OCT 1987
+2 PLAC Shrewsbury Shropshire
+2 SOUR @S10@
+1 HUSB @I4@
+1 WIFE @I1@
+1 CHIL @I6@
+1 CHIL @I5@
+1 CHIL @I7@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:21:03
+0 @F4@ FAM
+1 MARR
+2 DATE 4 JUL 1910
+2 PLAC Plymouth
+1 _ATTR 26 St George's Terrace, Stoke, Devonport
+2 TYPE Co-residence
+2 DATE 1910
+1 HUSB @I10@
+1 WIFE @I11@
+1 CHIL @I2@
+1 CHIL @I57@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 17:03:53
+0 @F5@ FAM
+1 HUSB @I14@
+1 WIFE @I12@
+1 CHIL @I193@
+1 CHIL @I194@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 22:14:07
+0 @F6@ FAM
+1 HUSB @I15@
+1 WIFE @I13@
+1 CHIL @I195@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 22:14:58
+0 @F7@ FAM
+1 MARR
+2 DATE 1902
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 _ATTR 55 High Street Burnham on Sea
+2 TYPE Co-residence
+2 DATE 1938
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+2 NOTE Address when Frank died
+3 SOUR @S3@
+4 DATA
+5 DATE 2012
+4 QUAY 3
+1 HUSB @I16@
+1 WIFE @I17@
+1 CHIL @I3@
+1 CHIL @I59@
+1 CHIL @I61@
+1 CHIL @I63@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 16:50:22
+0 @F8@ FAM
+1 HUSB @I18@
+1 WIFE @I164@
+1 CHIL @I159@
+1 CHIL @I160@
+1 CHIL @I161@
+1 CHIL @I156@
+1 CHIL @I10@
+1 CHIL @I162@
+1 CHIL @I157@
+1 CHIL @I163@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:03:35
+0 @F9@ FAM
+1 MARR
+2 DATE 2 APR 1881
+2 PLAC address  Kingswear Devon
+1 HUSB @I19@
+1 WIFE @I20@
+1 CHIL @I11@
+1 CHIL @I28@
+1 CHIL @I21@
+1 CHIL @I22@
+1 CHIL @I23@
+1 CHIL @I24@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:31:19
+0 @F10@ FAM
+1 HUSB @I26@
+1 WIFE @I21@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:00:20
+0 @F11@ FAM
+1 MARR
+2 DATE 6 NOV 1915
+2 SOUR @S2@
+3 DATA
+4 DATE JAN 1991
+3 QUAY 3
+3 NOTE Doreen's brother Edgar sent Doreen's records to NC in 1991. Edgar lived in a flat below Doreen in Dartmouth
+1 HUSB @I27@
+1 WIFE @I23@
+1 CHIL @I45@
+1 CHIL @I46@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:21:11
+0 @F12@ FAM
+1 MARR
+2 DATE 18 APR 1908
+2 PLAC St Clements Church Dartmouth.
+2 ADDR 4 Avondale Terrace Dartmouth
+2 SOUR @S2@
+1 HUSB @I28@
+1 WIFE @I29@
+1 CHIL @I34@
+1 CHIL @I35@
+1 CHIL @I37@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:08:25
+0 @F13@ FAM
+1 MARR
+2 DATE (pre 1916)
+2 PLAC Victoria Place Dartmouth
+1 HUSB @I30@
+1 WIFE @I24@
+1 CHIL @I48@
+1 CHIL @I49@
+1 CHIL @I50@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:06:34
+0 @F14@ FAM
+1 MARR
+2 PLAC St Saviours Church Dartmouth
+1 HUSB @I22@
+1 WIFE @I31@
+1 CHIL @I43@
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:17:04
+0 @F15@ FAM
+1 HUSB @I19@
+1 WIFE @I32@
+1 CHIL @I33@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:19:24
+0 @F16@ FAM
+1 HUSB @I36@
+1 CHIL @I19@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:33:14
+0 @F17@ FAM
+1 HUSB @I35@
+1 CHIL @I38@
+1 CHIL @I39@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:53:04
+0 @F18@ FAM
+1 HUSB @I40@
+1 WIFE @I37@
+1 CHIL @I41@
+1 CHIL @I42@
+1 NOTE Lived 5 Dartmouth Court South Embankment Dartmouth in 1991
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 13:54:42
+0 @F19@ FAM
+1 HUSB @I43@
+1 WIFE @I47@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:03:59
+0 @F20@ FAM
+1 HUSB @I48@
+1 WIFE @I51@
+1 CHIL @I52@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:22
+0 @F21@ FAM
+1 HUSB @I49@
+1 WIFE @I53@
+1 CHIL @I54@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:07:43
+0 @F22@ FAM
+1 HUSB @I50@
+1 WIFE @I55@
+1 CHIL @I56@
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 14:10:04
+0 @F23@ FAM
+1 MARR
+2 DATE ABT 1961
+2 PLAC Plymouth
+1 HUSB @I57@
+1 WIFE @I58@
+1 CHAN
+2 DATE 26 MAY 2020
+3 TIME 18:53:08
+0 @F24@ FAM
+1 MARR
+2 DATE 1930
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 HUSB @I60@
+1 WIFE @I59@
+1 CHIL @I68@
+1 CHIL @I69@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:22:12
+0 @F25@ FAM
+1 MARR
+2 DATE 1938
+2 SOUR @S3@
+3 DATA
+4 DATE 2012
+3 QUAY 3
+1 HUSB @I61@
+1 WIFE @I62@
+1 CHIL @I113@
+1 SOUR @S3@
+2 DATA
+3 DATE 2012
+2 QUAY 3
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:32:56
+0 @F26@ FAM
+1 MARR
+2 DATE 1931
+2 SOUR @S3@
+1 HUSB @I63@
+1 WIFE @I64@
+1 CHIL @I67@
+1 _STAT Never Married
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:06:19
+0 @F27@ FAM
+1 MARR
+2 DATE 1951
+2 SOUR @S3@
+1 HUSB @I65@
+1 WIFE @I64@
+1 CHIL @I66@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:06:01
+0 @F28@ FAM
+1 HUSB @I68@
+1 WIFE @I70@
+1 CHIL @I72@
+1 CHIL @I74@
+1 CHIL @I77@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:25:55
+0 @F29@ FAM
+1 HUSB @I69@
+1 WIFE @I71@
+1 CHIL @I78@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:30:06
+0 @F30@ FAM
+1 HUSB @I73@
+1 WIFE @I72@
+1 CHIL @I76@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:25:34
+0 @F31@ FAM
+1 HUSB @I74@
+1 WIFE @I75@
+1 CHIL @I80@
+1 CHIL @I81@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:33:41
+0 @F32@ FAM
+1 WIFE @I78@
+1 CHIL @I79@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:30:47
+0 @F33@ FAM
+1 MARR
+2 DATE 12 FEB 1865
+2 SOUR @S3@
+1 MARR
+2 DATE 12 FEB 1865
+2 PLAC Bedminster Parish Church
+2 ADDR Bristol
+2 SOUR @S3@
+1 HUSB @I92@
+1 WIFE @I93@
+1 CHIL @I16@
+1 CHIL @I82@
+1 CHIL @I83@
+1 CHIL @I84@
+1 CHIL @I86@
+1 CHIL @I88@
+1 CHIL @I89@
+1 CHIL @I90@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:06:43
+0 @F34@ FAM
+1 MARR
+2 SOUR @S3@
+1 HUSB @I84@
+1 WIFE @I85@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:48:56
+0 @F35@ FAM
+1 HUSB @I86@
+1 WIFE @I87@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:47:59
+0 @F36@ FAM
+1 HUSB @I91@
+1 WIFE @I90@
+1 SOUR @S3@
+1 NOTE When John S Wills was a teenager Uncle Fred wore two gold watches
+2 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:57:36
+0 @F37@ FAM
+1 HUSB @I94@
+1 WIFE @I95@
+1 CHIL @I92@
+1 CHIL @I103@
+1 CHIL @I104@
+1 CHIL @I106@
+1 CHIL @I108@
+1 CHIL @I109@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:28:51
+0 @F38@ FAM
+1 HUSB @I96@
+1 WIFE @I97@
+1 CHIL @I94@
+1 CHIL @I98@
+1 CHIL @I99@
+1 CHIL @I100@
+1 CHIL @I101@
+1 CHIL @I102@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:15:14
+0 @F39@ FAM
+1 MARR
+2 DATE 1855
+2 SOUR @S3@
+1 HUSB @I103@
+1 WIFE @I105@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:24:17
+0 @F40@ FAM
+1 CHIL @I62@
+1 CHIL @I110@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:31:19
+0 @F41@ FAM
+1 HUSB @I112@
+1 WIFE @I110@
+1 CHIL @I111@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:32:00
+0 @F42@ FAM
+1 MARR
+2 DATE 1870
+2 SOUR @S3@
+1 HUSB @I114@
+1 WIFE @I115@
+1 CHIL @I118@
+1 CHIL @I119@
+1 CHIL @I121@
+1 CHIL @I123@
+1 CHIL @I125@
+1 CHIL @I17@
+1 CHIL @I127@
+1 CHIL @I129@
+1 CHIL @I131@
+1 CHIL @I133@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:59:16
+0 @F43@ FAM
+1 MARR
+2 DATE 1895
+2 SOUR @S3@
+1 HUSB @I120@
+1 WIFE @I119@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:03:52
+0 @F44@ FAM
+1 MARR
+2 DATE 1896
+2 SOUR @S3@
+1 HUSB @I122@
+1 WIFE @I121@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:05:11
+0 @F45@ FAM
+1 MARR
+2 DATE 1906
+2 SOUR @S3@
+1 HUSB @I124@
+1 WIFE @I123@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:07:54
+0 @F46@ FAM
+1 MARR
+2 DATE 1900
+2 SOUR @S3@
+1 HUSB @I126@
+1 WIFE @I125@
+1 SOUR @S3@
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 19:09:02
+0 @F47@ FAM
+1 MARR
+2 DATE 1911
+1 HUSB @I128@
+1 WIFE @I127@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:38:10
+0 @F48@ FAM
+1 MARR
+2 DATE 1907
+2 SOUR @S3@
+1 HUSB @I130@
+1 WIFE @I129@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:40:42
+0 @F49@ FAM
+1 MARR
+2 DATE 1906
+2 SOUR @S3@
+1 HUSB @I131@
+1 WIFE @I132@
+1 CHIL @I135@
+1 CHIL @I137@
+1 CHIL @I138@
+1 CHIL @I139@
+1 CHIL @I141@
+1 CHIL @I142@
+1 CHIL @I145@
+1 CHIL @I146@
+1 CHIL @I147@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:22:10
+0 @F50@ FAM
+1 MARR
+2 DATE 1912
+2 PLAC Axbridge
+2 SOUR @S3@
+1 HUSB @I134@
+1 WIFE @I133@
+1 SOUR @S3@
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 16:45:56
+0 @F51@ FAM
+1 HUSB @I136@
+1 WIFE @I135@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:17:21
+0 @F52@ FAM
+1 HUSB @I139@
+1 WIFE @I140@
+1 CHIL @I148@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:31:12
+0 @F53@ FAM
+1 WIFE @I142@
+1 CHIL @I144@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:20:48
+0 @F54@ FAM
+1 HUSB @I149@
+1 WIFE @I148@
+1 CHIL @I152@
+1 CHIL @I154@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:32:32
+0 @F55@ FAM
+1 WIFE @I151@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:31:26
+0 @F56@ FAM
+1 HUSB @I153@
+1 WIFE @I152@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:32:24
+0 @F57@ FAM
+1 HUSB @I155@
+1 WIFE @I154@
+1 SOUR @S6@
+2 NOTE Information sent to NC by Jean Webb nee Dade of Church Stretton in 2012
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:33:00
+0 @F58@ FAM
+1 MARR
+2 DATE 1912
+2 PLAC Dorset
+2 SOUR @S9@
+1 HUSB @I158@
+1 WIFE @I157@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:49:58
+0 @F59@ FAM
+1 HUSB @I18@
+1 WIFE @I165@
+1 CHIL @I166@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:16:39
+0 @F60@ FAM
+1 HUSB @I170@
+1 WIFE @I171@
+1 CHIL @I169@
+1 CHIL @I18@
+1 CHIL @I167@
+1 CHIL @I168@
+1 CHIL @I172@
+1 CHIL @I173@
+1 CHIL @I174@
+1 CHIL @I175@
+1 SOUR @S9@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:27:19
+0 @F61@ FAM
+1 HUSB @I177@
+1 WIFE @I178@
+1 CHIL @I170@
+1 CHIL @I176@
+1 NOTE widowed 1796
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:34:16
+0 @F62@ FAM
+1 MARR
+2 DATE (14 Jun 1790)
+1 HUSB @I177@
+1 WIFE @I179@
+1 CHIL @I180@
+1 CHIL @I181@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:40:13
+0 @F63@ FAM
+1 CHIL @I177@
+1 CHIL @I182@
+1 CHIL @I189@
+1 CHIL @I191@
+1 CHIL @I192@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:32:15
+0 @F64@ FAM
+1 MARR
+2 DATE 28 MAY 1792
+2 PLAC St Stephens in Brannel
+1 HUSB @I182@
+1 WIFE @I183@
+1 CHIL @I184@
+1 CHIL @I185@
+1 CHIL @I188@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:51:41
+0 @F65@ FAM
+1 MARR
+2 DATE 1823
+1 HUSB @I185@
+1 WIFE @I186@
+1 CHIL @I187@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 19:51:11
+0 @F66@ FAM
+1 MARR
+2 DATE 1797
+1 HUSB @I190@
+1 WIFE @I189@
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 20:29:50
+0 @F67@ FAM
+1 MARR
+2 DATE 27 OCT 1947
+2 PLAC Sandbanks Bournemouth
+1 HUSB @I197@
+1 WIFE @I196@
+1 CHIL @I223@
+1 CHIL @I4@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:18:56
+0 @F68@ FAM
+1 HUSB @I199@
+1 WIFE @I198@
+1 CHIL @I197@
+1 CHIL @I206@
+1 CHIL @I212@
+1 CHIL @I217@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:11:06
+0 @F69@ FAM
+1 HUSB @I200@
+1 WIFE @I198@
+1 CHIL @I201@
+1 CHIL @I202@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:40:16
+0 @F70@ FAM
+1 HUSB @I203@
+1 WIFE @I202@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:41:26
+0 @F71@ FAM
+1 HUSB @I205@
+1 WIFE @I204@
+1 CHIL @I198@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:49:01
+0 @F72@ FAM
+1 HUSB @I206@
+1 WIFE @I207@
+1 CHIL @I208@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:57:32
+0 @F73@ FAM
+1 MARR
+2 PLAC Birmingham
+1 HUSB @I211@
+1 WIFE @I208@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:59:10
+0 @F74@ FAM
+1 MARR
+2 DATE 25 AUG 1944
+1 HUSB @I212@
+1 WIFE @I213@
+1 CHIL @I214@
+1 CHIL @I216@
+1 NOTE BP's birthday 17.4.? year not known
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:08:56
+0 @F75@ FAM
+1 HUSB @I215@
+1 WIFE @I214@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:06:21
+0 @F76@ FAM
+1 HUSB @I217@
+1 WIFE @I218@
+1 CHIL @I219@
+1 CHIL @I220@
+1 CHIL @I221@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:13:24
+0 @F77@ FAM
+1 WIFE @I222@
+1 CHIL @I218@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:13:57
+0 @F78@ FAM
+1 HUSB @I224@
+1 WIFE @I223@
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 15:18:25
+0 @O1@ OBJE
+1 FORM jpeg
+1 TITL 22.08.27 KMC
+1 _NOTE Netball Team Bridgwater County School for Girls KMC is 3rd from left at back
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\22.08.27 KMC.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:14:45
+0 @O2@ OBJE
+1 FORM jpeg
+1 TITL Bridgwater CSG letter re KMC leaving 22.12.26
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Bridgwater CSGG letter re KMC leaving 22.12.26.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+2 _EXCL DGM
+1 CHAN
+2 DATE 15 MAR 2013
+3 TIME 18:23:59
+0 @O3@ OBJE
+1 FORM jpeg
+1 TITL Bridgwater CSSG Prospectus 1922
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Bridgwater CSSG Prospectus 1922.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+2 _EXCL DGM
+1 CHAN
+2 DATE 15 MAR 2013
+3 TIME 18:23:41
+0 @O4@ OBJE
+1 FORM jpeg
+1 TITL Bridwater CssG KNC report 1926 age 12
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Bridwater CssG KNC report 1926 age 12.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:15:21
+0 @O5@ OBJE
+1 FORM jpeg
+1 TITL Joan Findlay and Babs Brean Down
+1 _NOTE Joan was a close friend of KMC
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Joan Findlay and Babs Brean Down.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:16:05
+0 @O6@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas 20+
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas 20+.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:16:23
+0 @O7@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas 20's
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas 20's.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:16:40
+0 @O8@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas age 20-30
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas age 20-30.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:16:58
+0 @O9@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas bridesmaid @@ cousin Vera's Wedding 1930's
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas bridesmaid @@ cousin Vera's Wedding 1930's.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:17:13
+0 @O10@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas in her 20's
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas in her 20's.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:17:34
+0 @O11@ OBJE
+1 FORM jpeg
+1 TITL Kathleen Thomas taken @@ Bridgewater in her 20's
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Kathleen Thomas taken @@ Bridgewater in her 20's.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:17:54
+0 @O12@ OBJE
+1 FORM jpeg
+1 TITL KMC and family
+1 _NOTE KMC aged under 20
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC and family.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:18:44
+0 @O13@ OBJE
+1 FORM jpeg
+1 TITL KMC and JF
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC and JF.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:19:00
+0 @O14@ OBJE
+1 FORM jpeg
+1 TITL KMC and Joan Findlay golfing
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC and Joan Findlay golfing.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:19:23
+0 @O15@ OBJE
+1 FORM jpeg
+1 TITL KMC beach and Joan Findlay and sister
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC beach and Joan Findlay and sister.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:19:44
+0 @O16@ OBJE
+1 FORM jpeg
+1 TITL KMC brown cycling holiday album
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC brown cycling holiday album.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:20:04
+0 @O17@ OBJE
+1 FORM jpeg
+1 TITL KMC brown cycling holiday album 2
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC brown cycling holiday album 2.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:20:27
+0 @O18@ OBJE
+1 FORM jpeg
+1 TITL KMC cyc 4
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC cyc 4.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:20:48
+0 @O19@ OBJE
+1 FORM jpeg
+1 TITL KMC cycling friends
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC cycling friends.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:22:14
+0 @O20@ OBJE
+1 FORM jpeg
+1 TITL KMC cycling 3
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC cycling 3.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:22:42
+0 @O21@ OBJE
+1 FORM jpeg
+1 TITL KMC cycling holiday album
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC cycling holiday album.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:23:01
+0 @O22@ OBJE
+1 FORM jpeg
+1 TITL KMC on Ernest's bike
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC on Ernest's bike.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:23:17
+0 @O23@ OBJE
+1 FORM jpeg
+1 TITL KMC on Right ,hockey
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC on Right ,hockey.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:23:41
+0 @O24@ OBJE
+1 FORM jpeg
+1 TITL KMC school report 31.03.23
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC school report 31.03.23.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:24:07
+0 @O25@ OBJE
+1 FORM jpeg
+1 TITL KMC swimwear
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\KMC swimwear.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:24:23
+0 @O26@ OBJE
+1 FORM jpeg
+1 TITL Very young KMC in Mikado
+1 _NOTE KMC bottom right
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Very young KMC in Mikado.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:25:02
+0 @O27@ OBJE
+1 FORM jpeg
+1 TITL young Joan Findlay and siblings
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\young Joan Findlay and siblings.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:25:23
+0 @O29@ OBJE
+1 FORM jpeg
+1 TITL Leonard Copplestone  20's
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Leonard Copplestone  20's.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:39:32
+0 @O30@ OBJE
+1 FORM jpeg
+1 TITL Edward & Annie Copplestone(Parents of Leonard & Grandparents of J.L.& N
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Edward & Annie Copplestone(Parents of Leonard & Grandparents of J.L.& N.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:40:58
+0 @O31@ OBJE
+1 FORM jpeg
+1 TITL Maria Wills 1909
+1 _FILE C:\Users\Nancy\Documents\Copplestone Family Historian Project\Copplestone History\Copplestone History.fh_data\Media\Maria Wills 1909.jpg
+1 _KEYS Picture
+1 NOTE 
+2 _ASID 1
+1 CHAN
+2 DATE 14 FEB 2012
+3 TIME 15:42:08
+0 @N1@ NOTE Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport
+1 CHAN
+2 DATE 15 MAR 2013
+3 TIME 14:45:55
+0 @N2@ NOTE 
+1 CHAN
+2 DATE 15 MAR 2013
+3 TIME 14:47:36
+0 @S1@ SOUR
+1 TITL Records for Lavers from Desmond Lavers
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 18:04:34
+0 @S2@ SOUR
+1 TITL Doreen Lavers,
+1 _TYPE Person
+1 NOTE  Doreen lived with her father, Uncle Bert at 23A South Town Dartmouth Devon.
+1 CHAN
+2 DATE 18 MAR 2013
+3 TIME 17:39:50
+0 @S3@ SOUR
+1 TITL Richard Rossington
+1 _TYPE Person
+1 NOTE RR and Helen R (nee Wills) Helen is cousin of NC
+2 CONT Olton, 52 Henleaze Park Drive, Henleaze Bristol BS9 4 LN tel 0117 962 0924 in 2012  richard.rossington@@btinternet.com
+2 CONT Richard R has done extensive family trees for Thomas, passed on by his father in law NC's cousin John Wills in 2012
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 18:58:25
+0 @S4@ SOUR
+1 TITL Burnham Gazette 21.5.38
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 16:48:32
+0 @S5@ SOUR
+1 TITL KMC note
+1 CHAN
+2 DATE 20 MAR 2013
+3 TIME 17:04:19
+0 @S6@ SOUR
+1 TITL Jean Dade
+1 _TYPE Individual
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 17:31:51
+0 @S7@ SOUR
+1 TITL Edgar Lavers
+1 _TYPE Individual
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:04:43
+0 @S8@ SOUR
+1 TITL Dartmouth Chronicle
+1 _TYPE Newspaper article
+1 PUBL 7th October 1983
+1 NOTE Article on Bert Lavers' 100th birthday
+1 CHAN
+2 DATE 22 MAR 2013
+3 TIME 18:21:40
+0 @S9@ SOUR
+1 TITL Muriel Reson
+1 _TYPE Individual
+1 NOTE Muriel Reson carried out a great deal of research into the Copplestone Family and published a regular newsletter. She passed on a detailed family tree to NC, JB and LK
+1 CHAN
+2 DATE 23 MAR 2013
+3 TIME 18:48:41
+0 @S10@ SOUR
+1 TITL Marriage Certificate
+1 CHAN
+2 DATE 23 JUL 2016
+3 TIME 14:18:58
+0 TRLR
