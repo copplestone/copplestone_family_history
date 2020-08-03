@@ -834,10 +834,10 @@ fc++;
 NCP(fc);
 if((staticMode||GV("familyid"))&&Efo&&Efa[Efo]){
 if(!staticMode){
-var _23=GE("lfamilyinfo"),_24="Founded by"+Efa[Efo].n,_25="<a href=\"\" onclick=\"ESM('history'); return false\">View history...</a>";
+var _23=GE("lfamilyinfo"),_24="Founded by "+Efa[Efo].n,_25="<a href=\"\" onclick=\"ESM('history'); return false\">View history...</a>";
 _23.innerHTML=EH(_24)+" - "+_25;
 }else{
-ST("lfamilyinfo",(Efo&&Efa[Efo])?("Founded by"+Efa[Efo].n):"");
+ST("lfamilyinfo",(Efo&&Efa[Efo])?("Founded by "+Efa[Efo].n):"");
 }
 }else{
 ST("lfamilyinfo","");
@@ -3158,8 +3158,8 @@ var v=GE("personimage");
 var s=EIU(e[0]);
 if(v.src!=s){
 if(e[1]&&e[2]){
-v.style.width=e[1]+"px";
-v.style.height=e[2]+"px";
+v.style.width=Math.max(8,e[1])+"px";
+v.style.height=Math.max(8,e[2])+"px";
 }else{
 v.style.width="";
 v.style.height="";
@@ -3214,294 +3214,288 @@ ESA();
 
 # Start of FamilyScript...
 
-iWA275	pNancy	qCopplestone	gf	b19510710	vShrewsbury Shropshire	jArchitect, Governor, Restorative Justice practitioner	mD51QE	fX6RXM	sIPJ9D
-iIPJ9D	sWA275	pAlfred Henry	qPerry	gm	b19511214	vBirmingham	z1	d20161102	yBristol	mQNMGV	fBQ7Z1
-iX6RXM	pLeonard	qCopplestone	gm	b19110324	jCounty Treasurer	z1	d19840806	ySt Bartholomews Hospital London	oHome address at time of death: 107 The Mount Shrewsbury Shropshire	mCTU49	fXB0OZ	sD51QE
-iD51QE	sX6RXM	pKathleen Mary	qThomas	gf	b19110302	vBurnham on Sea	z1	d19900515	yHillcrest Nursing Home Minsterley Shropshire	oHome in 1990 was 107 The Mount Shrewsbury Shropshire SY3 8 PH	mSG7KB	fJ9ADN
-iSTART	pGrace May Perry	qCopplestone	gf	b19910425	mWA275	fIPJ9D
-iR6CBA	pWill	qPerry	gm	b19880427	mWA275	fIPJ9D
-iI6AE4	pSolomon Henry Perry	qCopplestone	gm	b19930209	mWA275	fIPJ9D
-iXB0OZ	pJoseph Edward	qCopplestone	gm	b18800000	vDartmouth, Devon	jDockyard fitter and foreman	z1	d19590513	yPlymouth	oAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport. Address for Annie Maria was Totnes Road Dartmouth\nAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport	mMKGOM	fX9HM8	sCTU49
-iCTU49	sXB0OZ	pAnnie Maria	qLavers	gf	b18820128	vDartmouth	z1	d19750904	oAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport	mB0MDI	fJ55K2
-iRGP8F	pJill	qCopplestone	gf	b19470808	mD51QE	fX6RXM	sLUBSV
-iLUBSV	sRGP8F	pRoger	qBriggs	gm
-iN786F	pLinda	qCopplestone	gf	b19490522	mD51QE	fX6RXM	sB4SD9
-iB4SD9	sN786F	pRonald	qKeen	gm
-iJ9ADN	pFrank	qThomas	gm	b18751212	vBurnham on Sea	jPainter and Decorator	EBurnham on Sea	z1	d19380516	yBurnham on Sea	F19380519	UBaptist Church Burnham on Sea	mWLDHK	fKGARJ	sSG7KB
-iSG7KB	sJ9ADN	pGeorgina Augusta	qDade	gf	b18771210	vHuntspill Somerset	z1	d19631200	yBurnham on Sea	mI64SK	fBCM5S
-iX9HM8	pRichard	qCopplestone	gm	b18320000	vWestport County Mayo Ireland	jCoastguard	mFLT29	fN55ZJ	sMKGOM
-iMKGOM	sX9HM8	pMary Jane	qRowe	gf	vNoss Mayo Plymouth
-iJ55K2	pGeorge Henry	qLavers	gm	b18400110	vFalmouth	z1	d19111010	yDartmouth	jMerchant Seaman	oGH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. 	fKO6OU	sB0MDI
-iB0MDI	sJ55K2	pMaria	qWills	gf	b18500427	vBlackawton near Dartmouth	z1	d19321116	yDartmouth
-iYFCRI	pElizabeth	qLavers	gf	b18851108	z1	d19740626	oGreat Aunt Bess to NC.  No children.	mB0MDI	fJ55K2	sAZY6A
-iAZY6A	sYFCRI	pFrederick	qPyne	gm
-iB4ID7	pErnest John	qLavers	gm	b18880707	z1	mB0MDI	fJ55K2	sCLOGY
-iCLOGY	sB4ID7	pAlice Mary	qToms	gf
-iQ3EUD	pElsie Maud	qLavers	gf	b18891229	z1	d19690612	mB0MDI	fJ55K2	sM803C
-iM803C	sQ3EUD	pCharles Arthur Weatherdon	gm
-iERDM3	pFlorence May	qLavers	gf	b18950508	oKnown both as Aunt May and Aunt Flo to Leonard C.	mB0MDI	fJ55K2	sBM9G6
-iBM9G6	sERDM3	pJames	qLeonard	gm	jNaval Administrator	oLeonard Copplestone's &quot;Uncle Jim&quot;
-iY2IBJ	pBertie	qLavers	gm	b18831008	vSouthford Road, Dartmouth	jApprentice boatbuilder	EDartmouth	z1	d19850804	oServed as Mayor of Dartmouth four times, see occupations. He was founder member of Dtmth OAP Assoc and chairman for 20 years. Chairman of Dtmth Liberal Assoc., Road Safety Committee, National Savings Committee, Dartmouth Harbour Commission. President of the Young Men's Recreation Club, member of Salcombe and Kingsbridge Water Board. Represented Dartmouth on the Torbay Education Committee, Manager of Dartmouth Primary School and Governor of Dartmouth Secondary Modern and Grammar School.	mB0MDI	fJ55K2	sMDDZG
-iMDDZG	sY2IBJ	pBeatrice Maud	qCoaker	gf	b18840718	z1	d19501211
-iFHO6E	pMatilda	gf	z1
-iKNDEH	pGeorge Henry	qLavers	gm	b18721214	z1	d18991217	yMonte Video	oDrowned at Monte Video aged 27. Tombstone in Dartmouth cemetery	mFHO6E	fJ55K2
-iEC9NE	pDoreen	qLavers	gf	z1	d19980330	yDartmouth	oDoreen wrote up the records used here for all of the Lavers family. She did research in Nova Scotia when she accompanied her father as Mayor of Dartmouth. There are additional Lavers records not entered here as they do not link up, held by NC	mMDDZG	fY2IBJ
-iG4IMU	pEdgar	qLavers	gm	oLived below Doreen at 23B South Town Dartmouth. Edgar carried on the boatyard business until 1973 when he retired and sold the business. A few years later it was sold again and redeveloped.  See letter dated 1991. Edgar had a son and a daughter both married and living in Somerset in 1991 	mMDDZG	fY2IBJ
-iKO6OU	pFrank	qLavers	gm	jSea Captain	oLost at sea.  Note from Aunt Bess that her father's mother lived to the age of 96
-iVS6HY	pMargery	qLavers	gf	oMargery Redfern Allen is her name from Edgar Lavers in 1991, perhaps she remarried.	mMDDZG	fY2IBJ	sXKU6X
-iXKU6X	sVS6HY	pAlan	qRedfern	gm
-iOP68M	qLavers	gm	fG4IMU
-iAMZER	qLavers	gf	fG4IMU
-iRFS6S	gm	mVS6HY	fXKU6X
-iBL690	gm	mVS6HY	fXKU6X
-iM3IMB	pDesmond	qLavers	gm	oLamorna, Scott Close, Farnham Common Slough. Jill B has current address.\n01753 645420	mCLOGY	fB4ID7	sTPJKM
-iTPJKM	sM3IMB	pBarbara	gf
-iY7Q36	pAudrey?	gf	mQ3EUD	fM803C
-iU4JS9	gf	mQ3EUD	fM803C
-iX9RP6	pGordon	qLeonard	gm	b19190000	mERDM3	fBM9G6	sIEY27
-iIEY27	sX9RP6	pJoan	gf
-iASH7R	pGerald	qLeonard	gm	o15 Harroford Road River Dawn, Helen Vale Gold Coast Queensland 4210 Australia  as of 1991	mERDM3	fBM9G6	sUUSB5
-iUUSB5	sASH7R	pBetty	gf
-iYNKG0	pNorman	qLeonard	gm	mERDM3	fBM9G6	sTN69K
-iTN69K	sYNKG0	pJoyce	gf
-iOU23D	pBarbara	qLeonard	gf	mIEY27	fX9RP6
-iW84MO	qLeonard	mUUSB5	fASH7R
-iK7YYE	pJackie	qLeonard	mTN69K	fYNKG0
-iLAID2	pEdward John	qCopplestone	gm	b19150000	vDevonport	z1	d19790000	oKnown as &quot;Jack&quot; or Uncle John to J L and N. Fitter in Plymouth Dockyard. Myrtle's second marriage, She was a sweet person, fond of Jack. Grandma Cop not that kind to her.	mCTU49	fXB0OZ	sEYN8S
-iEYN8S	sLAID2	pMyrtle	gf
-iM1C93	pIrene May	qThomas	gf	b19030419	vBurnham on Sea	z1	d19820512	yCheltenham	mSG7KB	fJ9ADN	sY412H
-iY412H	sM1C93	pStanley William	qWills	lWills	gm	b19021112	z1	d19671019
-iETUCS	pWinston Howard	qThomas	gm	b19091128	vBurnham on Sea	jPainter and Decorator	z1	d19910000	yBurnham on Sea	mSG7KB	fJ9ADN	sWQQTF
-iWQQTF	sETUCS	pUna Doreen	qClapp	lClapp	gf	b19130313	z1	d19710000
-iO9F2C	pErnest Ronald	qThomas	gm	b19130000	z1	d19440512	yCassino Italy	UCassino War Cemetery Italy	mSG7KB	fJ9ADN
-iY80L7	pJoyce Neal	qPopham	gf	b19140000	z1	d20070000	sG2YL1
-iG2YL1	sY80L7	lHowell	gm
-iMJWJC	pMartin	qHowell	mY80L7	fG2YL1
-iVQWOS	pPatricia	qThomas	gf	b19310000	oLiving in Burnham on sea in 2012	mY80L7	fO9F2C
-iDK9V3	pJohn	qWills	gm	b19250000	mM1C93	fY412H	sWI6WT
-iWI6WT	sDK9V3	pClare	gf
-iDF2K8	pDavid	qWills	gm	mM1C93	fY412H	sV5LSH
-iV5LSH	sDF2K8	pAnne	gf
-iCAQ0K	pHelen	qWills	gf	mWI6WT	fDK9V3	sNU0F9
-iNU0F9	sCAQ0K	pRichard	qRossington	gm
-iGKJI5	pGraham	qWills	gm	mWI6WT	fDK9V3	sCNA5X
-iCNA5X	sGKJI5	pJudy	gf
-iZ155N	pJames	qRossington	mCAQ0K	fNU0F9
-iKZJ0I	qWills	mWI6WT	fDK9V3
-iM4I7U	pSuzanne	qWills	gf	mV5LSH	fDF2K8
-iNQFJV	pMatthew	mM4I7U
-iDS5N1	pTom	qWills	gm	o17 in Dec 2012	mCNA5X	fGKJI5
-iTQE1M	pJustin	qWills	gm	o11 in Dec 2012	mCNA5X	fGKJI5
-iU0DXV	pErnest E	qThomas	gm	b18660000	vBurnham on Sea	mWLDHK	fKGARJ
-iMCK12	pAlice	qThomas	gf	mWLDHK	fKGARJ
-iNHX1F	pHarry	qThomas	gm	vBurnham on Sea	mWLDHK	fKGARJ	sGKVNU
-iGKVNU	sNHX1F	gf
-iFRDD5	pFred	qThomas	gm	b18710000	mWLDHK	fKGARJ	sV3L9V
-iV3L9V	sFRDD5	pLaura E	qDade	gf
-iR1L1O	pHerbert Morris	qThomas	gm	b18730000	vBurnham on Sea	mWLDHK	fKGARJ
-iYJQIA	pSidney Herbert	qThomas	gm	b18780000	mWLDHK	fKGARJ
-iG1I6T	pEllen Francis	qThomas	gf	o known as Aunt May	mWLDHK	fKGARJ	sJF39S
-iJF39S	sG1I6T	pFrederick	qGale	gm
-iKGARJ	pEdward	qThomas	gm	jRailway Engineer	z1	d18880000	F18881000	UBurnham on Sea Cemetery	mL876G	fS5BAX	sWLDHK
-iWLDHK	sKGARJ	pEllen	qMorris	gf	z1	d19271130	jRefreshment Room Keeper	UBurnham on Sea Cemetery
-iS5BAX	pWilliam	qThomas	gm	jFarm Labourer	mMTHKS	fYF7GC	sL876G
-iL876G	sS5BAX	pCharlotte	qNethway	gf	jNurse
-iYF7GC	pJames	qThomas	gm	z1	F18080320	USt Mary the Virgin	sMTHKS
-iMTHKS	sYF7GC	pBetty	gf
-iTYZ1F	pSarah	qThomas	gf	mMTHKS	fYF7GC
-iZWRC4	pJames	qThomas	gm	mMTHKS	fYF7GC
-iU1Z42	pBetty	qThomas	gf	mMTHKS	fYF7GC
-iJK0KG	pHenry	qThomas	mMTHKS	fYF7GC
-iXIM4O	pMary	qThomas	gf	mMTHKS	fYF7GC
-iLL7XV	pHenry	qThomas	gm	jAgricultural labourer	mL876G	fS5BAX	sLE17G
-iLE17G	sLL7XV	pMartha	qLovell	gf	b18350000
-iLNKFE	qThomas	mL876G	fS5BAX
-iPZ7LU	pHarriet	qThomas	gf	mL876G	fS5BAX
-iSY4P9	pWilliam	qThomas	gm	mL876G	fS5BAX
-iAMHNG	pEliza	qThomas	gf	mL876G	fS5BAX
-iP2RSQ	pSheila	qClapp	gf	sZ4I01
-iZ4I01	sP2RSQ	pHarvey	gm
-iC93NE	pSue	qHarvey	gf	mP2RSQ	fZ4I01
-iKMRMX	pRobert Frank	qThomas	gm	b19390000	vBurnham on Sea	mWQQTF	fETUCS
-iBCM5S	pAlfred	qDade	gm	b18450000	vHuntspill ,Bridgwater, Somerset	jAssistant Stone Haulier, Railway Engineer	z1	F18970000	oJean Webb noted that most of the ten children of Alfred and Edith were buried in Mark Churchyard	sI64SK
-iI64SK	sBCM5S	pEdith Jane	qPlomer	gf	b18460000	z1	d19300000
-iBEDTX	pConstance Rose	qDade	gf	b18700000	vHighbridge	mI64SK	fBCM5S
-iNXWNB	pLaura Ellen	qDade	gf	b18710000	o&quot;Auntie Laurie&quot;	mI64SK	fBCM5S	sTM59C
-iTM59C	sNXWNB	pFred	qThomas	gm	jTobacconist, Baker
-iQOOE0	pAlice Maud	qDade	gf	b18730000	mI64SK	fBCM5S	sBG2PC
-iBG2PC	sQOOE0	pThomas Edward	qBrooks	gm	jEngine Driver
-iH09FJ	pAda Kate	qDade	gf	b18751206	z1	F19730000	jDraper, Milliner	mI64SK	fBCM5S	sGHNM1
-iGHNM1	sH09FJ	pWilliam Cutler	qBridle	gm
-iA5OWJ	pBessie Louise	qDade	gf	b18790000	vHuntspill ,Bridgwater, Somerset	mI64SK	fBCM5S	sLNVKM
-iLNVKM	sA5OWJ	pEdward Arthur	qMajor	gm	b18740000	vStockton on Tees
-iR70CC	pEthel Annie	qDade	gf	b18830000	vWimborne  Dorset	mI64SK	fBCM5S	sMFIJU
-iMFIJU	sR70CC	pBertie	qBridle	gm	z1	d19480000
-iHUKJ0	pLilian Gertrude	qDade	gf	b18850000	vWimborne  Dorset	mI64SK	fBCM5S	sOT775
-iOT775	sHUKJ0	pSamuel Headley	qWhite	gm
-iR71DU	pAlfred John	qDade	gm	b18870000	vWimborne  Dorset	z1	d19600000	mI64SK	fBCM5S	sAS7V3
-iAS7V3	sR71DU	pAmy Eileen	qWensley	gf
-iHJ1AM	pOlive Edith	qDade	gf	b18900000	oJohn S Wills' favourite Aunt and Uncle, they lived by railway in Highbridge	mI64SK	fBCM5S	sVRRB1
-iVRRB1	sHJ1AM	pArthur J	qWensley	gm
-iAMLLW	pGwendoline	qDade	gf	mAS7V3	fR71DU	sB5G93
-iB5G93	sAMLLW	pGilbert	qWall	gm
-iBY132	pSonny	qDade	gm	mAS7V3	fR71DU
-iI4KJQ	pDoris	qDade	gf	mAS7V3	fR71DU
-iDTZ5U	pStuart	qDade	gm	jBaker	oStuart lived in Church Stretton. He often visited KMC at 107 The Mount Shrewsbury as he worked in Morris's bakery there	mAS7V3	fR71DU	sBYCT0
-iBYCT0	sDTZ5U	pMargaret	gf
-iVUDF6	pDennis	qDade	gm	mAS7V3	fR71DU
-iTH26H	pKathleen	qDade	gf	mAS7V3	fR71DU
-iP85M2	pPauline	gf	mTH26H
-iRYW87	pWilliam	qDade	gm	o&quot;Bill&quot;	mAS7V3	fR71DU
-iBDR28	qDade	mAS7V3	fR71DU
-iB4XDN	pAudrey	qDade	gf	mAS7V3	fR71DU
-iK78SC	pJean	qDade	gf	oJean is a physiotherapist and with her two daughters, raises and trains horses. She plays in Telford Orchestra and is a Morris dancer.	mBYCT0	fDTZ5U	sVIJWF
-iVIJWF	sK78SC	pJeff	qWebb	gm
-iMHDMU	pDave	gf
-iWAIS9	pAllison	qWebb	gf	mK78SC	fVIJWF	sEUCXN
-iEUCXN	sWAIS9	pDave	gm
-iAZIY3	pLibby	qWebb	gf	mK78SC	fVIJWF	sPD0TV
-iPD0TV	sAZIY3	pSimon	gm
-iUO3CA	pCatherine	qCopplestone	gf	b18740000	vSt Martins, Isle of Scilly	z1	d19620000	yPaignton?	oKnown as Aunt Kate  	mMKGOM	fX9HM8
-iZTIC5	pBeatrice	qCopplestone	gf	b18870000	vLangton Dorset	mMKGOM	fX9HM8	sV86CQ
-iV86CQ	sZTIC5	pTom	qTrace	gm
-iWIB86	pGeorge A	qCopplestone	gm	b18660000	vSt Marys Isles of Scilly	mMKGOM	fX9HM8
-iK9WWY	pEllen L	qCopplestone	gf	b18680000	vSt Marys Isles of Scilly	mMKGOM	fX9HM8
-iLI1G2	pAlbert H	qCopplestone	gm	b18700000	vSt Martins, Isle of Scilly	mMKGOM	fX9HM8
-iJ9GGC	pGertie	qCopplestone	gf	b18840000	mMKGOM	fX9HM8
-iFFVQH	punknown Copplestone	qsibling?	mMKGOM	fX9HM8
-iQJUXI	pAmelia	qTownshend	gf	b18590210	vStoke Damerel Plymouth
-iMCHDZ	pMary Ann Amelia Avery	qCopplestone	gf	b18600114	vTorquay Devon	mQJUXI	fX9HM8
-iWT7W0	pWilliam	qCopplestone	gm	b18330705	vWestport County Mayo Ireland	jSeaman	mFLT29	fN55ZJ
-iS9Z6F	pElizabeth	qCopplestone	gf	mFLT29	fN55ZJ
-iUELNV	pLouisa	qCopplestone	gf	v&quot;Austr&quot;	mFLT29	fN55ZJ
-iN55ZJ	pJoseph Parsons	qCopplestone	gm	b17990000	vFowey Cornwall	jCoastguard	mN8GU7	fQETG6	sFLT29
-iFLT29	sN55ZJ	pMary Louise	qWilliams	gf	z1	d18860000
-iTJB9M	punknown	qCopplestone	mFLT29	fN55ZJ
-iT46YR	punknown	qCopplestone	mFLT29	fN55ZJ
-iQORML	punkown	qCopplestone	mFLT29	fN55ZJ
-iQEQ8S	punknown	qCopplestone	mFLT29	fN55ZJ
-iBRN7H	pCath Parsons	qCopplestone	gf	b17970416	mN8GU7	fQETG6
-iQETG6	pRichard	qCopplestone	gm	b17650101	jMiller	sN8GU7
-iN8GU7	sQETG6	pMary	qParsons	gf
-iNL2PA	pMary	qDawe	gf	z1	d17920000	yFowey Cornwall
-iHBP1O	pElizabeth	qCopplestone	gf	b17900000	mNL2PA	fQETG6
-iTPSHO	pRichard	qCopplestone	gm	b17920000	z1	F18210422	mNL2PA	fQETG6
-iAJ6OG	pThomas	qCopplestone	gm	b17630316	vFowey	jCordwainer	sCBKWI
-iCBKWI	sAJ6OG	pCharlotte	qTrethaway	gf
-iFFGNZ	pJohn Trethaway	qCopplestone	gm	z1	F17950721	mCBKWI	fAJ6OG
-iD7B7M	pThomas	qCopplestone	gm	b17941012	jMiner	mCBKWI	fAJ6OG	sAHOQ9
-iAHOQ9	sD7B7M	pSusan	qHall	gf
-iUHPLO	punkown	qCopplestone	mAHOQ9	fD7B7M
-iVLXZ0	pCharlotte	qCopplestone	gf	b17970910	mCBKWI	fAJ6OG
-iV22EP	pAnne	qCopplestone	gf	b17670203	sAMUH0
-iAMUH0	sV22EP	pThomas	qKendall	gm	vLanteglos	jCustoms Officer
-iHMXKJ	pElizabeth	qCopplestone	gf	b17690214	z1	F17710529
-iAMRO2	pElizabeth	qCopplestone	gf	b17740201
-iMH95S	pThomas	qBriggs	gm	vCambridge	mRGP8F	fLUBSV	sGEA09
-iKZ4BO	pSimon	qBriggs	gm	vCambridge	mRGP8F	fLUBSV	sTGOMQ
-iP5HNA	pJoanna	qKeen	gf	vBirmingham	mN786F	fB4SD9
-iQNMGV	pJoan Lucy	qMarwood	gf	b19160916	vLiverpool	z1	d19800517	yNewton Abbot	sBQ7Z1
-iBQ7Z1	sQNMGV	pDouglas Timmins	qPerry	gm	b19170729	vBirmingham	jRailway Ticket Collector	z1	d19910115	yNewton Abbot	oArmy number 1924032	mE0DXE	fWEM5A
-iE0DXE	pFlorence Emily Large	gf	b18910426	z1	d19850830	yPoole Dorset	oWhen Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks\n	mI1CPP	fFKUTG	sWEM5A
-iWEM5A	sE0DXE	pAlfred Henry	qPerry	gm	odied when children were young\nArmy number 7162
-iWJZZL	pJohn Edward  &quot;Pop&quot;	qJervis	gm	z1	d19790702
-iDKHLY	pRaymond John	qJervis	gm	mE0DXE	fWJZZL
-iF7CUE	pThelma Beatrice	qJervis	gf	mE0DXE	fWJZZL	sQXUUM
-iQXUUM	sF7CUE	pMoore	gm
-iI1CPP	pMrs	qLarge	gf	oMarried twice?	sFKUTG
-iFKUTG	sI1CPP	pMr	qLarge	gm	oAddresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire\nDog Inn, Sutton Coldfield\nSandicot, Panorama Road, Sandbanks
-iPPQKE	pLeslie	qPerry	gm	z1	d19701016	mE0DXE	fWEM5A	sUOP90
-iUOP90	sPPQKE	pNanette	gf
-iCHYG2	pLorraine	qPerry	gf	mUOP90	fPPQKE	sU3PNO
-iU3PNO	sCHYG2	pPeter	qRiley	gm
-iUZF5E	pKenneth Robert	qPerry	gm	oKP's birthday 19.2.? year not known.\nBoth died in 1990's	mE0DXE	fWEM5A	sPDPFW
-iPDPFW	sUZF5E	pBeryl	gf	oDied in 1990's
-iP0CCA	pSuzanne	qPerry	gf	oAddress  (as of July 16?)\n27 Lakeside Road, Branksome Park, Poole, Dorset	mPDPFW	fUZF5E	sE4PW4
-iE4PW4	sP0CCA	pJohn	qBlakemore	gm
-iE0C46	pAndrew	qPerry	oMarried but no details.  Died approx 1996	mPDPFW	fUZF5E
-iWX0KA	pRaymond	qPerry	gm	oBirthday 8.7.? year not known	mE0DXE	fWEM5A	sDC0J7
-iDC0J7	sWX0KA	pElizabeth	q&quot;Betty&quot;	gf	oBetty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast	mQNJZI
-iW5AKA	pVanessa	qPerry	mDC0J7	fWX0KA
-iR60Z8	pElizabeth	qPerry	mDC0J7	fWX0KA
-iT62HT	pJohn	qPerry	mDC0J7	fWX0KA
-iQNJZI	p&quot;Nell&quot;	gf
-iET564	pPatricia Amie	qPerry	gf	b19490000	mQNMGV	fBQ7Z1	sXB6WL
-iXB6WL	sET564	pAndrew	qBurkitt	gm
-iGEA09	^MH95S	gf	sMH95S	pRachel
-iTJOY7	^MH95S	mGEA09	fMH95S	pErin
-iJJGGL	^TJOY7	mGEA09	fMH95S	pArlo
-iTGOMQ	^KZ4BO	gf	sKZ4BO	pSophie
-iLA25R	^KZ4BO	mTGOMQ	fKZ4BO	pAaron
-iBAFJH	^LA25R	mTGOMQ	fKZ4BO	pJosh
-pIPJ9D WA275	e1	gm	m19871028	wShrewsbury Shropshire
-pD51QE X6RXM	e1	gm	m19400518	wRochdale Registry Office
-pCTU49 XB0OZ	e1	gm	m19100704	wPlymouth
-pLUBSV RGP8F	e1
-pB4SD9 N786F	e1
-pJ9ADN SG7KB	e1	gm	m19020000
-pMKGOM X9HM8	e1
-pB0MDI J55K2	e1	gm	m18810402	waddress  Kingswear Devon
-pAZY6A YFCRI	e1
-pB4ID7 CLOGY	e1	gm	wSt Saviours Church Dartmouth
-pM803C Q3EUD	e1	gm	m19151106
-pBM9G6 ERDM3	e1	gm	wVictoria Place Dartmouth
-pMDDZG Y2IBJ	e1	gm	m19080418	wSt Clements Church Dartmouth.
-pFHO6E J55K2	e1
-pVS6HY XKU6X	e1
-pM3IMB TPJKM	e1
-pIEY27 X9RP6	e1
-pASH7R UUSB5	e1
-pTN69K YNKG0	e1
-pEYN8S LAID2	e1	gm	m19610000	wPlymouth
-pM1C93 Y412H	e1	gm	m19300000
-pETUCS WQQTF	e1	gm	m19380000
-pO9F2C Y80L7	e1	gm	m19310000
-pG2YL1 Y80L7	e1	gm	m19510000
-pDK9V3 WI6WT	e1
-pDF2K8 V5LSH	e1
-pCAQ0K NU0F9	e1
-pCNA5X GKJI5	e1
-pGKVNU NHX1F	e1	gm
-pFRDD5 V3L9V	e1
-pG1I6T JF39S	e1
-pKGARJ WLDHK	e1	gm	m18650212
-pL876G S5BAX	e1
-pMTHKS YF7GC	e1
-pLE17G LL7XV	e1	gm	m18550000
-pP2RSQ Z4I01	e1
-pBCM5S I64SK	e1	gm	m18700000
-pNXWNB TM59C	e1	gm	m18950000
-pBG2PC QOOE0	e1	gm	m18960000
-pGHNM1 H09FJ	e1	gm	m19060000
-pA5OWJ LNVKM	e1	gm	m19000000
-pMFIJU R70CC	e1	gm	m19110000
-pHUKJ0 OT775	e1	gm	m19070000
-pAS7V3 R71DU	e1	gm	m19060000
-pHJ1AM VRRB1	e1	gm	m19120000	wAxbridge
-pAMLLW B5G93	e1
-pBYCT0 DTZ5U	e1
-pK78SC VIJWF	e1
-pEUCXN WAIS9	e1
-pAZIY3 PD0TV	e1
-pV86CQ ZTIC5	e1	gm	m19120000	wDorset
-pQJUXI X9HM8	e1
-pFLT29 N55ZJ	e1
-pN8GU7 QETG6	e1
-pNL2PA QETG6	e1	gm
-pAJ6OG CBKWI	e1	gm	m17920528	wSt Stephens in Brannel
-pAHOQ9 D7B7M	e1	gm	m18230000
-pAMUH0 V22EP	e1	gm	m17970000
-pBQ7Z1 QNMGV	e1	gm	m19471027	wSandbanks Bournemouth
-pE0DXE WEM5A	e1
-pE0DXE WJZZL	e1
-pF7CUE QXUUM	e1
-pFKUTG I1CPP	e1
-pPPQKE UOP90	e1
-pCHYG2 U3PNO	e1	gm	wBirmingham
-pPDPFW UZF5E	e1	gm	m19440825
-pE4PW4 P0CCA	e1
-pDC0J7 WX0KA	e1
-pET564 XB6WL	e1
+iLF3CA	pN	gf	mOPFIL	fFM1RX	sPDEDI
+iPDEDI	sLF3CA	pA	gm	z1	d20161102	yBristol	mDHV95	fFWEYT
+iFM1RX	pLeonard	qCopplestone	gm	b19110324	jCounty Treasurer	z1	d19840806	ySt Bartholomews Hospital London	oHome address at time of death: 107 The Mount Shrewsbury Shropshire	mR3X3B	fM0AJH	sOPFIL	r483945903 71 120
+iOPFIL	sFM1RX	pKathleen Mary	qThomas	gf	b19110302	vBurnham on Sea	z1	d19900515	yHillcrest Nursing Home Minsterley Shropshire	oHome in 1990 was 107 The Mount Shrewsbury Shropshire SY3 8 PH	mSQ5MJ	fU3R2C	r693524128 88 120
+iSTART	pG	mLF3CA	fPDEDI
+iJLLFL	pW	mLF3CA	fPDEDI
+iSVRSY	pS	mLF3CA	fPDEDI
+iM0AJH	pJoseph Edward	qCopplestone	gm	b18800000	vDartmouth, Devon	jDockyard fitter and foreman	z1	d19590513	yPlymouth	oAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport. Address for Annie Maria was Totnes Road Dartmouth\nAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport	mER871	fYMYCP	sR3X3B
+iR3X3B	sM0AJH	pAnnie Maria	qLavers	gf	b18820128	vDartmouth	z1	d19750904	oAddress given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport	mHJZ32	fFQDCN
+iZOEDS	pJ	gf	mOPFIL	fFM1RX	sFLSSR
+iFLSSR	sZOEDS	pR
+iJY57H	pL	mOPFIL	fFM1RX	sWIDM1
+iWIDM1	sJY57H	pR
+iU3R2C	pFrank	qThomas	gm	b18751212	vBurnham on Sea	jPainter and Decorator	EBurnham on Sea	z1	d19380516	yBurnham on Sea	F19380519	UBaptist Church Burnham on Sea	mJ7V4C	fPYIIY	sSQ5MJ
+iSQ5MJ	sU3R2C	pGeorgina Augusta	qDade	gf	b18771210	vHuntspill Somerset	z1	d19631200	yBurnham on Sea	mRYOXM	fMA2NR
+iYMYCP	pRichard	qCopplestone	gm	b18320000	vWestport County Mayo Ireland	jCoastguard	mWM5JK	fYZE6X	sER871
+iER871	sYMYCP	pMary Jane	qRowe	gf	vNoss Mayo Plymouth
+iFQDCN	pGeorge Henry	qLavers	gm	b18400110	vFalmouth	z1	d19111010	yDartmouth	jMerchant Seaman	oGH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. 	fUOYPP	sHJZ32
+iHJZ32	sFQDCN	pMaria	qWills	gf	b18500427	vBlackawton near Dartmouth	z1	d19321116	yDartmouth
+iEYAKA	pElizabeth	qLavers	gf	b18851108	z1	d19740626	oGreat Aunt Bess to NC.  No children.	mHJZ32	fFQDCN	sCQJHS
+iCQJHS	sEYAKA	pFrederick	qPyne	gm
+iUB4K4	pErnest John	qLavers	gm	b18880707	z1	mHJZ32	fFQDCN	sZVMY4
+iZVMY4	sUB4K4	pAlice Mary	qToms	gf
+iX9K2M	pElsie Maud	qLavers	gf	b18891229	z1	d19690612	mHJZ32	fFQDCN	sQS2MM
+iQS2MM	sX9K2M	pCharles Arthur Weatherdon	gm
+iO0YJ3	pFlorence May	qLavers	gf	b18950508	oKnown both as Aunt May and Aunt Flo to Leonard C.	mHJZ32	fFQDCN	sS3XAV
+iS3XAV	sO0YJ3	pJames	qLeonard	gm	jNaval Administrator	oLeonard Copplestone's &quot;Uncle Jim&quot;
+iOTBV3	pBertie	qLavers	gm	b18831008	vSouthford Road, Dartmouth	jApprentice boatbuilder	EDartmouth	z1	d19850804	oServed as Mayor of Dartmouth four times, see occupations. He was founder member of Dtmth OAP Assoc and chairman for 20 years. Chairman of Dtmth Liberal Assoc., Road Safety Committee, National Savings Committee, Dartmouth Harbour Commission. President of the Young Men's Recreation Club, member of Salcombe and Kingsbridge Water Board. Represented Dartmouth on the Torbay Education Committee, Manager of Dartmouth Primary School and Governor of Dartmouth Secondary Modern and Grammar School.	mHJZ32	fFQDCN	sBN56X
+iBN56X	sOTBV3	pBeatrice Maud	qCoaker	gf	b18840718	z1	d19501211
+iE2KPA	pMatilda	gf	z1
+iUCTUP	pGeorge Henry	qLavers	gm	b18721214	z1	d18991217	yMonte Video	oDrowned at Monte Video aged 27. Tombstone in Dartmouth cemetery	mE2KPA	fFQDCN
+iXF970	pDoreen	qLavers	gf	z1	d19980330	yDartmouth	oDoreen wrote up the records used here for all of the Lavers family. She did research in Nova Scotia when she accompanied her father as Mayor of Dartmouth. There are additional Lavers records not entered here as they do not link up, held by NC	mBN56X	fOTBV3
+iV9EY5	pEdgar	qLavers	gm	oLived below Doreen at 23B South Town Dartmouth. Edgar carried on the boatyard business until 1973 when he retired and sold the business. A few years later it was sold again and redeveloped.  See letter dated 1991. Edgar had a son and a daughter both married and living in Somerset in 1991 	mBN56X	fOTBV3
+iUOYPP	pFrank	qLavers	gm	jSea Captain	oLost at sea.  Note from Aunt Bess that her father's mother lived to the age of 96
+iHPAWD	pMargery	qLavers	gf	oMargery Redfern Allen is her name from Edgar Lavers in 1991, perhaps she remarried.	mBN56X	fOTBV3	sTMYZJ
+iTMYZJ	sHPAWD	pAlan	qRedfern	gm
+iW26FH	qLavers	gm	fV9EY5
+iX8KPT	qLavers	gf	fV9EY5
+iKSITH	gm	mHPAWD	fTMYZJ
+iDLW20	gm	mHPAWD	fTMYZJ
+iADFB0	pDesmond	qLavers	gm	oLamorna, Scott Close, Farnham Common Slough. Jill B has current address.\n01753 645420	mZVMY4	fUB4K4	sO14IR
+iO14IR	sADFB0	pBarbara	gf
+iG6SFC	pAudrey?	gf	mX9K2M	fQS2MM
+iTCABS	gf	mX9K2M	fQS2MM
+iCWAMG	pGordon	qLeonard	gm	b19190000	mO0YJ3	fS3XAV	sBW3V1
+iBW3V1	sCWAMG	pJoan	gf
+iFRR3J	pGerald	qLeonard	gm	o15 Harroford Road River Dawn, Helen Vale Gold Coast Queensland 4210 Australia  as of 1991	mO0YJ3	fS3XAV	sJQFHY
+iJQFHY	sFRR3J	pBetty	gf
+iF4MM6	pNorman	qLeonard	gm	mO0YJ3	fS3XAV	sM4F8X
+iM4F8X	sF4MM6	pJoyce	gf
+iXM46N	pBarbara	qLeonard	gf	mBW3V1	fCWAMG
+iQLLWY	qLeonard	mJQFHY	fFRR3J
+iKFS1S	pJackie	qLeonard	mM4F8X	fF4MM6
+iL4EJP	pEdward John	qCopplestone	gm	b19150000	vDevonport	z1	d19790000	oKnown as &quot;Jack&quot; or Uncle John to J L and N. Fitter in Plymouth Dockyard. Myrtle's second marriage, She was a sweet person, fond of Jack. Grandma Cop not that kind to her.	mR3X3B	fM0AJH	sXF21B
+iXF21B	sL4EJP	pMyrtle	gf
+iEERKL	pIrene May	qThomas	gf	b19030419	vBurnham on Sea	z1	d19820512	yCheltenham	mSQ5MJ	fU3R2C	sE7XRT
+iE7XRT	sEERKL	pStanley William	qWills	lWills	gm	b19021112	z1	d19671019
+iI8OQ6	pWinston Howard	qThomas	gm	b19091128	vBurnham on Sea	jPainter and Decorator	z1	d19910000	yBurnham on Sea	mSQ5MJ	fU3R2C	sB5CUX
+iB5CUX	sI8OQ6	pUna Doreen	qClapp	lClapp	gf	b19130313	z1	d19710000
+iOARZJ	pErnest Ronald	qThomas	gm	b19130000	z1	d19440512	yCassino Italy	UCassino War Cemetery Italy	mSQ5MJ	fU3R2C
+iYVOZN	pJoyce Neal	qPopham	gf	b19140000	z1	d20070000	sL5R7G
+iL5R7G	sYVOZN	lHowell	gm
+iUDDQV	pMartin	qHowell	mYVOZN	fL5R7G
+iQ1TBI	pPatricia	qThomas	gf	b19310000	oLiving in Burnham on sea in 2012	mYVOZN	fOARZJ
+iLDESY	pJ	gm	b19250000	mEERKL	fE7XRT	sZHON6
+iZHON6	sLDESY	pC	gf
+iTDZJ2	pD	gm	mEERKL	fE7XRT	sT32I1
+iT32I1	sTDZJ2	pA	gf
+iYB5BR	pH	gf	mZHON6	fLDESY	sLZJ90
+iLZJ90	sYB5BR	pR	gm
+iMQ4V8	pG	gm	mZHON6	fLDESY	sNNBIW
+iNNBIW	sMQ4V8	pJ	gf
+iVH3HV	pJ	mYB5BR	fLZJ90
+iT9OSH	qWills	mZHON6	fLDESY
+iEQIBS	pS	gf	mT32I1	fTDZJ2
+iTSH9S	pM	mEQIBS
+iZR83C	pT	gm	o17 in Dec 2012	mNNBIW	fMQ4V8
+iXMP8V	pJ	gm	o11 in Dec 2012	mNNBIW	fMQ4V8
+iB225A	pErnest E	qThomas	gm	b18660000	vBurnham on Sea	mJ7V4C	fPYIIY
+iKW92E	pAlice	qThomas	gf	mJ7V4C	fPYIIY
+iE9VPB	pHarry	qThomas	gm	vBurnham on Sea	mJ7V4C	fPYIIY	sDGTMF
+iDGTMF	sE9VPB	gf
+iBLWAE	pFred	qThomas	gm	b18710000	mJ7V4C	fPYIIY	sS7RF5
+iS7RF5	sBLWAE	pLaura E	qDade	gf
+iBHX5D	pHerbert Morris	qThomas	gm	b18730000	vBurnham on Sea	mJ7V4C	fPYIIY
+iQJZWC	pSidney Herbert	qThomas	gm	b18780000	mJ7V4C	fPYIIY
+iW3BQJ	pEllen Francis	qThomas	gf	o known as Aunt May	mJ7V4C	fPYIIY	sBVPW7
+iBVPW7	sW3BQJ	pFrederick	qGale	gm
+iPYIIY	pEdward	qThomas	gm	jRailway Engineer	z1	d18880000	F18881000	UBurnham on Sea Cemetery	mJ1BCN	fM6KD1	sJ7V4C
+iJ7V4C	sPYIIY	pEllen	qMorris	gf	z1	d19271130	jRefreshment Room Keeper	UBurnham on Sea Cemetery
+iM6KD1	pWilliam	qThomas	gm	jFarm Labourer	mLH853	fC7HEN	sJ1BCN
+iJ1BCN	sM6KD1	pCharlotte	qNethway	gf	jNurse
+iC7HEN	pJames	qThomas	gm	z1	F18080320	USt Mary the Virgin	sLH853
+iLH853	sC7HEN	pBetty	gf
+iXRSEZ	pSarah	qThomas	gf	mLH853	fC7HEN
+iERW1M	pJames	qThomas	gm	mLH853	fC7HEN
+iSII9M	pBetty	qThomas	gf	mLH853	fC7HEN
+iAMDBP	pHenry	qThomas	mLH853	fC7HEN
+iMEMYJ	pMary	qThomas	gf	mLH853	fC7HEN
+iTFRYB	pHenry	qThomas	gm	jAgricultural labourer	mJ1BCN	fM6KD1	sF9I41
+iF9I41	sTFRYB	pMartha	qLovell	gf	b18350000
+iIVS30	qThomas	mJ1BCN	fM6KD1
+iOTA2T	pHarriet	qThomas	gf	mJ1BCN	fM6KD1
+iJ35Q5	pWilliam	qThomas	gm	mJ1BCN	fM6KD1
+iI79XW	pEliza	qThomas	gf	mJ1BCN	fM6KD1
+iHO11D	pSheila	qClapp	gf	sKT6WO
+iKT6WO	sHO11D	pHarvey	gm
+iVCYL6	pSue	qHarvey	gf	mHO11D	fKT6WO
+iRG8Y9	pR	gm	b19390000	vBurnham on Sea	mB5CUX	fI8OQ6
+iMA2NR	pAlfred	qDade	gm	b18450000	vHuntspill ,Bridgwater, Somerset	jAssistant Stone Haulier, Railway Engineer	z1	F18970000	oJean Webb noted that most of the ten children of Alfred and Edith were buried in Mark Churchyard	sRYOXM
+iRYOXM	sMA2NR	pEdith Jane	qPlomer	gf	b18460000	z1	d19300000
+iB703Z	pConstance Rose	qDade	gf	b18700000	vHighbridge	mRYOXM	fMA2NR
+iVW1R8	pLaura Ellen	qDade	gf	b18710000	o&quot;Auntie Laurie&quot;	mRYOXM	fMA2NR	sR6SUS
+iR6SUS	sVW1R8	pFred	qThomas	gm	jTobacconist, Baker
+iXIZ47	pAlice Maud	qDade	gf	b18730000	mRYOXM	fMA2NR	sRM8RZ
+iRM8RZ	sXIZ47	pThomas Edward	qBrooks	gm	jEngine Driver
+iLFN43	pAda Kate	qDade	gf	b18751206	z1	F19730000	jDraper, Milliner	mRYOXM	fMA2NR	sS50QZ
+iS50QZ	sLFN43	pWilliam Cutler	qBridle	gm
+iLKLH2	pBessie Louise	qDade	gf	b18790000	vHuntspill ,Bridgwater, Somerset	mRYOXM	fMA2NR	sH5Y2Q
+iH5Y2Q	sLKLH2	pEdward Arthur	qMajor	gm	b18740000	vStockton on Tees
+iFZZ6U	pEthel Annie	qDade	gf	b18830000	vWimborne  Dorset	mRYOXM	fMA2NR	sQU6VC
+iQU6VC	sFZZ6U	pBertie	qBridle	gm	z1	d19480000
+iPAHA4	pLilian Gertrude	qDade	gf	b18850000	vWimborne  Dorset	mRYOXM	fMA2NR	sA001H
+iA001H	sPAHA4	pSamuel Headley	qWhite	gm
+iLGR1O	pAlfred John	qDade	gm	b18870000	vWimborne  Dorset	z1	d19600000	mRYOXM	fMA2NR	sGCK84
+iGCK84	sLGR1O	pAmy Eileen	qWensley	gf
+iTFUQB	pOlive Edith	qDade	gf	b18900000	oJohn S Wills' favourite Aunt and Uncle, they lived by railway in Highbridge	mRYOXM	fMA2NR	sDDWAY
+iDDWAY	sTFUQB	pArthur J	qWensley	gm
+iRXZ5X	pGwendoline	qDade	gf	mGCK84	fLGR1O	sO6NKX
+iO6NKX	sRXZ5X	pGilbert	qWall	gm
+iP04CS	pSonny	qDade	gm	mGCK84	fLGR1O
+iGLUTJ	pDoris	qDade	gf	mGCK84	fLGR1O
+iKKP81	pStuart	qDade	gm	jBaker	oStuart lived in Church Stretton. He often visited KMC at 107 The Mount Shrewsbury as he worked in Morris's bakery there	mGCK84	fLGR1O	sLD4CE
+iLD4CE	sKKP81	pMargaret	gf
+iO11IX	pDennis	qDade	gm	mGCK84	fLGR1O
+iK3T2D	pKathleen	qDade	gf	mGCK84	fLGR1O
+iFN4BP	pPauline	gf	mK3T2D
+iIK164	pWilliam	qDade	gm	o&quot;Bill&quot;	mGCK84	fLGR1O
+iALEQK	qDade	mGCK84	fLGR1O
+iX7N19	pAudrey	qDade	gf	mGCK84	fLGR1O
+iML0JU	pJean	qDade	gf	oJean is a physiotherapist and with her two daughters, raises and trains horses. She plays in Telford Orchestra and is a Morris dancer.	mLD4CE	fKKP81	sKYN7Q
+iKYN7Q	sML0JU	pJeff	qWebb	gm
+iME3KG	pDave	gf
+iGXRAT	pAllison	qWebb	gf	mML0JU	fKYN7Q	sIB4QS
+iIB4QS	sGXRAT	pDave	gm
+iDMPSE	pLibby	qWebb	gf	mML0JU	fKYN7Q	sK9PFJ
+iK9PFJ	sDMPSE	pSimon	gm
+iZU7MR	pCatherine	qCopplestone	gf	b18740000	vSt Martins, Isle of Scilly	z1	d19620000	yPaignton?	oKnown as Aunt Kate  	mER871	fYMYCP
+iJ3WHE	pBeatrice	qCopplestone	gf	b18870000	vLangton Dorset	mER871	fYMYCP	sUQ1KQ
+iUQ1KQ	sJ3WHE	pTom	qTrace	gm
+iHVSFB	pGeorge A	qCopplestone	gm	b18660000	vSt Marys Isles of Scilly	mER871	fYMYCP
+iAJOP1	pEllen L	qCopplestone	gf	b18680000	vSt Marys Isles of Scilly	mER871	fYMYCP
+iN417A	pAlbert H	qCopplestone	gm	b18700000	vSt Martins, Isle of Scilly	mER871	fYMYCP
+iA7U7J	pGertie	qCopplestone	gf	b18840000	mER871	fYMYCP
+iBLCYS	punknown Copplestone	qsibling?	mER871	fYMYCP
+iLIN8N	pAmelia	qTownshend	gf	b18590210	vStoke Damerel Plymouth
+iK8W3O	pMary Ann Amelia Avery	qCopplestone	gf	b18600114	vTorquay Devon	mLIN8N	fYMYCP
+iKMJFK	pWilliam	qCopplestone	gm	b18330705	vWestport County Mayo Ireland	jSeaman	mWM5JK	fYZE6X
+iHGH4D	pElizabeth	qCopplestone	gf	mWM5JK	fYZE6X
+iM7PTW	pLouisa	qCopplestone	gf	v&quot;Austr&quot;	mWM5JK	fYZE6X
+iYZE6X	pJoseph Parsons	qCopplestone	gm	b17990000	vFowey Cornwall	jCoastguard	mP5S50	fTVLW4	sWM5JK
+iWM5JK	sYZE6X	pMary Louise	qWilliams	gf	z1	d18860000
+iGYJ5S	punknown	qCopplestone	mWM5JK	fYZE6X
+iRJ46P	punknown	qCopplestone	mWM5JK	fYZE6X
+iDGVMB	punkown	qCopplestone	mWM5JK	fYZE6X
+iS38EN	punknown	qCopplestone	mWM5JK	fYZE6X
+iPCDZ9	pCath Parsons	qCopplestone	gf	b17970416	mP5S50	fTVLW4
+iTVLW4	pRichard	qCopplestone	gm	b17650101	jMiller	sP5S50
+iP5S50	sTVLW4	pMary	qParsons	gf
+iASA4P	pMary	qDawe	gf	z1	d17920000	yFowey Cornwall
+iL9WBM	pElizabeth	qCopplestone	gf	b17900000	mASA4P	fTVLW4
+iR1GX6	pRichard	qCopplestone	gm	b17920000	z1	F18210422	mASA4P	fTVLW4
+iOI9W7	pThomas	qCopplestone	gm	b17630316	vFowey	jCordwainer	sYNSK9
+iYNSK9	sOI9W7	pCharlotte	qTrethaway	gf
+iJ6451	pJohn Trethaway	qCopplestone	gm	z1	F17950721	mYNSK9	fOI9W7
+iP5KV0	pThomas	qCopplestone	gm	b17941012	jMiner	mYNSK9	fOI9W7	sSB0MD
+iSB0MD	sP5KV0	pSusan	qHall	gf
+iCB5JY	punkown	qCopplestone	mSB0MD	fP5KV0
+iU361Q	pCharlotte	qCopplestone	gf	b17970910	mYNSK9	fOI9W7
+iWZ3N9	pAnne	qCopplestone	gf	b17670203	sU05XW
+iU05XW	sWZ3N9	pThomas	qKendall	gm	vLanteglos	jCustoms Officer
+iQJR65	pElizabeth	qCopplestone	gf	b17690214	z1	F17710529
+iGW799	pElizabeth	qCopplestone	gf	b17740201
+iACA6M	pT	mZOEDS	fFLSSR
+iSYFVP	pS	mZOEDS	fFLSSR
+iPQEO4	pJ	mJY57H	fWIDM1
+iDHV95	pJoan Lucy	qMarwood	gf	b19160916	vLiverpool	z1	d19800517	yNewton Abbot	sFWEYT
+iFWEYT	sDHV95	pDouglas Timmins	qPerry	gm	b19170729	vBirmingham	jRailway Ticket Collector	z1	d19910115	yNewton Abbot	oArmy number 1924032	mZ7G76	fE78G4
+iZ7G76	pFlorence Emily Large	gf	b18910426	z1	d19850830	yPoole Dorset	oWhen Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks\n	mJYHSV	fCYTC5	sE78G4
+iE78G4	sZ7G76	pAlfred Henry	qPerry	gm	odied when children were young\nArmy number 7162
+iH5SQR	pJohn Edward  &quot;Pop&quot;	qJervis	gm	z1	d19790702
+iYB7CQ	pRaymond John	qJervis	gm	mZ7G76	fH5SQR
+iUHYNG	pThelma Beatrice	qJervis	gf	mZ7G76	fH5SQR	sOU3YJ
+iOU3YJ	sUHYNG	pMoore	gm
+iJYHSV	pMrs	qLarge	gf	oMarried twice?	sCYTC5
+iCYTC5	sJYHSV	pMr	qLarge	gm	oAddresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire\nDog Inn, Sutton Coldfield\nSandicot, Panorama Road, Sandbanks
+iKN073	pLeslie	qPerry	gm	z1	d19701016	mZ7G76	fE78G4	sF54F7
+iF54F7	sKN073	pNanette	gf
+iI7E9L	pLorraine	qPerry	gf	mF54F7	fKN073	sIT5EI
+iIT5EI	sI7E9L	pPeter	qRiley	gm
+iER7MA	pKenneth Robert	qPerry	gm	oKP's birthday 19.2.? year not known.\nBoth died in 1990's	mZ7G76	fE78G4	sOQYDS
+iOQYDS	sER7MA	pBeryl	gf	oDied in 1990's
+iOS5KP	pSuzanne	qPerry	gf	oAddress  (as of July 16?)\n27 Lakeside Road, Branksome Park, Poole, Dorset	mOQYDS	fER7MA	sRRKTX
+iRRKTX	sOS5KP	pJohn	qBlakemore	gm
+iF4UN4	pAndrew	qPerry	oMarried but no details.  Died approx 1996	mOQYDS	fER7MA
+iXYO13	pRaymond	qPerry	gm	oBirthday 8.7.? year not known	mZ7G76	fE78G4	sQ7KVK
+iQ7KVK	sXYO13	pElizabeth	q&quot;Betty&quot;	gf	oBetty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast	mZXGUA
+iIE0AI	pVanessa	qPerry	mQ7KVK	fXYO13
+iGU0D4	pElizabeth	qPerry	mQ7KVK	fXYO13
+iE2MPL	pJohn	qPerry	mQ7KVK	fXYO13
+iZXGUA	p&quot;Nell&quot;	gf
+iBQZPI	pP	gf	mDHV95	fFWEYT	sNDF4Y
+iNDF4Y	sBQZPI	pA	gm
+pLF3CA PDEDI	e1	gm	m19871028	wShrewsbury Shropshire
+pFM1RX OPFIL	e1	gm	m19400518	wRochdale Registry Office
+pM0AJH R3X3B	e1	gm	m19100704	wPlymouth
+pFLSSR ZOEDS	e1
+pJY57H WIDM1	e1
+pSQ5MJ U3R2C	e1	gm	m19020000
+pER871 YMYCP	e1
+pFQDCN HJZ32	e1	gm	m18810402	waddress  Kingswear Devon
+pCQJHS EYAKA	e1
+pUB4K4 ZVMY4	e1	gm	wSt Saviours Church Dartmouth
+pQS2MM X9K2M	e1	gm	m19151106
+pO0YJ3 S3XAV	e1	gm	wVictoria Place Dartmouth
+pBN56X OTBV3	e1	gm	m19080418	wSt Clements Church Dartmouth.
+pE2KPA FQDCN	e1
+pHPAWD TMYZJ	e1
+pADFB0 O14IR	e1
+pBW3V1 CWAMG	e1
+pFRR3J JQFHY	e1
+pF4MM6 M4F8X	e1
+pL4EJP XF21B	e1	gm	m19610000	wPlymouth
+pE7XRT EERKL	e1	gm	m19300000
+pB5CUX I8OQ6	e1	gm	m19380000
+pOARZJ YVOZN	e1	gm	m19310000
+pL5R7G YVOZN	e1	gm	m19510000
+pLDESY ZHON6	e1
+pT32I1 TDZJ2	e1
+pLZJ90 YB5BR	e1
+pMQ4V8 NNBIW	e1
+pDGTMF E9VPB	e1	gm
+pBLWAE S7RF5	e1
+pBVPW7 W3BQJ	e1
+pJ7V4C PYIIY	e1	gm	m18650212
+pJ1BCN M6KD1	e1
+pC7HEN LH853	e1
+pF9I41 TFRYB	e1	gm	m18550000
+pHO11D KT6WO	e1
+pMA2NR RYOXM	e1	gm	m18700000
+pR6SUS VW1R8	e1	gm	m18950000
+pRM8RZ XIZ47	e1	gm	m18960000
+pLFN43 S50QZ	e1	gm	m19060000
+pH5Y2Q LKLH2	e1	gm	m19000000
+pFZZ6U QU6VC	e1	gm	m19110000
+pA001H PAHA4	e1	gm	m19070000
+pGCK84 LGR1O	e1	gm	m19060000
+pDDWAY TFUQB	e1	gm	m19120000	wAxbridge
+pO6NKX RXZ5X	e1
+pKKP81 LD4CE	e1
+pKYN7Q ML0JU	e1
+pGXRAT IB4QS	e1
+pDMPSE K9PFJ	e1
+pJ3WHE UQ1KQ	e1	gm	m19120000	wDorset
+pLIN8N YMYCP	e1
+pWM5JK YZE6X	e1
+pP5S50 TVLW4	e1
+pASA4P TVLW4	e1	gm
+pOI9W7 YNSK9	e1	gm	m17920528	wSt Stephens in Brannel
+pP5KV0 SB0MD	e1	gm	m18230000
+pU05XW WZ3N9	e1	gm	m17970000
+pDHV95 FWEYT	e1	gm	m19471027	wSandbanks Bournemouth
+pE78G4 Z7G76	e1
+pH5SQR Z7G76	e1
+pOU3YJ UHYNG	e1
+pCYTC5 JYHSV	e1
+pF54F7 KN073	e1
+pI7E9L IT5EI	e1	gm	wBirmingham
+pER7MA OQYDS	e1	gm	m19440825
+pOS5KP RRKTX	e1
+pQ7KVK XYO13	e1
+pBQZPI NDF4Y	e1
 
 # ...end of FamilyScript
 
@@ -3518,7 +3512,7 @@ pET564 XB6WL	e1
 1 SOUR Family Echo
 2 WWW http://www.familyecho.com/
 1 FILE Family 2
-1 DATE 22 JUN 2020
+1 DATE 3 AUG 2020
 1 DEST ANSTFILE
 1 GEDC
 2 VERS 5.5.1
@@ -3528,24 +3522,15 @@ pET564 XB6WL	e1
 1 SUBN
 1 CHAR UTF-8
 0 @I1@ INDI
-1 NAME Nancy /Copplestone/
-2 GIVN Nancy
-2 SURN Copplestone
+1 NAME N
+2 GIVN N
 1 SEX F
-1 BIRT
-2 DATE 10 JUL 1951
-2 PLAC Shrewsbury Shropshire
-1 OCCU Architect, Governor, Restorative Justice practitioner
 1 FAMS @F1@
 1 FAMC @F2@
 0 @I2@ INDI
-1 NAME Alfred Henry /Perry/
-2 GIVN Alfred Henry
-2 SURN Perry
+1 NAME A
+2 GIVN A
 1 SEX M
-1 BIRT
-2 DATE 14 DEC 1951
-2 PLAC Birmingham
 1 DEAT Y
 2 DATE 2 NOV 2016
 2 PLAC Bristol
@@ -3580,28 +3565,16 @@ pET564 XB6WL	e1
 1 FAMS @F2@
 1 FAMC @F5@
 0 @I5@ INDI
-1 NAME Grace May Perry /Copplestone/
-2 GIVN Grace May Perry
-2 SURN Copplestone
-1 SEX F
-1 BIRT
-2 DATE 25 APR 1991
+1 NAME G
+2 GIVN G
 1 FAMC @F1@
 0 @I6@ INDI
-1 NAME Will /Perry/
-2 GIVN Will
-2 SURN Perry
-1 SEX M
-1 BIRT
-2 DATE 27 APR 1988
+1 NAME W
+2 GIVN W
 1 FAMC @F1@
 0 @I7@ INDI
-1 NAME Solomon Henry Perry /Copplestone/
-2 GIVN Solomon Henry Perry
-2 SURN Copplestone
-1 SEX M
-1 BIRT
-2 DATE 9 FEB 1993
+1 NAME S
+2 GIVN S
 1 FAMC @F1@
 0 @I8@ INDI
 1 NAME Joseph Edward /Copplestone/
@@ -3633,34 +3606,23 @@ pET564 XB6WL	e1
 1 FAMS @F4@
 1 FAMC @F7@
 0 @I10@ INDI
-1 NAME Jill /Copplestone/
-2 GIVN Jill
-2 SURN Copplestone
+1 NAME J
+2 GIVN J
 1 SEX F
-1 BIRT
-2 DATE 8 AUG 1947
 1 FAMS @F8@
 1 FAMC @F2@
 0 @I11@ INDI
-1 NAME Roger /Briggs/
-2 GIVN Roger
-2 SURN Briggs
-1 SEX M
+1 NAME R
+2 GIVN R
 1 FAMS @F8@
 0 @I12@ INDI
-1 NAME Linda /Copplestone/
-2 GIVN Linda
-2 SURN Copplestone
-1 SEX F
-1 BIRT
-2 DATE 22 MAY 1949
+1 NAME L
+2 GIVN L
 1 FAMS @F9@
 1 FAMC @F2@
 0 @I13@ INDI
-1 NAME Ronald /Keen/
-2 GIVN Ronald
-2 SURN Keen
-1 SEX M
+1 NAME R
+2 GIVN R
 1 FAMS @F9@
 0 @I14@ INDI
 1 NAME Frank /Thomas/
@@ -4100,87 +4062,78 @@ pET564 XB6WL	e1
 1 NOTE Bio notes: Living in Burnham on sea in 2012
 1 FAMC @F30@
 0 @I65@ INDI
-1 NAME John /Wills/
-2 GIVN John
-2 SURN Wills
+1 NAME J
+2 GIVN J
 1 SEX M
 1 BIRT
 2 DATE 1925
 1 FAMS @F32@
 1 FAMC @F28@
 0 @I66@ INDI
-1 NAME Clare
-2 GIVN Clare
+1 NAME C
+2 GIVN C
 1 SEX F
 1 FAMS @F32@
 0 @I67@ INDI
-1 NAME David /Wills/
-2 GIVN David
-2 SURN Wills
+1 NAME D
+2 GIVN D
 1 SEX M
 1 FAMS @F33@
 1 FAMC @F28@
 0 @I68@ INDI
-1 NAME Anne
-2 GIVN Anne
+1 NAME A
+2 GIVN A
 1 SEX F
 1 FAMS @F33@
 0 @I69@ INDI
-1 NAME Helen /Wills/
-2 GIVN Helen
-2 SURN Wills
+1 NAME H
+2 GIVN H
 1 SEX F
 1 FAMS @F34@
 1 FAMC @F32@
 0 @I70@ INDI
-1 NAME Richard /Rossington/
-2 GIVN Richard
-2 SURN Rossington
+1 NAME R
+2 GIVN R
 1 SEX M
 1 FAMS @F34@
 0 @I71@ INDI
-1 NAME Graham /Wills/
-2 GIVN Graham
-2 SURN Wills
+1 NAME G
+2 GIVN G
 1 SEX M
 1 FAMS @F35@
 1 FAMC @F32@
 0 @I72@ INDI
-1 NAME Judy
-2 GIVN Judy
+1 NAME J
+2 GIVN J
 1 SEX F
 1 FAMS @F35@
 0 @I73@ INDI
-1 NAME James /Rossington/
-2 GIVN James
-2 SURN Rossington
+1 NAME J
+2 GIVN J
 1 FAMC @F34@
 0 @I74@ INDI
 1 NAME /Wills/
 2 SURN Wills
 1 FAMC @F32@
 0 @I75@ INDI
-1 NAME Suzanne /Wills/
-2 GIVN Suzanne
-2 SURN Wills
+1 NAME S
+2 GIVN S
 1 SEX F
 1 FAMS @F36@
 1 FAMC @F33@
 0 @I76@ INDI
-1 NAME Matthew
-2 GIVN Matthew
+1 NAME M
+2 GIVN M
 1 FAMC @F36@
 0 @I77@ INDI
-1 NAME Tom /Wills/
-2 GIVN Tom
-2 SURN Wills
+1 NAME T
+2 GIVN T
 1 SEX M
 1 NOTE Bio notes: 17 in Dec 2012
 1 FAMC @F35@
 0 @I78@ INDI
-1 NAME Justin /Wills/
-2 GIVN Justin
-2 SURN Wills
+1 NAME J
+2 GIVN J
 1 SEX M
 1 NOTE Bio notes: 11 in Dec 2012
 1 FAMC @F35@
@@ -4397,9 +4350,8 @@ pET564 XB6WL	e1
 1 SEX F
 1 FAMC @F43@
 0 @I109@ INDI
-1 NAME Robert Frank /Thomas/
-2 GIVN Robert Frank
-2 SURN Thomas
+1 NAME R
+2 GIVN R
 1 SEX M
 1 BIRT
 2 DATE 1939
@@ -4984,30 +4936,16 @@ pET564 XB6WL	e1
 1 BIRT
 2 DATE 1 FEB 1774
 0 @I184@ INDI
-1 NAME Thomas /Briggs/
-2 GIVN Thomas
-2 SURN Briggs
-1 SEX M
-1 BIRT
-2 PLAC Cambridge
-1 FAMS @F64@
+1 NAME T
+2 GIVN T
 1 FAMC @F8@
 0 @I185@ INDI
-1 NAME Simon /Briggs/
-2 GIVN Simon
-2 SURN Briggs
-1 SEX M
-1 BIRT
-2 PLAC Cambridge
-1 FAMS @F65@
+1 NAME S
+2 GIVN S
 1 FAMC @F8@
 0 @I186@ INDI
-1 NAME Joanna /Keen/
-2 GIVN Joanna
-2 SURN Keen
-1 SEX F
-1 BIRT
-2 PLAC Birmingham
+1 NAME J
+2 GIVN J
 1 FAMC @F9@
 0 @I187@ INDI
 1 NAME Joan Lucy /Marwood/
@@ -5035,7 +4973,7 @@ pET564 XB6WL	e1
 1 OCCU Railway Ticket Collector
 1 NOTE Bio notes: Army number 1924032
 1 FAMS @F3@
-1 FAMC @F66@
+1 FAMC @F64@
 0 @I189@ INDI
 1 NAME Florence Emily Large
 2 GIVN Florence Emily Large
@@ -5047,9 +4985,9 @@ pET564 XB6WL	e1
 2 PLAC Poole Dorset
 1 NOTE Bio notes: When Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks
 2 CONT 
-1 FAMS @F66@
-1 FAMS @F67@
-1 FAMC @F68@
+1 FAMS @F64@
+1 FAMS @F65@
+1 FAMC @F66@
 0 @I190@ INDI
 1 NAME Alfred Henry /Perry/
 2 GIVN Alfred Henry
@@ -5057,7 +4995,7 @@ pET564 XB6WL	e1
 1 SEX M
 1 NOTE Bio notes: died when children were young
 2 CONT Army number 7162
-1 FAMS @F66@
+1 FAMS @F64@
 0 @I191@ INDI
 1 NAME John Edward  &quot;Pop&quot; /Jervis/
 2 GIVN John Edward  &quot;Pop&quot;
@@ -5065,32 +5003,32 @@ pET564 XB6WL	e1
 1 SEX M
 1 DEAT Y
 2 DATE 2 JUL 1979
-1 FAMS @F67@
+1 FAMS @F65@
 0 @I192@ INDI
 1 NAME Raymond John /Jervis/
 2 GIVN Raymond John
 2 SURN Jervis
 1 SEX M
-1 FAMC @F67@
+1 FAMC @F65@
 0 @I193@ INDI
 1 NAME Thelma Beatrice /Jervis/
 2 GIVN Thelma Beatrice
 2 SURN Jervis
 1 SEX F
-1 FAMS @F69@
-1 FAMC @F67@
+1 FAMS @F67@
+1 FAMC @F65@
 0 @I194@ INDI
 1 NAME Moore
 2 GIVN Moore
 1 SEX M
-1 FAMS @F69@
+1 FAMS @F67@
 0 @I195@ INDI
 1 NAME Mrs /Large/
 2 GIVN Mrs
 2 SURN Large
 1 SEX F
 1 NOTE Bio notes: Married twice?
-1 FAMS @F68@
+1 FAMS @F66@
 0 @I196@ INDI
 1 NAME Mr /Large/
 2 GIVN Mr
@@ -5099,7 +5037,7 @@ pET564 XB6WL	e1
 1 NOTE Bio notes: Addresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire
 2 CONT Dog Inn, Sutton Coldfield
 2 CONT Sandicot, Panorama Road, Sandbanks
-1 FAMS @F68@
+1 FAMS @F66@
 0 @I197@ INDI
 1 NAME Leslie /Perry/
 2 GIVN Leslie
@@ -5107,26 +5045,26 @@ pET564 XB6WL	e1
 1 SEX M
 1 DEAT Y
 2 DATE 16 OCT 1970
-1 FAMS @F70@
-1 FAMC @F66@
+1 FAMS @F68@
+1 FAMC @F64@
 0 @I198@ INDI
 1 NAME Nanette
 2 GIVN Nanette
 1 SEX F
-1 FAMS @F70@
+1 FAMS @F68@
 0 @I199@ INDI
 1 NAME Lorraine /Perry/
 2 GIVN Lorraine
 2 SURN Perry
 1 SEX F
-1 FAMS @F71@
-1 FAMC @F70@
+1 FAMS @F69@
+1 FAMC @F68@
 0 @I200@ INDI
 1 NAME Peter /Riley/
 2 GIVN Peter
 2 SURN Riley
 1 SEX M
-1 FAMS @F71@
+1 FAMS @F69@
 0 @I201@ INDI
 1 NAME Kenneth Robert /Perry/
 2 GIVN Kenneth Robert
@@ -5134,14 +5072,14 @@ pET564 XB6WL	e1
 1 SEX M
 1 NOTE Bio notes: KP's birthday 19.2.? year not known.
 2 CONT Both died in 1990's
-1 FAMS @F72@
-1 FAMC @F66@
+1 FAMS @F70@
+1 FAMC @F64@
 0 @I202@ INDI
 1 NAME Beryl
 2 GIVN Beryl
 1 SEX F
 1 NOTE Bio notes: Died in 1990's
-1 FAMS @F72@
+1 FAMS @F70@
 0 @I203@ INDI
 1 NAME Suzanne /Perry/
 2 GIVN Suzanne
@@ -5149,97 +5087,67 @@ pET564 XB6WL	e1
 1 SEX F
 1 NOTE Bio notes: Address  (as of July 16?)
 2 CONT 27 Lakeside Road, Branksome Park, Poole, Dorset
-1 FAMS @F73@
-1 FAMC @F72@
+1 FAMS @F71@
+1 FAMC @F70@
 0 @I204@ INDI
 1 NAME John /Blakemore/
 2 GIVN John
 2 SURN Blakemore
 1 SEX M
-1 FAMS @F73@
+1 FAMS @F71@
 0 @I205@ INDI
 1 NAME Andrew /Perry/
 2 GIVN Andrew
 2 SURN Perry
 1 NOTE Bio notes: Married but no details.  Died approx 1996
-1 FAMC @F72@
+1 FAMC @F70@
 0 @I206@ INDI
 1 NAME Raymond /Perry/
 2 GIVN Raymond
 2 SURN Perry
 1 SEX M
 1 NOTE Bio notes: Birthday 8.7.? year not known
-1 FAMS @F74@
-1 FAMC @F66@
+1 FAMS @F72@
+1 FAMC @F64@
 0 @I207@ INDI
 1 NAME Elizabeth /&quot;Betty&quot;/
 2 GIVN Elizabeth
 2 SURN &quot;Betty&quot;
 1 SEX F
 1 NOTE Bio notes: Betty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast
-1 FAMS @F74@
-1 FAMC @F75@
+1 FAMS @F72@
+1 FAMC @F73@
 0 @I208@ INDI
 1 NAME Vanessa /Perry/
 2 GIVN Vanessa
 2 SURN Perry
-1 FAMC @F74@
+1 FAMC @F72@
 0 @I209@ INDI
 1 NAME Elizabeth /Perry/
 2 GIVN Elizabeth
 2 SURN Perry
-1 FAMC @F74@
+1 FAMC @F72@
 0 @I210@ INDI
 1 NAME John /Perry/
 2 GIVN John
 2 SURN Perry
-1 FAMC @F74@
+1 FAMC @F72@
 0 @I211@ INDI
 1 NAME &quot;Nell&quot;
 2 GIVN &quot;Nell&quot;
 1 SEX F
-1 FAMS @F75@
+1 FAMS @F73@
 0 @I212@ INDI
-1 NAME Patricia Amie /Perry/
-2 GIVN Patricia Amie
-2 SURN Perry
+1 NAME P
+2 GIVN P
 1 SEX F
-1 BIRT
-2 DATE 1949
-1 FAMS @F76@
+1 FAMS @F74@
 1 FAMC @F3@
 0 @I213@ INDI
-1 NAME Andrew /Burkitt/
-2 GIVN Andrew
-2 SURN Burkitt
+1 NAME A
+2 GIVN A
 1 SEX M
-1 FAMS @F76@
-0 @I214@ INDI
-1 NAME Rachel
-2 GIVN Rachel
-1 SEX F
-1 FAMS @F64@
-0 @I215@ INDI
-1 NAME Erin
-2 GIVN Erin
-1 FAMC @F64@
-0 @I216@ INDI
-1 NAME Arlo
-2 GIVN Arlo
-1 FAMC @F64@
-0 @I217@ INDI
-1 NAME Sophie
-2 GIVN Sophie
-1 SEX F
-1 FAMS @F65@
-0 @I218@ INDI
-1 NAME Aaron
-2 GIVN Aaron
-1 FAMC @F65@
-0 @I219@ INDI
-1 NAME Josh
-2 GIVN Josh
-1 FAMC @F65@
+1 FAMS @F74@
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I1@
@@ -5320,8 +5228,8 @@ pET564 XB6WL	e1
 1 CHIL @I185@
 1 _CURRENT Y
 0 @F9@ FAM
-1 HUSB @I13@
-1 WIFE @I12@
+1 HUSB @I12@
+1 WIFE @I13@
 1 CHIL @I186@
 1 _CURRENT Y
 0 @F10@ FAM
@@ -5389,7 +5297,7 @@ pET564 XB6WL	e1
 0 @F54@ FAM
 1 WIFE @I136@
 1 CHIL @I137@
-0 @F75@ FAM
+0 @F73@ FAM
 1 WIFE @I211@
 1 CHIL @I207@
 0 @F16@ FAM
@@ -5687,18 +5595,6 @@ pET564 XB6WL	e1
 2 DATE 1797
 1 _CURRENT Y
 0 @F64@ FAM
-1 HUSB @I184@
-1 WIFE @I214@
-1 CHIL @I215@
-1 CHIL @I216@
-1 _CURRENT Y
-0 @F65@ FAM
-1 HUSB @I185@
-1 WIFE @I217@
-1 CHIL @I218@
-1 CHIL @I219@
-1 _CURRENT Y
-0 @F66@ FAM
 1 HUSB @I190@
 1 WIFE @I189@
 1 CHIL @I188@
@@ -5706,33 +5602,33 @@ pET564 XB6WL	e1
 1 CHIL @I201@
 1 CHIL @I206@
 1 _CURRENT Y
-0 @F67@ FAM
+0 @F65@ FAM
 1 HUSB @I191@
 1 WIFE @I189@
 1 CHIL @I192@
 1 CHIL @I193@
 1 _CURRENT N
-0 @F68@ FAM
+0 @F66@ FAM
 1 HUSB @I196@
 1 WIFE @I195@
 1 CHIL @I189@
 1 _CURRENT Y
-0 @F69@ FAM
+0 @F67@ FAM
 1 HUSB @I194@
 1 WIFE @I193@
 1 _CURRENT Y
-0 @F70@ FAM
+0 @F68@ FAM
 1 HUSB @I197@
 1 WIFE @I198@
 1 CHIL @I199@
 1 _CURRENT Y
-0 @F71@ FAM
+0 @F69@ FAM
 1 HUSB @I200@
 1 WIFE @I199@
 1 MARR
 2 PLAC Birmingham
 1 _CURRENT Y
-0 @F72@ FAM
+0 @F70@ FAM
 1 HUSB @I201@
 1 WIFE @I202@
 1 CHIL @I203@
@@ -5740,18 +5636,18 @@ pET564 XB6WL	e1
 1 MARR
 2 DATE 25 AUG 1944
 1 _CURRENT Y
-0 @F73@ FAM
+0 @F71@ FAM
 1 HUSB @I204@
 1 WIFE @I203@
 1 _CURRENT Y
-0 @F74@ FAM
+0 @F72@ FAM
 1 HUSB @I206@
 1 WIFE @I207@
 1 CHIL @I208@
 1 CHIL @I209@
 1 CHIL @I210@
 1 _CURRENT Y
-0 @F76@ FAM
+0 @F74@ FAM
 1 HUSB @I213@
 1 WIFE @I212@
 1 _CURRENT Y
@@ -5761,240 +5657,234 @@ pET564 XB6WL	e1
 <INPUT TYPE="hidden" ID="csv" VALUE="
 
 ID,Full name,First names,Surname now,Surname at birth,Gender,Deceased,Mother ID,Mother name,Father ID,Father name,Partner ID,Partner name,Ex-partner IDs,Birth year,Birth month,Birth day,Death year,Death month,Death day,Email,Website,Blog,Photo site,Home tel,Work tel,Mobile,Skype,Address,Other contact,Birth place,Death place,Burial place,Burial year,Burial month,Burial day,Profession,Company,Interests,Activities,Bio notes,
-U4JS9,,,,,F,,Q3EUD,Elsie Maud Lavers,M803C,Charles Arthur Weatherdon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-W84MO,Leonard,,,Leonard,,,UUSB5,Betty,ASH7R,Gerald Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BL690,,,,,M,,VS6HY,Margery Lavers,XKU6X,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RFS6S,,,,,M,,VS6HY,Margery Lavers,XKU6X,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-OP68M,Lavers,,,Lavers,M,,,,G4IMU,Edgar Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AMZER,Lavers,,,Lavers,F,,,,G4IMU,Edgar Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KZJ0I,Wills,,,Wills,,,WI6WT,Clare,DK9V3,John Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GKVNU,,,,,F,,,,,,NHX1F,Harry Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LNKFE,Thomas,,,Thomas,,,L876G,Charlotte Nethway,S5BAX,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BDR28,Dade,,,Dade,,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QNJZI,&quot;&quot;&quot;Nell&quot;&quot;&quot;,&quot;&quot;&quot;Nell&quot;&quot;&quot;,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LA25R,Aaron,Aaron,,,,,TGOMQ,Sophie,KZ4BO,Simon Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-H09FJ,Ada Kate Dade,Ada Kate,,Dade,F,Y,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,GHNM1,William Cutler Bridle,,1875,12,6,,,,,,,,,,,,,,,,,1973,,,&quot;Draper, Milliner&quot;,,,,,
-XKU6X,Alan Redfern,Alan,,Redfern,M,,,,,,VS6HY,Margery Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LI1G2,Albert H Copplestone,Albert H,,Copplestone,M,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,1870,,,,,,,,,,,,,,,,&quot;St Martins, Isle of Scilly&quot;,,,,,,,,,,,
-BCM5S,Alfred Dade,Alfred,,Dade,M,Y,,,,,I64SK,Edith Jane Plomer,,1845,,,,,,,,,,,,,,,,&quot;Huntspill ,Bridgwater, Somerset&quot;,,,1897,,,&quot;Assistant Stone Haulier, Railway Engineer&quot;,,,,Jean Webb noted that most of the ten children of Alfred and Edith were buried in Mark Churchyard,
-WEM5A,Alfred Henry Perry,Alfred Henry,,Perry,M,,,,,,E0DXE,Florence Emily Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;died when children were young
+TCABS,,,,,F,,X9K2M,Elsie Maud Lavers,QS2MM,Charles Arthur Weatherdon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+QLLWY,Leonard,,,Leonard,,,JQFHY,Betty,FRR3J,Gerald Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALEQK,Dade,,,Dade,,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DLW20,,,,,M,,HPAWD,Margery Lavers,TMYZJ,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KSITH,,,,,M,,HPAWD,Margery Lavers,TMYZJ,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W26FH,Lavers,,,Lavers,M,,,,V9EY5,Edgar Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+X8KPT,Lavers,,,Lavers,F,,,,V9EY5,Edgar Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DGTMF,,,,,F,,,,,,E9VPB,Harry Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T9OSH,Wills,,,Wills,,,ZHON6,C,LDESY,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IVS30,Thomas,,,Thomas,,,J1BCN,Charlotte Nethway,M6KD1,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZXGUA,&quot;&quot;&quot;Nell&quot;&quot;&quot;,&quot;&quot;&quot;Nell&quot;&quot;&quot;,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PDEDI,A,A,,,M,Y,DHV95,Joan Lucy Marwood,FWEYT,Douglas Timmins Perry,LF3CA,N,,,,,2016,11,2,,,,,,,,,,,,Bristol,,,,,,,,,,
+NDF4Y,A,A,,,M,,,,,,BQZPI,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T32I1,A,A,,,F,,,,,,TDZJ2,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LFN43,Ada Kate Dade,Ada Kate,,Dade,F,Y,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,S50QZ,William Cutler Bridle,,1875,12,6,,,,,,,,,,,,,,,,,1973,,,&quot;Draper, Milliner&quot;,,,,,
+TMYZJ,Alan Redfern,Alan,,Redfern,M,,,,,,HPAWD,Margery Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+N417A,Albert H Copplestone,Albert H,,Copplestone,M,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,1870,,,,,,,,,,,,,,,,&quot;St Martins, Isle of Scilly&quot;,,,,,,,,,,,
+MA2NR,Alfred Dade,Alfred,,Dade,M,Y,,,,,RYOXM,Edith Jane Plomer,,1845,,,,,,,,,,,,,,,,&quot;Huntspill ,Bridgwater, Somerset&quot;,,,1897,,,&quot;Assistant Stone Haulier, Railway Engineer&quot;,,,,Jean Webb noted that most of the ten children of Alfred and Edith were buried in Mark Churchyard,
+E78G4,Alfred Henry Perry,Alfred Henry,,Perry,M,,,,,,Z7G76,Florence Emily Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;died when children were young
 Army number 7162&quot;,
-IPJ9D,Alfred Henry Perry,Alfred Henry,,Perry,M,Y,QNMGV,Joan Lucy Marwood,BQ7Z1,Douglas Timmins Perry,WA275,Nancy Copplestone,,1951,12,14,2016,11,2,,,,,,,,,,,Birmingham,Bristol,,,,,,,,,,
-R71DU,Alfred John Dade,Alfred John,,Dade,M,Y,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,AS7V3,Amy Eileen Wensley,,1887,,,1960,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
-MCK12,Alice Thomas,Alice,,Thomas,F,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CLOGY,Alice Mary Toms,Alice Mary,,Toms,F,,,,,,B4ID7,Ernest John Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QOOE0,Alice Maud Dade,Alice Maud,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,BG2PC,Thomas Edward Brooks,,1873,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WAIS9,Allison Webb,Allison,,Webb,F,,K78SC,Jean Dade,VIJWF,Jeff Webb,EUCXN,Dave,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QJUXI,Amelia Townshend,Amelia,,Townshend,F,,,,,,,,X9HM8,1859,2,10,,,,,,,,,,,,,,Stoke Damerel Plymouth,,,,,,,,,,,
-AS7V3,Amy Eileen Wensley,Amy Eileen,,Wensley,F,,,,,,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-E0C46,Andrew Perry,Andrew,,Perry,,,PDPFW,Beryl,UZF5E,Kenneth Robert Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Married but no details.  Died approx 1996,
-XB6WL,Andrew Burkitt,Andrew,,Burkitt,M,,,,,,ET564,Patricia Amie Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V5LSH,Anne,Anne,,,F,,,,,,DF2K8,David Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V22EP,Anne Copplestone,Anne,,Copplestone,F,,,,,,AMUH0,Thomas Kendall,,1767,2,3,,,,,,,,,,,,,,,,,,,,,,,,,
-CTU49,Annie Maria Lavers,Annie Maria,,Lavers,F,Y,B0MDI,Maria Wills,J55K2,George Henry Lavers,XB0OZ,Joseph Edward Copplestone,,1882,1,28,1975,9,4,,,,,,,,,,,Dartmouth,,,,,,,,,,Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport,
-JJGGL,Arlo,Arlo,,,,,GEA09,Rachel,MH95S,Thomas Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VRRB1,Arthur J Wensley,Arthur J,,Wensley,M,,,,,,HJ1AM,Olive Edith Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-B4XDN,Audrey Dade,Audrey,,Dade,F,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Y7Q36,Audrey?,Audrey?,,,F,,Q3EUD,Elsie Maud Lavers,M803C,Charles Arthur Weatherdon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-OU23D,Barbara Leonard,Barbara,,Leonard,F,,IEY27,Joan,X9RP6,Gordon Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TPJKM,Barbara,Barbara,,,F,,,,,,M3IMB,Desmond Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ZTIC5,Beatrice Copplestone,Beatrice,,Copplestone,F,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,V86CQ,Tom Trace,,1887,,,,,,,,,,,,,,,,Langton Dorset,,,,,,,,,,,
-MDDZG,Beatrice Maud Coaker,Beatrice Maud,,Coaker,F,Y,,,,,Y2IBJ,Bertie Lavers,,1884,7,18,1950,12,11,,,,,,,,,,,,,,,,,,,,,,
-Y2IBJ,Bertie Lavers,Bertie,,Lavers,M,Y,B0MDI,Maria Wills,J55K2,George Henry Lavers,MDDZG,Beatrice Maud Coaker,,1883,10,8,1985,8,4,,,,,,,,,,,&quot;Southford Road, Dartmouth&quot;,,,,,,Apprentice boatbuilder,Dartmouth,,,&quot;Served as Mayor of Dartmouth four times, see occupations. He was founder member of Dtmth OAP Assoc and chairman for 20 years. Chairman of Dtmth Liberal Assoc., Road Safety Committee, National Savings Committee, Dartmouth Harbour Commission. President of the Young Men's Recreation Club, member of Salcombe and Kingsbridge Water Board. Represented Dartmouth on the Torbay Education Committee, Manager of Dartmouth Primary School and Governor of Dartmouth Secondary Modern and Grammar School.&quot;,
-MFIJU,Bertie Bridle,Bertie,,Bridle,M,Y,,,,,R70CC,Ethel Annie Dade,,,,,1948,,,,,,,,,,,,,,,,,,,,,,,,
-PDPFW,Beryl,Beryl,,,F,,,,,,UZF5E,Kenneth Robert Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,Died in 1990's,
-A5OWJ,Bessie Louise Dade,Bessie Louise,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,LNVKM,Edward Arthur Major,,1879,,,,,,,,,,,,,,,,&quot;Huntspill ,Bridgwater, Somerset&quot;,,,,,,,,,,,
-UUSB5,Betty,Betty,,,F,,,,,,ASH7R,Gerald Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-U1Z42,Betty Thomas,Betty,,Thomas,F,,MTHKS,Betty,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MTHKS,Betty,Betty,,,F,,,,,,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BRN7H,Cath Parsons Copplestone,Cath Parsons,,Copplestone,F,,N8GU7,Mary Parsons,QETG6,Richard Copplestone,,,,1797,4,16,,,,,,,,,,,,,,,,,,,,,,,,,
-UO3CA,Catherine Copplestone,Catherine,,Copplestone,F,Y,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,1874,,,1962,,,,,,,,,,,,,&quot;St Martins, Isle of Scilly&quot;,Paignton?,,,,,,,,,Known as Aunt Kate  ,
-M803C,Charles Arthur Weatherdon,Charles Arthur Weatherdon,,,M,,,,,,Q3EUD,Elsie Maud Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VLXZ0,Charlotte Copplestone,Charlotte,,Copplestone,F,,CBKWI,Charlotte Trethaway,AJ6OG,Thomas Copplestone,,,,1797,9,10,,,,,,,,,,,,,,,,,,,,,,,,,
-L876G,Charlotte Nethway,Charlotte,,Nethway,F,,,,,,S5BAX,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,Nurse,,,,,
-CBKWI,Charlotte Trethaway,Charlotte,,Trethaway,F,,,,,,AJ6OG,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WI6WT,Clare,Clare,,,F,,,,,,DK9V3,John Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BEDTX,Constance Rose Dade,Constance Rose,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,,,,1870,,,,,,,,,,,,,,,,Highbridge,,,,,,,,,,,
-MHDMU,Dave,Dave,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EUCXN,Dave,Dave,,,M,,,,,,WAIS9,Allison Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DF2K8,David Wills,David,,Wills,M,,M1C93,Irene May Thomas,Y412H,Stanley William Wills,V5LSH,Anne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VUDF6,Dennis Dade,Dennis,,Dade,M,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M3IMB,Desmond Lavers,Desmond,,Lavers,M,,CLOGY,Alice Mary Toms,B4ID7,Ernest John Lavers,TPJKM,Barbara,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Lamorna, Scott Close, Farnham Common Slough. Jill B has current address.
+LGR1O,Alfred John Dade,Alfred John,,Dade,M,Y,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,GCK84,Amy Eileen Wensley,,1887,,,1960,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
+KW92E,Alice Thomas,Alice,,Thomas,F,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZVMY4,Alice Mary Toms,Alice Mary,,Toms,F,,,,,,UB4K4,Ernest John Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XIZ47,Alice Maud Dade,Alice Maud,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,RM8RZ,Thomas Edward Brooks,,1873,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GXRAT,Allison Webb,Allison,,Webb,F,,ML0JU,Jean Dade,KYN7Q,Jeff Webb,IB4QS,Dave,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LIN8N,Amelia Townshend,Amelia,,Townshend,F,,,,,,,,YMYCP,1859,2,10,,,,,,,,,,,,,,Stoke Damerel Plymouth,,,,,,,,,,,
+GCK84,Amy Eileen Wensley,Amy Eileen,,Wensley,F,,,,,,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+F4UN4,Andrew Perry,Andrew,,Perry,,,OQYDS,Beryl,ER7MA,Kenneth Robert Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Married but no details.  Died approx 1996,
+WZ3N9,Anne Copplestone,Anne,,Copplestone,F,,,,,,U05XW,Thomas Kendall,,1767,2,3,,,,,,,,,,,,,,,,,,,,,,,,,
+R3X3B,Annie Maria Lavers,Annie Maria,,Lavers,F,Y,HJZ32,Maria Wills,FQDCN,George Henry Lavers,M0AJH,Joseph Edward Copplestone,,1882,1,28,1975,9,4,,,,,,,,,,,Dartmouth,,,,,,,,,,Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport,
+DDWAY,Arthur J Wensley,Arthur J,,Wensley,M,,,,,,TFUQB,Olive Edith Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+X7N19,Audrey Dade,Audrey,,Dade,F,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+G6SFC,Audrey?,Audrey?,,,F,,X9K2M,Elsie Maud Lavers,QS2MM,Charles Arthur Weatherdon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+O14IR,Barbara,Barbara,,,F,,,,,,ADFB0,Desmond Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XM46N,Barbara Leonard,Barbara,,Leonard,F,,BW3V1,Joan,CWAMG,Gordon Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+J3WHE,Beatrice Copplestone,Beatrice,,Copplestone,F,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,UQ1KQ,Tom Trace,,1887,,,,,,,,,,,,,,,,Langton Dorset,,,,,,,,,,,
+BN56X,Beatrice Maud Coaker,Beatrice Maud,,Coaker,F,Y,,,,,OTBV3,Bertie Lavers,,1884,7,18,1950,12,11,,,,,,,,,,,,,,,,,,,,,,
+OTBV3,Bertie Lavers,Bertie,,Lavers,M,Y,HJZ32,Maria Wills,FQDCN,George Henry Lavers,BN56X,Beatrice Maud Coaker,,1883,10,8,1985,8,4,,,,,,,,,,,&quot;Southford Road, Dartmouth&quot;,,,,,,Apprentice boatbuilder,Dartmouth,,,&quot;Served as Mayor of Dartmouth four times, see occupations. He was founder member of Dtmth OAP Assoc and chairman for 20 years. Chairman of Dtmth Liberal Assoc., Road Safety Committee, National Savings Committee, Dartmouth Harbour Commission. President of the Young Men's Recreation Club, member of Salcombe and Kingsbridge Water Board. Represented Dartmouth on the Torbay Education Committee, Manager of Dartmouth Primary School and Governor of Dartmouth Secondary Modern and Grammar School.&quot;,
+QU6VC,Bertie Bridle,Bertie,,Bridle,M,Y,,,,,FZZ6U,Ethel Annie Dade,,,,,1948,,,,,,,,,,,,,,,,,,,,,,,,
+OQYDS,Beryl,Beryl,,,F,,,,,,ER7MA,Kenneth Robert Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,Died in 1990's,
+LKLH2,Bessie Louise Dade,Bessie Louise,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,H5Y2Q,Edward Arthur Major,,1879,,,,,,,,,,,,,,,,&quot;Huntspill ,Bridgwater, Somerset&quot;,,,,,,,,,,,
+JQFHY,Betty,Betty,,,F,,,,,,FRR3J,Gerald Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SII9M,Betty Thomas,Betty,,Thomas,F,,LH853,Betty,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LH853,Betty,Betty,,,F,,,,,,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZHON6,C,C,,,F,,,,,,LDESY,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PCDZ9,Cath Parsons Copplestone,Cath Parsons,,Copplestone,F,,P5S50,Mary Parsons,TVLW4,Richard Copplestone,,,,1797,4,16,,,,,,,,,,,,,,,,,,,,,,,,,
+ZU7MR,Catherine Copplestone,Catherine,,Copplestone,F,Y,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,1874,,,1962,,,,,,,,,,,,,&quot;St Martins, Isle of Scilly&quot;,Paignton?,,,,,,,,,Known as Aunt Kate  ,
+QS2MM,Charles Arthur Weatherdon,Charles Arthur Weatherdon,,,M,,,,,,X9K2M,Elsie Maud Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+J1BCN,Charlotte Nethway,Charlotte,,Nethway,F,,,,,,M6KD1,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,Nurse,,,,,
+U361Q,Charlotte Copplestone,Charlotte,,Copplestone,F,,YNSK9,Charlotte Trethaway,OI9W7,Thomas Copplestone,,,,1797,9,10,,,,,,,,,,,,,,,,,,,,,,,,,
+YNSK9,Charlotte Trethaway,Charlotte,,Trethaway,F,,,,,,OI9W7,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B703Z,Constance Rose Dade,Constance Rose,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,,,,1870,,,,,,,,,,,,,,,,Highbridge,,,,,,,,,,,
+TDZJ2,D,D,,,M,,EERKL,Irene May Thomas,E7XRT,Stanley William Wills,T32I1,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IB4QS,Dave,Dave,,,M,,,,,,GXRAT,Allison Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ME3KG,Dave,Dave,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+O11IX,Dennis Dade,Dennis,,Dade,M,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ADFB0,Desmond Lavers,Desmond,,Lavers,M,,ZVMY4,Alice Mary Toms,UB4K4,Ernest John Lavers,O14IR,Barbara,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Lamorna, Scott Close, Farnham Common Slough. Jill B has current address.
 01753 645420&quot;,
-EC9NE,Doreen Lavers,Doreen,,Lavers,F,Y,MDDZG,Beatrice Maud Coaker,Y2IBJ,Bertie Lavers,,,,,,,1998,3,30,,,,,,,,,,,,Dartmouth,,,,,,,,,&quot;Doreen wrote up the records used here for all of the Lavers family. She did research in Nova Scotia when she accompanied her father as Mayor of Dartmouth. There are additional Lavers records not entered here as they do not link up, held by NC&quot;,
-I4KJQ,Doris Dade,Doris,,Dade,F,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BQ7Z1,Douglas Timmins Perry,Douglas Timmins,,Perry,M,Y,E0DXE,Florence Emily Large,WEM5A,Alfred Henry Perry,QNMGV,Joan Lucy Marwood,,1917,7,29,1991,1,15,,,,,,,,,,,Birmingham,Newton Abbot,,,,,Railway Ticket Collector,,,,Army number 1924032,
-G4IMU,Edgar Lavers,Edgar,,Lavers,M,,MDDZG,Beatrice Maud Coaker,Y2IBJ,Bertie Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lived below Doreen at 23B South Town Dartmouth. Edgar carried on the boatyard business until 1973 when he retired and sold the business. A few years later it was sold again and redeveloped.  See letter dated 1991. Edgar had a son and a daughter both married and living in Somerset in 1991 ,
-I64SK,Edith Jane Plomer,Edith Jane,,Plomer,F,Y,,,,,BCM5S,Alfred Dade,,1846,,,1930,,,,,,,,,,,,,,,,,,,,,,,,
-KGARJ,Edward Thomas,Edward,,Thomas,M,Y,L876G,Charlotte Nethway,S5BAX,William Thomas,WLDHK,Ellen Morris,,,,,1888,,,,,,,,,,,,,,,Burnham on Sea Cemetery,1888,10,,Railway Engineer,,,,,
-LNVKM,Edward Arthur Major,Edward Arthur,,Major,M,,,,,,A5OWJ,Bessie Louise Dade,,1874,,,,,,,,,,,,,,,,Stockton on Tees,,,,,,,,,,,
-LAID2,Edward John Copplestone,Edward John,,Copplestone,M,Y,CTU49,Annie Maria Lavers,XB0OZ,Joseph Edward Copplestone,EYN8S,Myrtle,,1915,,,1979,,,,,,,,,,,,,Devonport,,,,,,,,,,&quot;Known as &quot;&quot;Jack&quot;&quot; or Uncle John to J L and N. Fitter in Plymouth Dockyard. Myrtle's second marriage, She was a sweet person, fond of Jack. Grandma Cop not that kind to her.&quot;,
-AMHNG,Eliza Thomas,Eliza,,Thomas,F,,L876G,Charlotte Nethway,S5BAX,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-YFCRI,Elizabeth Lavers,Elizabeth,,Lavers,F,Y,B0MDI,Maria Wills,J55K2,George Henry Lavers,AZY6A,Frederick Pyne,,1885,11,8,1974,6,26,,,,,,,,,,,,,,,,,,,,,Great Aunt Bess to NC.  No children.,
-AMRO2,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,,,,,,,,1774,2,1,,,,,,,,,,,,,,,,,,,,,,,,,
-HMXKJ,Elizabeth Copplestone,Elizabeth,,Copplestone,F,Y,,,,,,,,1769,2,14,,,,,,,,,,,,,,,,,1771,5,29,,,,,,
-HBP1O,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,NL2PA,Mary Dawe,QETG6,Richard Copplestone,,,,1790,,,,,,,,,,,,,,,,,,,,,,,,,,,
-S9Z6F,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DC0J7,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,Elizabeth,,&quot;&quot;&quot;Betty&quot;&quot;&quot;,F,,QNJZI,&quot;&quot;&quot;Nell&quot;&quot;&quot;,,,WX0KA,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,Betty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast,
-R60Z8,Elizabeth Perry,Elizabeth,,Perry,,,DC0J7,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,WX0KA,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WLDHK,Ellen Morris,Ellen,,Morris,F,Y,,,,,KGARJ,Edward Thomas,,,,,1927,11,30,,,,,,,,,,,,,Burnham on Sea Cemetery,,,,Refreshment Room Keeper,,,,,
-G1I6T,Ellen Francis Thomas,Ellen Francis,,Thomas,F,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,JF39S,Frederick Gale,,,,,,,,,,,,,,,,,,,,,,,,,,,, known as Aunt May,
-K9WWY,Ellen L Copplestone,Ellen L,,Copplestone,F,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,1868,,,,,,,,,,,,,,,,St Marys Isles of Scilly,,,,,,,,,,,
-Q3EUD,Elsie Maud Lavers,Elsie Maud,,Lavers,F,Y,B0MDI,Maria Wills,J55K2,George Henry Lavers,M803C,Charles Arthur Weatherdon,,1889,12,29,1969,6,12,,,,,,,,,,,,,,,,,,,,,,
-TJOY7,Erin,Erin,,,,,GEA09,Rachel,MH95S,Thomas Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-U0DXV,Ernest E Thomas,Ernest E,,Thomas,M,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,,,,1866,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
-B4ID7,Ernest John Lavers,Ernest John,,Lavers,M,Y,B0MDI,Maria Wills,J55K2,George Henry Lavers,CLOGY,Alice Mary Toms,,1888,7,7,,,,,,,,,,,,,,,,,,,,,,,,,
-O9F2C,Ernest Ronald Thomas,Ernest Ronald,,Thomas,M,Y,SG7KB,Georgina Augusta Dade,J9ADN,Frank Thomas,,,Y80L7,1913,,,1944,5,12,,,,,,,,,,,,Cassino Italy,Cassino War Cemetery Italy,,,,,,,,,
-R70CC,Ethel Annie Dade,Ethel Annie,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,MFIJU,Bertie Bridle,,1883,,,,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
-E0DXE,Florence Emily Large,Florence Emily Large,,,F,Y,I1CPP,Mrs Large,FKUTG,Mr Large,WEM5A,Alfred Henry Perry,WJZZL,1891,4,26,1985,8,30,,,,,,,,,,,,Poole Dorset,,,,,,,,,&quot;When Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks
+XF970,Doreen Lavers,Doreen,,Lavers,F,Y,BN56X,Beatrice Maud Coaker,OTBV3,Bertie Lavers,,,,,,,1998,3,30,,,,,,,,,,,,Dartmouth,,,,,,,,,&quot;Doreen wrote up the records used here for all of the Lavers family. She did research in Nova Scotia when she accompanied her father as Mayor of Dartmouth. There are additional Lavers records not entered here as they do not link up, held by NC&quot;,
+GLUTJ,Doris Dade,Doris,,Dade,F,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FWEYT,Douglas Timmins Perry,Douglas Timmins,,Perry,M,Y,Z7G76,Florence Emily Large,E78G4,Alfred Henry Perry,DHV95,Joan Lucy Marwood,,1917,7,29,1991,1,15,,,,,,,,,,,Birmingham,Newton Abbot,,,,,Railway Ticket Collector,,,,Army number 1924032,
+V9EY5,Edgar Lavers,Edgar,,Lavers,M,,BN56X,Beatrice Maud Coaker,OTBV3,Bertie Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lived below Doreen at 23B South Town Dartmouth. Edgar carried on the boatyard business until 1973 when he retired and sold the business. A few years later it was sold again and redeveloped.  See letter dated 1991. Edgar had a son and a daughter both married and living in Somerset in 1991 ,
+RYOXM,Edith Jane Plomer,Edith Jane,,Plomer,F,Y,,,,,MA2NR,Alfred Dade,,1846,,,1930,,,,,,,,,,,,,,,,,,,,,,,,
+PYIIY,Edward Thomas,Edward,,Thomas,M,Y,J1BCN,Charlotte Nethway,M6KD1,William Thomas,J7V4C,Ellen Morris,,,,,1888,,,,,,,,,,,,,,,Burnham on Sea Cemetery,1888,10,,Railway Engineer,,,,,
+H5Y2Q,Edward Arthur Major,Edward Arthur,,Major,M,,,,,,LKLH2,Bessie Louise Dade,,1874,,,,,,,,,,,,,,,,Stockton on Tees,,,,,,,,,,,
+L4EJP,Edward John Copplestone,Edward John,,Copplestone,M,Y,R3X3B,Annie Maria Lavers,M0AJH,Joseph Edward Copplestone,XF21B,Myrtle,,1915,,,1979,,,,,,,,,,,,,Devonport,,,,,,,,,,&quot;Known as &quot;&quot;Jack&quot;&quot; or Uncle John to J L and N. Fitter in Plymouth Dockyard. Myrtle's second marriage, She was a sweet person, fond of Jack. Grandma Cop not that kind to her.&quot;,
+I79XW,Eliza Thomas,Eliza,,Thomas,F,,J1BCN,Charlotte Nethway,M6KD1,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+QJR65,Elizabeth Copplestone,Elizabeth,,Copplestone,F,Y,,,,,,,,1769,2,14,,,,,,,,,,,,,,,,,1771,5,29,,,,,,
+GW799,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,,,,,,,,1774,2,1,,,,,,,,,,,,,,,,,,,,,,,,,
+EYAKA,Elizabeth Lavers,Elizabeth,,Lavers,F,Y,HJZ32,Maria Wills,FQDCN,George Henry Lavers,CQJHS,Frederick Pyne,,1885,11,8,1974,6,26,,,,,,,,,,,,,,,,,,,,,Great Aunt Bess to NC.  No children.,
+HGH4D,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Q7KVK,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,Elizabeth,,&quot;&quot;&quot;Betty&quot;&quot;&quot;,F,,ZXGUA,&quot;&quot;&quot;Nell&quot;&quot;&quot;,,,XYO13,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,Betty's mum Nell had a sister and the sister's daughters were called Edith and Brenda Gollnast,
+GU0D4,Elizabeth Perry,Elizabeth,,Perry,,,Q7KVK,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,XYO13,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L9WBM,Elizabeth Copplestone,Elizabeth,,Copplestone,F,,ASA4P,Mary Dawe,TVLW4,Richard Copplestone,,,,1790,,,,,,,,,,,,,,,,,,,,,,,,,,,
+J7V4C,Ellen Morris,Ellen,,Morris,F,Y,,,,,PYIIY,Edward Thomas,,,,,1927,11,30,,,,,,,,,,,,,Burnham on Sea Cemetery,,,,Refreshment Room Keeper,,,,,
+W3BQJ,Ellen Francis Thomas,Ellen Francis,,Thomas,F,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,BVPW7,Frederick Gale,,,,,,,,,,,,,,,,,,,,,,,,,,,, known as Aunt May,
+AJOP1,Ellen L Copplestone,Ellen L,,Copplestone,F,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,1868,,,,,,,,,,,,,,,,St Marys Isles of Scilly,,,,,,,,,,,
+X9K2M,Elsie Maud Lavers,Elsie Maud,,Lavers,F,Y,HJZ32,Maria Wills,FQDCN,George Henry Lavers,QS2MM,Charles Arthur Weatherdon,,1889,12,29,1969,6,12,,,,,,,,,,,,,,,,,,,,,,
+B225A,Ernest E Thomas,Ernest E,,Thomas,M,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,,,,1866,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
+UB4K4,Ernest John Lavers,Ernest John,,Lavers,M,Y,HJZ32,Maria Wills,FQDCN,George Henry Lavers,ZVMY4,Alice Mary Toms,,1888,7,7,,,,,,,,,,,,,,,,,,,,,,,,,
+OARZJ,Ernest Ronald Thomas,Ernest Ronald,,Thomas,M,Y,SQ5MJ,Georgina Augusta Dade,U3R2C,Frank Thomas,,,YVOZN,1913,,,1944,5,12,,,,,,,,,,,,Cassino Italy,Cassino War Cemetery Italy,,,,,,,,,
+FZZ6U,Ethel Annie Dade,Ethel Annie,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,QU6VC,Bertie Bridle,,1883,,,,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
+Z7G76,Florence Emily Large,Florence Emily Large,,,F,Y,JYHSV,Mrs Large,CYTC5,Mr Large,E78G4,Alfred Henry Perry,H5SQR,1891,4,26,1985,8,30,,,,,,,,,,,,Poole Dorset,,,,,,,,,&quot;When Pat and Alf were small, Flossie had a woolship in Canford Cliffs and Sandbanks
 &quot;,
-ERDM3,Florence May Lavers,Florence May,,Lavers,F,,B0MDI,Maria Wills,J55K2,George Henry Lavers,BM9G6,James Leonard,,1895,5,8,,,,,,,,,,,,,,,,,,,,,,,,Known both as Aunt May and Aunt Flo to Leonard C.,
-KO6OU,Frank Lavers,Frank,,Lavers,M,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sea Captain,,,,Lost at sea.  Note from Aunt Bess that her father's mother lived to the age of 96,
-J9ADN,Frank Thomas,Frank,,Thomas,M,Y,WLDHK,Ellen Morris,KGARJ,Edward Thomas,SG7KB,Georgina Augusta Dade,,1875,12,12,1938,5,16,,,,,,,,,,,Burnham on Sea,Burnham on Sea,Baptist Church Burnham on Sea,1938,5,19,Painter and Decorator,Burnham on Sea,,,,
-FRDD5,Fred Thomas,Fred,,Thomas,M,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,V3L9V,Laura E Dade,,1871,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TM59C,Fred Thomas,Fred,,Thomas,M,,,,,,NXWNB,Laura Ellen Dade,,,,,,,,,,,,,,,,,,,,,,,,&quot;Tobacconist, Baker&quot;,,,,,
-JF39S,Frederick Gale,Frederick,,Gale,M,,,,,,G1I6T,Ellen Francis Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AZY6A,Frederick Pyne,Frederick,,Pyne,M,,,,,,YFCRI,Elizabeth Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WIB86,George A Copplestone,George A,,Copplestone,M,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,1866,,,,,,,,,,,,,,,,St Marys Isles of Scilly,,,,,,,,,,,
-KNDEH,George Henry Lavers,George Henry,,Lavers,M,Y,FHO6E,Matilda,J55K2,George Henry Lavers,,,,1872,12,14,1899,12,17,,,,,,,,,,,,Monte Video,,,,,,,,,Drowned at Monte Video aged 27. Tombstone in Dartmouth cemetery,
-J55K2,George Henry Lavers,George Henry,,Lavers,M,Y,,,KO6OU,Frank Lavers,B0MDI,Maria Wills,FHO6E,1840,1,10,1911,10,10,,,,,,,,,,,Falmouth,Dartmouth,,,,,Merchant Seaman,,,,&quot;GH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. &quot;,
-SG7KB,Georgina Augusta Dade,Georgina Augusta,,Dade,F,Y,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,J9ADN,Frank Thomas,,1877,12,10,1963,12,,,,,,,,,,,,Huntspill Somerset,Burnham on Sea,,,,,,,,,,
-ASH7R,Gerald Leonard,Gerald,,Leonard,M,,ERDM3,Florence May Lavers,BM9G6,James Leonard,UUSB5,Betty,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;15 Harroford Road River Dawn, Helen Vale Gold Coast Queensland 4210 Australia  as of 1991&quot;,
-J9GGC,Gertie Copplestone,Gertie,,Copplestone,F,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,1884,,,,,,,,,,,,,,,,,,,,,,,,,,,
-B5G93,Gilbert Wall,Gilbert,,Wall,M,,,,,,AMLLW,Gwendoline Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-X9RP6,Gordon Leonard,Gordon,,Leonard,M,,ERDM3,Florence May Lavers,BM9G6,James Leonard,IEY27,Joan,,1919,,,,,,,,,,,,,,,,,,,,,,,,,,,
-START,Grace May Perry Copplestone,Grace May Perry,,Copplestone,F,,WA275,Nancy Copplestone,IPJ9D,Alfred Henry Perry,,,,1991,4,25,,,,,,,,,,,,,,,,,,,,,,,,,
-GKJI5,Graham Wills,Graham,,Wills,M,,WI6WT,Clare,DK9V3,John Wills,CNA5X,Judy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AMLLW,Gwendoline Dade,Gwendoline,,Dade,F,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,B5G93,Gilbert Wall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PZ7LU,Harriet Thomas,Harriet,,Thomas,F,,L876G,Charlotte Nethway,S5BAX,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NHX1F,Harry Thomas,Harry,,Thomas,M,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,GKVNU,,,,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
-Z4I01,Harvey,Harvey,,,M,,,,,,P2RSQ,Sheila Clapp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CAQ0K,Helen Wills,Helen,,Wills,F,,WI6WT,Clare,DK9V3,John Wills,NU0F9,Richard Rossington,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JK0KG,Henry Thomas,Henry,,Thomas,,,MTHKS,Betty,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LL7XV,Henry Thomas,Henry,,Thomas,M,,L876G,Charlotte Nethway,S5BAX,William Thomas,LE17G,Martha Lovell,,,,,,,,,,,,,,,,,,,,,,,,Agricultural labourer,,,,,
-R1L1O,Herbert Morris Thomas,Herbert Morris,,Thomas,M,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,,,,1873,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
-M1C93,Irene May Thomas,Irene May,,Thomas,F,Y,SG7KB,Georgina Augusta Dade,J9ADN,Frank Thomas,Y412H,Stanley William Wills,,1903,4,19,1982,5,12,,,,,,,,,,,Burnham on Sea,Cheltenham,,,,,,,,,,
-K7YYE,Jackie Leonard,Jackie,,Leonard,,,TN69K,Joyce,YNKG0,Norman Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-YF7GC,James Thomas,James,,Thomas,M,Y,,,,,MTHKS,Betty,,,,,,,,,,,,,,,,,,,,St Mary the Virgin,1808,3,20,,,,,,
-Z155N,James Rossington,James,,Rossington,,,CAQ0K,Helen Wills,NU0F9,Richard Rossington,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BM9G6,James Leonard,James,,Leonard,M,,,,,,ERDM3,Florence May Lavers,,,,,,,,,,,,,,,,,,,,,,,,Naval Administrator,,,,&quot;Leonard Copplestone's &quot;&quot;Uncle Jim&quot;&quot;&quot;,
-ZWRC4,James Thomas,James,,Thomas,M,,MTHKS,Betty,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-K78SC,Jean Dade,Jean,,Dade,F,,BYCT0,Margaret,DTZ5U,Stuart Dade,VIJWF,Jeff Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Jean is a physiotherapist and with her two daughters, raises and trains horses. She plays in Telford Orchestra and is a Morris dancer.&quot;,
-VIJWF,Jeff Webb,Jeff,,Webb,M,,,,,,K78SC,Jean Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RGP8F,Jill Copplestone,Jill,,Copplestone,F,,D51QE,Kathleen Mary Thomas,X6RXM,Leonard Copplestone,LUBSV,Roger Briggs,,1947,8,8,,,,,,,,,,,,,,,,,,,,,,,,,
-IEY27,Joan,Joan,,,F,,,,,,X9RP6,Gordon Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QNMGV,Joan Lucy Marwood,Joan Lucy,,Marwood,F,Y,,,,,BQ7Z1,Douglas Timmins Perry,,1916,9,16,1980,5,17,,,,,,,,,,,Liverpool,Newton Abbot,,,,,,,,,,
-P5HNA,Joanna Keen,Joanna,,Keen,F,,N786F,Linda Copplestone,B4SD9,Ronald Keen,,,,,,,,,,,,,,,,,,,,Birmingham,,,,,,,,,,,
-T62HT,John Perry,John,,Perry,,,DC0J7,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,WX0KA,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-E4PW4,John Blakemore,John,,Blakemore,M,,,,,,P0CCA,Suzanne Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DK9V3,John Wills,John,,Wills,M,,M1C93,Irene May Thomas,Y412H,Stanley William Wills,WI6WT,Clare,,1925,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WJZZL,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,&quot;John Edward  &quot;&quot;Pop&quot;&quot;&quot;,,Jervis,M,Y,,,,,,,E0DXE,,,,1979,7,2,,,,,,,,,,,,,,,,,,,,,,
-FFGNZ,John Trethaway Copplestone,John Trethaway,,Copplestone,M,Y,CBKWI,Charlotte Trethaway,AJ6OG,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,1795,7,21,,,,,,
-XB0OZ,Joseph Edward Copplestone,Joseph Edward,,Copplestone,M,Y,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,CTU49,Annie Maria Lavers,,1880,,,1959,5,13,,,,,,,,,,,&quot;Dartmouth, Devon&quot;,Plymouth,,,,,Dockyard fitter and foreman,,,,&quot;Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport. Address for Annie Maria was Totnes Road Dartmouth
+O0YJ3,Florence May Lavers,Florence May,,Lavers,F,,HJZ32,Maria Wills,FQDCN,George Henry Lavers,S3XAV,James Leonard,,1895,5,8,,,,,,,,,,,,,,,,,,,,,,,,Known both as Aunt May and Aunt Flo to Leonard C.,
+UOYPP,Frank Lavers,Frank,,Lavers,M,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sea Captain,,,,Lost at sea.  Note from Aunt Bess that her father's mother lived to the age of 96,
+U3R2C,Frank Thomas,Frank,,Thomas,M,Y,J7V4C,Ellen Morris,PYIIY,Edward Thomas,SQ5MJ,Georgina Augusta Dade,,1875,12,12,1938,5,16,,,,,,,,,,,Burnham on Sea,Burnham on Sea,Baptist Church Burnham on Sea,1938,5,19,Painter and Decorator,Burnham on Sea,,,,
+R6SUS,Fred Thomas,Fred,,Thomas,M,,,,,,VW1R8,Laura Ellen Dade,,,,,,,,,,,,,,,,,,,,,,,,&quot;Tobacconist, Baker&quot;,,,,,
+BLWAE,Fred Thomas,Fred,,Thomas,M,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,S7RF5,Laura E Dade,,1871,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CQJHS,Frederick Pyne,Frederick,,Pyne,M,,,,,,EYAKA,Elizabeth Lavers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BVPW7,Frederick Gale,Frederick,,Gale,M,,,,,,W3BQJ,Ellen Francis Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MQ4V8,G,G,,,M,,ZHON6,C,LDESY,J,NNBIW,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+START,G,G,,,,,LF3CA,N,PDEDI,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVSFB,George A Copplestone,George A,,Copplestone,M,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,1866,,,,,,,,,,,,,,,,St Marys Isles of Scilly,,,,,,,,,,,
+FQDCN,George Henry Lavers,George Henry,,Lavers,M,Y,,,UOYPP,Frank Lavers,HJZ32,Maria Wills,E2KPA,1840,1,10,1911,10,10,,,,,,,,,,,Falmouth,Dartmouth,,,,,Merchant Seaman,,,,&quot;GH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. &quot;,
+UCTUP,George Henry Lavers,George Henry,,Lavers,M,Y,E2KPA,Matilda,FQDCN,George Henry Lavers,,,,1872,12,14,1899,12,17,,,,,,,,,,,,Monte Video,,,,,,,,,Drowned at Monte Video aged 27. Tombstone in Dartmouth cemetery,
+SQ5MJ,Georgina Augusta Dade,Georgina Augusta,,Dade,F,Y,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,U3R2C,Frank Thomas,,1877,12,10,1963,12,,,,,,,,,,,,Huntspill Somerset,Burnham on Sea,,,,,,,,,,
+FRR3J,Gerald Leonard,Gerald,,Leonard,M,,O0YJ3,Florence May Lavers,S3XAV,James Leonard,JQFHY,Betty,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;15 Harroford Road River Dawn, Helen Vale Gold Coast Queensland 4210 Australia  as of 1991&quot;,
+A7U7J,Gertie Copplestone,Gertie,,Copplestone,F,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,1884,,,,,,,,,,,,,,,,,,,,,,,,,,,
+O6NKX,Gilbert Wall,Gilbert,,Wall,M,,,,,,RXZ5X,Gwendoline Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CWAMG,Gordon Leonard,Gordon,,Leonard,M,,O0YJ3,Florence May Lavers,S3XAV,James Leonard,BW3V1,Joan,,1919,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RXZ5X,Gwendoline Dade,Gwendoline,,Dade,F,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,O6NKX,Gilbert Wall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+YB5BR,H,H,,,F,,ZHON6,C,LDESY,J,LZJ90,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OTA2T,Harriet Thomas,Harriet,,Thomas,F,,J1BCN,Charlotte Nethway,M6KD1,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E9VPB,Harry Thomas,Harry,,Thomas,M,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,DGTMF,,,,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
+KT6WO,Harvey,Harvey,,,M,,,,,,HO11D,Sheila Clapp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TFRYB,Henry Thomas,Henry,,Thomas,M,,J1BCN,Charlotte Nethway,M6KD1,William Thomas,F9I41,Martha Lovell,,,,,,,,,,,,,,,,,,,,,,,,Agricultural labourer,,,,,
+AMDBP,Henry Thomas,Henry,,Thomas,,,LH853,Betty,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BHX5D,Herbert Morris Thomas,Herbert Morris,,Thomas,M,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,,,,1873,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
+EERKL,Irene May Thomas,Irene May,,Thomas,F,Y,SQ5MJ,Georgina Augusta Dade,U3R2C,Frank Thomas,E7XRT,Stanley William Wills,,1903,4,19,1982,5,12,,,,,,,,,,,Burnham on Sea,Cheltenham,,,,,,,,,,
+VH3HV,J,J,,,,,YB5BR,H,LZJ90,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XMP8V,J,J,,,M,,NNBIW,J,MQ4V8,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11 in Dec 2012,
+LDESY,J,J,,,M,,EERKL,Irene May Thomas,E7XRT,Stanley William Wills,ZHON6,C,,1925,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZOEDS,J,J,,,F,,OPFIL,Kathleen Mary Thomas,FM1RX,Leonard Copplestone,FLSSR,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PQEO4,J,J,,,,,JY57H,L,WIDM1,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NNBIW,J,J,,,F,,,,,,MQ4V8,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KFS1S,Jackie Leonard,Jackie,,Leonard,,,M4F8X,Joyce,F4MM6,Norman Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S3XAV,James Leonard,James,,Leonard,M,,,,,,O0YJ3,Florence May Lavers,,,,,,,,,,,,,,,,,,,,,,,,Naval Administrator,,,,&quot;Leonard Copplestone's &quot;&quot;Uncle Jim&quot;&quot;&quot;,
+ERW1M,James Thomas,James,,Thomas,M,,LH853,Betty,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C7HEN,James Thomas,James,,Thomas,M,Y,,,,,LH853,Betty,,,,,,,,,,,,,,,,,,,,St Mary the Virgin,1808,3,20,,,,,,
+ML0JU,Jean Dade,Jean,,Dade,F,,LD4CE,Margaret,KKP81,Stuart Dade,KYN7Q,Jeff Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Jean is a physiotherapist and with her two daughters, raises and trains horses. She plays in Telford Orchestra and is a Morris dancer.&quot;,
+KYN7Q,Jeff Webb,Jeff,,Webb,M,,,,,,ML0JU,Jean Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BW3V1,Joan,Joan,,,F,,,,,,CWAMG,Gordon Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DHV95,Joan Lucy Marwood,Joan Lucy,,Marwood,F,Y,,,,,FWEYT,Douglas Timmins Perry,,1916,9,16,1980,5,17,,,,,,,,,,,Liverpool,Newton Abbot,,,,,,,,,,
+E2MPL,John Perry,John,,Perry,,,Q7KVK,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,XYO13,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RRKTX,John Blakemore,John,,Blakemore,M,,,,,,OS5KP,Suzanne Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+H5SQR,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,&quot;John Edward  &quot;&quot;Pop&quot;&quot;&quot;,,Jervis,M,Y,,,,,,,Z7G76,,,,1979,7,2,,,,,,,,,,,,,,,,,,,,,,
+J6451,John Trethaway Copplestone,John Trethaway,,Copplestone,M,Y,YNSK9,Charlotte Trethaway,OI9W7,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,1795,7,21,,,,,,
+M0AJH,Joseph Edward Copplestone,Joseph Edward,,Copplestone,M,Y,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,R3X3B,Annie Maria Lavers,,1880,,,1959,5,13,,,,,,,,,,,&quot;Dartmouth, Devon&quot;,Plymouth,,,,,Dockyard fitter and foreman,,,,&quot;Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport. Address for Annie Maria was Totnes Road Dartmouth
 Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport&quot;,
-N55ZJ,Joseph Parsons Copplestone,Joseph Parsons,,Copplestone,M,,N8GU7,Mary Parsons,QETG6,Richard Copplestone,FLT29,Mary Louise Williams,,1799,,,,,,,,,,,,,,,,Fowey Cornwall,,,,,,Coastguard,,,,,
-BAFJH,Josh,Josh,,,,,TGOMQ,Sophie,KZ4BO,Simon Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TN69K,Joyce,Joyce,,,F,,,,,,YNKG0,Norman Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Y80L7,Joyce Neal Popham,Joyce Neal,,Popham,F,Y,,,,,G2YL1,Howell,O9F2C,1914,,,2007,,,,,,,,,,,,,,,,,,,,,,,,
-CNA5X,Judy,Judy,,,F,,,,,,GKJI5,Graham Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TQE1M,Justin Wills,Justin,,Wills,M,,CNA5X,Judy,GKJI5,Graham Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11 in Dec 2012,
-TH26H,Kathleen Dade,Kathleen,,Dade,F,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-D51QE,Kathleen Mary Thomas,Kathleen Mary,,Thomas,F,Y,SG7KB,Georgina Augusta Dade,J9ADN,Frank Thomas,X6RXM,Leonard Copplestone,,1911,3,2,1990,5,15,,,,,,,,,,,Burnham on Sea,Hillcrest Nursing Home Minsterley Shropshire,,,,,,,,,Home in 1990 was 107 The Mount Shrewsbury Shropshire SY3 8 PH,
-UZF5E,Kenneth Robert Perry,Kenneth Robert,,Perry,M,,E0DXE,Florence Emily Large,WEM5A,Alfred Henry Perry,PDPFW,Beryl,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;KP's birthday 19.2.? year not known.
+YZE6X,Joseph Parsons Copplestone,Joseph Parsons,,Copplestone,M,,P5S50,Mary Parsons,TVLW4,Richard Copplestone,WM5JK,Mary Louise Williams,,1799,,,,,,,,,,,,,,,,Fowey Cornwall,,,,,,Coastguard,,,,,
+M4F8X,Joyce,Joyce,,,F,,,,,,F4MM6,Norman Leonard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+YVOZN,Joyce Neal Popham,Joyce Neal,,Popham,F,Y,,,,,L5R7G,Howell,OARZJ,1914,,,2007,,,,,,,,,,,,,,,,,,,,,,,,
+K3T2D,Kathleen Dade,Kathleen,,Dade,F,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OPFIL,Kathleen Mary Thomas,Kathleen Mary,,Thomas,F,Y,SQ5MJ,Georgina Augusta Dade,U3R2C,Frank Thomas,FM1RX,Leonard Copplestone,,1911,3,2,1990,5,15,,,,,,,,,,,Burnham on Sea,Hillcrest Nursing Home Minsterley Shropshire,,,,,,,,,Home in 1990 was 107 The Mount Shrewsbury Shropshire SY3 8 PH,
+ER7MA,Kenneth Robert Perry,Kenneth Robert,,Perry,M,,Z7G76,Florence Emily Large,E78G4,Alfred Henry Perry,OQYDS,Beryl,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;KP's birthday 19.2.? year not known.
 Both died in 1990's&quot;,
-V3L9V,Laura E Dade,Laura E,,Dade,F,,,,,,FRDD5,Fred Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NXWNB,Laura Ellen Dade,Laura Ellen,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,TM59C,Fred Thomas,,1871,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Auntie Laurie&quot;&quot;&quot;,
-X6RXM,Leonard Copplestone,Leonard,,Copplestone,M,Y,CTU49,Annie Maria Lavers,XB0OZ,Joseph Edward Copplestone,D51QE,Kathleen Mary Thomas,,1911,3,24,1984,8,6,,,,,,,,,,,,St Bartholomews Hospital London,,,,,County Treasurer,,,,Home address at time of death: 107 The Mount Shrewsbury Shropshire,
-PPQKE,Leslie Perry,Leslie,,Perry,M,Y,E0DXE,Florence Emily Large,WEM5A,Alfred Henry Perry,UOP90,Nanette,,,,,1970,10,16,,,,,,,,,,,,,,,,,,,,,,
-AZIY3,Libby Webb,Libby,,Webb,F,,K78SC,Jean Dade,VIJWF,Jeff Webb,PD0TV,Simon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HUKJ0,Lilian Gertrude Dade,Lilian Gertrude,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,OT775,Samuel Headley White,,1885,,,,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
-N786F,Linda Copplestone,Linda,,Copplestone,F,,D51QE,Kathleen Mary Thomas,X6RXM,Leonard Copplestone,B4SD9,Ronald Keen,,1949,5,22,,,,,,,,,,,,,,,,,,,,,,,,,
-CHYG2,Lorraine Perry,Lorraine,,Perry,F,,UOP90,Nanette,PPQKE,Leslie Perry,U3PNO,Peter Riley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-UELNV,Louisa Copplestone,Louisa,,Copplestone,F,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Austr&quot;&quot;&quot;,,,,,,,,,,,
-BYCT0,Margaret,Margaret,,,F,,,,,,DTZ5U,Stuart Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VS6HY,Margery Lavers,Margery,,Lavers,F,,MDDZG,Beatrice Maud Coaker,Y2IBJ,Bertie Lavers,XKU6X,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Margery Redfern Allen is her name from Edgar Lavers in 1991, perhaps she remarried.&quot;,
-B0MDI,Maria Wills,Maria,,Wills,F,Y,,,,,J55K2,George Henry Lavers,,1850,4,27,1932,11,16,,,,,,,,,,,Blackawton near Dartmouth,Dartmouth,,,,,,,,,,
-LE17G,Martha Lovell,Martha,,Lovell,F,,,,,,LL7XV,Henry Thomas,,1835,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MJWJC,Martin Howell,Martin,,Howell,,,Y80L7,Joyce Neal Popham,G2YL1,Howell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-N8GU7,Mary Parsons,Mary,,Parsons,F,,,,,,QETG6,Richard Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-XIM4O,Mary Thomas,Mary,,Thomas,F,,MTHKS,Betty,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NL2PA,Mary Dawe,Mary,,Dawe,F,Y,,,,,,,QETG6,,,,1792,,,,,,,,,,,,,,Fowey Cornwall,,,,,,,,,,
-MCHDZ,Mary Ann Amelia Avery Copplestone,Mary Ann Amelia Avery,,Copplestone,F,,QJUXI,Amelia Townshend,X9HM8,Richard Copplestone,,,,1860,1,14,,,,,,,,,,,,,,Torquay Devon,,,,,,,,,,,
-MKGOM,Mary Jane Rowe,Mary Jane,,Rowe,F,,,,,,X9HM8,Richard Copplestone,,,,,,,,,,,,,,,,,,Noss Mayo Plymouth,,,,,,,,,,,
-FLT29,Mary Louise Williams,Mary Louise,,Williams,F,Y,,,,,N55ZJ,Joseph Parsons Copplestone,,,,,1886,,,,,,,,,,,,,,,,,,,,,,,,
-FHO6E,Matilda,Matilda,,,F,Y,,,,,,,J55K2,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NQFJV,Matthew,Matthew,,,,,M4I7U,Suzanne Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QXUUM,Moore,Moore,,,M,,,,,,F7CUE,Thelma Beatrice Jervis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FKUTG,Mr Large,Mr,,Large,M,,,,,,I1CPP,Mrs Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Addresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire
+JY57H,L,L,,,,,OPFIL,Kathleen Mary Thomas,FM1RX,Leonard Copplestone,WIDM1,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S7RF5,Laura E Dade,Laura E,,Dade,F,,,,,,BLWAE,Fred Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VW1R8,Laura Ellen Dade,Laura Ellen,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,R6SUS,Fred Thomas,,1871,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Auntie Laurie&quot;&quot;&quot;,
+FM1RX,Leonard Copplestone,Leonard,,Copplestone,M,Y,R3X3B,Annie Maria Lavers,M0AJH,Joseph Edward Copplestone,OPFIL,Kathleen Mary Thomas,,1911,3,24,1984,8,6,,,,,,,,,,,,St Bartholomews Hospital London,,,,,County Treasurer,,,,Home address at time of death: 107 The Mount Shrewsbury Shropshire,
+KN073,Leslie Perry,Leslie,,Perry,M,Y,Z7G76,Florence Emily Large,E78G4,Alfred Henry Perry,F54F7,Nanette,,,,,1970,10,16,,,,,,,,,,,,,,,,,,,,,,
+DMPSE,Libby Webb,Libby,,Webb,F,,ML0JU,Jean Dade,KYN7Q,Jeff Webb,K9PFJ,Simon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PAHA4,Lilian Gertrude Dade,Lilian Gertrude,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,A001H,Samuel Headley White,,1885,,,,,,,,,,,,,,,,Wimborne  Dorset,,,,,,,,,,,
+I7E9L,Lorraine Perry,Lorraine,,Perry,F,,F54F7,Nanette,KN073,Leslie Perry,IT5EI,Peter Riley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M7PTW,Louisa Copplestone,Louisa,,Copplestone,F,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Austr&quot;&quot;&quot;,,,,,,,,,,,
+TSH9S,M,M,,,,,EQIBS,S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LD4CE,Margaret,Margaret,,,F,,,,,,KKP81,Stuart Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HPAWD,Margery Lavers,Margery,,Lavers,F,,BN56X,Beatrice Maud Coaker,OTBV3,Bertie Lavers,TMYZJ,Alan Redfern,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Margery Redfern Allen is her name from Edgar Lavers in 1991, perhaps she remarried.&quot;,
+HJZ32,Maria Wills,Maria,,Wills,F,Y,,,,,FQDCN,George Henry Lavers,,1850,4,27,1932,11,16,,,,,,,,,,,Blackawton near Dartmouth,Dartmouth,,,,,,,,,,
+F9I41,Martha Lovell,Martha,,Lovell,F,,,,,,TFRYB,Henry Thomas,,1835,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UDDQV,Martin Howell,Martin,,Howell,,,YVOZN,Joyce Neal Popham,L5R7G,Howell,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ASA4P,Mary Dawe,Mary,,Dawe,F,Y,,,,,,,TVLW4,,,,1792,,,,,,,,,,,,,,Fowey Cornwall,,,,,,,,,,
+MEMYJ,Mary Thomas,Mary,,Thomas,F,,LH853,Betty,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5S50,Mary Parsons,Mary,,Parsons,F,,,,,,TVLW4,Richard Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K8W3O,Mary Ann Amelia Avery Copplestone,Mary Ann Amelia Avery,,Copplestone,F,,LIN8N,Amelia Townshend,YMYCP,Richard Copplestone,,,,1860,1,14,,,,,,,,,,,,,,Torquay Devon,,,,,,,,,,,
+ER871,Mary Jane Rowe,Mary Jane,,Rowe,F,,,,,,YMYCP,Richard Copplestone,,,,,,,,,,,,,,,,,,Noss Mayo Plymouth,,,,,,,,,,,
+WM5JK,Mary Louise Williams,Mary Louise,,Williams,F,Y,,,,,YZE6X,Joseph Parsons Copplestone,,,,,1886,,,,,,,,,,,,,,,,,,,,,,,,
+E2KPA,Matilda,Matilda,,,F,Y,,,,,,,FQDCN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OU3YJ,Moore,Moore,,,M,,,,,,UHYNG,Thelma Beatrice Jervis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CYTC5,Mr Large,Mr,,Large,M,,,,,,JYHSV,Mrs Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Addresses:  The Lodge, Edstone Hall, Wooten W....., Warwickshire
 Dog Inn, Sutton Coldfield
 Sandicot, Panorama Road, Sandbanks&quot;,
-I1CPP,Mrs Large,Mrs,,Large,F,,,,,,FKUTG,Mr Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,Married twice?,
-EYN8S,Myrtle,Myrtle,,,F,,,,,,LAID2,Edward John Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WA275,Nancy Copplestone,Nancy,,Copplestone,F,,D51QE,Kathleen Mary Thomas,X6RXM,Leonard Copplestone,IPJ9D,Alfred Henry Perry,,1951,7,10,,,,,,,,,,,,,,Shrewsbury Shropshire,,,,,,&quot;Architect, Governor, Restorative Justice practitioner&quot;,,,,,
-UOP90,Nanette,Nanette,,,F,,,,,,PPQKE,Leslie Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-YNKG0,Norman Leonard,Norman,,Leonard,M,,ERDM3,Florence May Lavers,BM9G6,James Leonard,TN69K,Joyce,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HJ1AM,Olive Edith Dade,Olive Edith,,Dade,F,,I64SK,Edith Jane Plomer,BCM5S,Alfred Dade,VRRB1,Arthur J Wensley,,1890,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;John S Wills' favourite Aunt and Uncle, they lived by railway in Highbridge&quot;,
-VQWOS,Patricia Thomas,Patricia,,Thomas,F,,Y80L7,Joyce Neal Popham,O9F2C,Ernest Ronald Thomas,,,,1931,,,,,,,,,,,,,,,,,,,,,,,,,,Living in Burnham on sea in 2012,
-ET564,Patricia Amie Perry,Patricia Amie,,Perry,F,,QNMGV,Joan Lucy Marwood,BQ7Z1,Douglas Timmins Perry,XB6WL,Andrew Burkitt,,1949,,,,,,,,,,,,,,,,,,,,,,,,,,,
-P85M2,Pauline,Pauline,,,F,,TH26H,Kathleen Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-U3PNO,Peter Riley,Peter,,Riley,M,,,,,,CHYG2,Lorraine Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEA09,Rachel,Rachel,,,F,,,,,,MH95S,Thomas Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WX0KA,Raymond Perry,Raymond,,Perry,M,,E0DXE,Florence Emily Large,WEM5A,Alfred Henry Perry,DC0J7,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,Birthday 8.7.? year not known,
-DKHLY,Raymond John Jervis,Raymond John,,Jervis,M,,E0DXE,Florence Emily Large,WJZZL,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-X9HM8,Richard Copplestone,Richard,,Copplestone,M,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,MKGOM,Mary Jane Rowe,QJUXI,1832,,,,,,,,,,,,,,,,Westport County Mayo Ireland,,,,,,Coastguard,,,,,
-TPSHO,Richard Copplestone,Richard,,Copplestone,M,Y,NL2PA,Mary Dawe,QETG6,Richard Copplestone,,,,1792,,,,,,,,,,,,,,,,,,,1821,4,22,,,,,,
-QETG6,Richard Copplestone,Richard,,Copplestone,M,,,,,,N8GU7,Mary Parsons,NL2PA,1765,1,1,,,,,,,,,,,,,,,,,,,,Miller,,,,,
-NU0F9,Richard Rossington,Richard,,Rossington,M,,,,,,CAQ0K,Helen Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KMRMX,Robert Frank Thomas,Robert Frank,,Thomas,M,,WQQTF,Una Doreen Clapp,ETUCS,Winston Howard Thomas,,,,1939,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
-LUBSV,Roger Briggs,Roger,,Briggs,M,,,,,,RGP8F,Jill Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-B4SD9,Ronald Keen,Ronald,,Keen,M,,,,,,N786F,Linda Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-OT775,Samuel Headley White,Samuel Headley,,White,M,,,,,,HUKJ0,Lilian Gertrude Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TYZ1F,Sarah Thomas,Sarah,,Thomas,F,,MTHKS,Betty,YF7GC,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-P2RSQ,Sheila Clapp,Sheila,,Clapp,F,,,,,,Z4I01,Harvey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-YJQIA,Sidney Herbert Thomas,Sidney Herbert,,Thomas,M,,WLDHK,Ellen Morris,KGARJ,Edward Thomas,,,,1878,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KZ4BO,Simon Briggs,Simon,,Briggs,M,,RGP8F,Jill Copplestone,LUBSV,Roger Briggs,TGOMQ,Sophie,,,,,,,,,,,,,,,,,,Cambridge,,,,,,,,,,,
-PD0TV,Simon,Simon,,,M,,,,,,AZIY3,Libby Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-I6AE4,Solomon Henry Perry Copplestone,Solomon Henry Perry,,Copplestone,M,,WA275,Nancy Copplestone,IPJ9D,Alfred Henry Perry,,,,1993,2,9,,,,,,,,,,,,,,,,,,,,,,,,,
-BY132,Sonny Dade,Sonny,,Dade,M,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TGOMQ,Sophie,Sophie,,,F,,,,,,KZ4BO,Simon Briggs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DTZ5U,Stuart Dade,Stuart,,Dade,M,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,BYCT0,Margaret,,,,,,,,,,,,,,,,,,,,,,,,Baker,,,,Stuart lived in Church Stretton. He often visited KMC at 107 The Mount Shrewsbury as he worked in Morris's bakery there,
-C93NE,Sue Harvey,Sue,,Harvey,F,,P2RSQ,Sheila Clapp,Z4I01,Harvey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AHOQ9,Susan Hall,Susan,,Hall,F,,,,,,D7B7M,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M4I7U,Suzanne Wills,Suzanne,,Wills,F,,V5LSH,Anne,DF2K8,David Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-P0CCA,Suzanne Perry,Suzanne,,Perry,F,,PDPFW,Beryl,UZF5E,Kenneth Robert Perry,E4PW4,John Blakemore,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Address  (as of July 16?)
+JYHSV,Mrs Large,Mrs,,Large,F,,,,,,CYTC5,Mr Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,Married twice?,
+XF21B,Myrtle,Myrtle,,,F,,,,,,L4EJP,Edward John Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LF3CA,N,N,,,F,,OPFIL,Kathleen Mary Thomas,FM1RX,Leonard Copplestone,PDEDI,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+F54F7,Nanette,Nanette,,,F,,,,,,KN073,Leslie Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+F4MM6,Norman Leonard,Norman,,Leonard,M,,O0YJ3,Florence May Lavers,S3XAV,James Leonard,M4F8X,Joyce,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TFUQB,Olive Edith Dade,Olive Edith,,Dade,F,,RYOXM,Edith Jane Plomer,MA2NR,Alfred Dade,DDWAY,Arthur J Wensley,,1890,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;John S Wills' favourite Aunt and Uncle, they lived by railway in Highbridge&quot;,
+BQZPI,P,P,,,F,,DHV95,Joan Lucy Marwood,FWEYT,Douglas Timmins Perry,NDF4Y,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Q1TBI,Patricia Thomas,Patricia,,Thomas,F,,YVOZN,Joyce Neal Popham,OARZJ,Ernest Ronald Thomas,,,,1931,,,,,,,,,,,,,,,,,,,,,,,,,,Living in Burnham on sea in 2012,
+FN4BP,Pauline,Pauline,,,F,,K3T2D,Kathleen Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IT5EI,Peter Riley,Peter,,Riley,M,,,,,,I7E9L,Lorraine Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FLSSR,R,R,,,,,,,,,ZOEDS,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LZJ90,R,R,,,M,,,,,,YB5BR,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RG8Y9,R,R,,,M,,B5CUX,Una Doreen Clapp,I8OQ6,Winston Howard Thomas,,,,1939,,,,,,,,,,,,,,,,Burnham on Sea,,,,,,,,,,,
+WIDM1,R,R,,,,,,,,,JY57H,L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XYO13,Raymond Perry,Raymond,,Perry,M,,Z7G76,Florence Emily Large,E78G4,Alfred Henry Perry,Q7KVK,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,Birthday 8.7.? year not known,
+YB7CQ,Raymond John Jervis,Raymond John,,Jervis,M,,Z7G76,Florence Emily Large,H5SQR,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+YMYCP,Richard Copplestone,Richard,,Copplestone,M,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,ER871,Mary Jane Rowe,LIN8N,1832,,,,,,,,,,,,,,,,Westport County Mayo Ireland,,,,,,Coastguard,,,,,
+R1GX6,Richard Copplestone,Richard,,Copplestone,M,Y,ASA4P,Mary Dawe,TVLW4,Richard Copplestone,,,,1792,,,,,,,,,,,,,,,,,,,1821,4,22,,,,,,
+TVLW4,Richard Copplestone,Richard,,Copplestone,M,,,,,,P5S50,Mary Parsons,ASA4P,1765,1,1,,,,,,,,,,,,,,,,,,,,Miller,,,,,
+EQIBS,S,S,,,F,,T32I1,A,TDZJ2,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SYFVP,S,S,,,,,ZOEDS,J,FLSSR,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SVRSY,S,S,,,,,LF3CA,N,PDEDI,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A001H,Samuel Headley White,Samuel Headley,,White,M,,,,,,PAHA4,Lilian Gertrude Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XRSEZ,Sarah Thomas,Sarah,,Thomas,F,,LH853,Betty,C7HEN,James Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HO11D,Sheila Clapp,Sheila,,Clapp,F,,,,,,KT6WO,Harvey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+QJZWC,Sidney Herbert Thomas,Sidney Herbert,,Thomas,M,,J7V4C,Ellen Morris,PYIIY,Edward Thomas,,,,1878,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K9PFJ,Simon,Simon,,,M,,,,,,DMPSE,Libby Webb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P04CS,Sonny Dade,Sonny,,Dade,M,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KKP81,Stuart Dade,Stuart,,Dade,M,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,LD4CE,Margaret,,,,,,,,,,,,,,,,,,,,,,,,Baker,,,,Stuart lived in Church Stretton. He often visited KMC at 107 The Mount Shrewsbury as he worked in Morris's bakery there,
+VCYL6,Sue Harvey,Sue,,Harvey,F,,HO11D,Sheila Clapp,KT6WO,Harvey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SB0MD,Susan Hall,Susan,,Hall,F,,,,,,P5KV0,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OS5KP,Suzanne Perry,Suzanne,,Perry,F,,OQYDS,Beryl,ER7MA,Kenneth Robert Perry,RRKTX,John Blakemore,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Address  (as of July 16?)
 27 Lakeside Road, Branksome Park, Poole, Dorset&quot;,
-F7CUE,Thelma Beatrice Jervis,Thelma Beatrice,,Jervis,F,,E0DXE,Florence Emily Large,WJZZL,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,QXUUM,Moore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJ6OG,Thomas Copplestone,Thomas,,Copplestone,M,,,,,,CBKWI,Charlotte Trethaway,,1763,3,16,,,,,,,,,,,,,,Fowey,,,,,,Cordwainer,,,,,
-D7B7M,Thomas Copplestone,Thomas,,Copplestone,M,,CBKWI,Charlotte Trethaway,AJ6OG,Thomas Copplestone,AHOQ9,Susan Hall,,1794,10,12,,,,,,,,,,,,,,,,,,,,Miner,,,,,
-AMUH0,Thomas Kendall,Thomas,,Kendall,M,,,,,,V22EP,Anne Copplestone,,,,,,,,,,,,,,,,,,Lanteglos,,,,,,Customs Officer,,,,,
-MH95S,Thomas Briggs,Thomas,,Briggs,M,,RGP8F,Jill Copplestone,LUBSV,Roger Briggs,GEA09,Rachel,,,,,,,,,,,,,,,,,,Cambridge,,,,,,,,,,,
-BG2PC,Thomas Edward Brooks,Thomas Edward,,Brooks,M,,,,,,QOOE0,Alice Maud Dade,,,,,,,,,,,,,,,,,,,,,,,,Engine Driver,,,,,
-DS5N1,Tom Wills,Tom,,Wills,M,,CNA5X,Judy,GKJI5,Graham Wills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17 in Dec 2012,
-V86CQ,Tom Trace,Tom,,Trace,M,,,,,,ZTIC5,Beatrice Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-T46YR,unknown Copplestone,unknown,,Copplestone,,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TJB9M,unknown Copplestone,unknown,,Copplestone,,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QEQ8S,unknown Copplestone,unknown,,Copplestone,,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FFVQH,unknown Copplestone sibling?,unknown Copplestone,,sibling?,,,MKGOM,Mary Jane Rowe,X9HM8,Richard Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-UHPLO,unkown Copplestone,unkown,,Copplestone,,,AHOQ9,Susan Hall,D7B7M,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QORML,unkown Copplestone,unkown,,Copplestone,,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-W5AKA,Vanessa Perry,Vanessa,,Perry,,,DC0J7,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,WX0KA,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-R6CBA,Will Perry,Will,,Perry,M,,WA275,Nancy Copplestone,IPJ9D,Alfred Henry Perry,,,,1988,4,27,,,,,,,,,,,,,,,,,,,,,,,,,
-S5BAX,William Thomas,William,,Thomas,M,,MTHKS,Betty,YF7GC,James Thomas,L876G,Charlotte Nethway,,,,,,,,,,,,,,,,,,,,,,,,Farm Labourer,,,,,
-WT7W0,William Copplestone,William,,Copplestone,M,,FLT29,Mary Louise Williams,N55ZJ,Joseph Parsons Copplestone,,,,1833,7,5,,,,,,,,,,,,,,Westport County Mayo Ireland,,,,,,Seaman,,,,,
-SY4P9,William Thomas,William,,Thomas,M,,L876G,Charlotte Nethway,S5BAX,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RYW87,William Dade,William,,Dade,M,,AS7V3,Amy Eileen Wensley,R71DU,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Bill&quot;&quot;&quot;,
-GHNM1,William Cutler Bridle,William Cutler,,Bridle,M,,,,,,H09FJ,Ada Kate Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ETUCS,Winston Howard Thomas,Winston Howard,,Thomas,M,Y,SG7KB,Georgina Augusta Dade,J9ADN,Frank Thomas,WQQTF,Una Doreen Clapp,,1909,11,28,1991,,,,,,,,,,,,,Burnham on Sea,Burnham on Sea,,,,,Painter and Decorator,,,,,
-WQQTF,Una Doreen Clapp,Una Doreen,Clapp,Clapp,F,Y,,,,,ETUCS,Winston Howard Thomas,,1913,3,13,1971,,,,,,,,,,,,,,,,,,,,,,,,
-G2YL1,Howell,,Howell,,M,,,,,,Y80L7,Joyce Neal Popham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Y412H,Stanley William Wills,Stanley William,Wills,Wills,M,Y,,,,,M1C93,Irene May Thomas,,1902,11,12,1967,10,19,,,,,,,,,,,,,,,,,,,,,,
+ZR83C,T,T,,,M,,NNBIW,J,MQ4V8,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17 in Dec 2012,
+ACA6M,T,T,,,,,ZOEDS,J,FLSSR,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UHYNG,Thelma Beatrice Jervis,Thelma Beatrice,,Jervis,F,,Z7G76,Florence Emily Large,H5SQR,&quot;John Edward  &quot;&quot;Pop&quot;&quot; Jervis&quot;,OU3YJ,Moore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+U05XW,Thomas Kendall,Thomas,,Kendall,M,,,,,,WZ3N9,Anne Copplestone,,,,,,,,,,,,,,,,,,Lanteglos,,,,,,Customs Officer,,,,,
+OI9W7,Thomas Copplestone,Thomas,,Copplestone,M,,,,,,YNSK9,Charlotte Trethaway,,1763,3,16,,,,,,,,,,,,,,Fowey,,,,,,Cordwainer,,,,,
+P5KV0,Thomas Copplestone,Thomas,,Copplestone,M,,YNSK9,Charlotte Trethaway,OI9W7,Thomas Copplestone,SB0MD,Susan Hall,,1794,10,12,,,,,,,,,,,,,,,,,,,,Miner,,,,,
+RM8RZ,Thomas Edward Brooks,Thomas Edward,,Brooks,M,,,,,,XIZ47,Alice Maud Dade,,,,,,,,,,,,,,,,,,,,,,,,Engine Driver,,,,,
+UQ1KQ,Tom Trace,Tom,,Trace,M,,,,,,J3WHE,Beatrice Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S38EN,unknown Copplestone,unknown,,Copplestone,,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GYJ5S,unknown Copplestone,unknown,,Copplestone,,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RJ46P,unknown Copplestone,unknown,,Copplestone,,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BLCYS,unknown Copplestone sibling?,unknown Copplestone,,sibling?,,,ER871,Mary Jane Rowe,YMYCP,Richard Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CB5JY,unkown Copplestone,unkown,,Copplestone,,,SB0MD,Susan Hall,P5KV0,Thomas Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DGVMB,unkown Copplestone,unkown,,Copplestone,,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IE0AI,Vanessa Perry,Vanessa,,Perry,,,Q7KVK,&quot;Elizabeth &quot;&quot;Betty&quot;&quot;&quot;,XYO13,Raymond Perry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JLLFL,W,W,,,,,LF3CA,N,PDEDI,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KMJFK,William Copplestone,William,,Copplestone,M,,WM5JK,Mary Louise Williams,YZE6X,Joseph Parsons Copplestone,,,,1833,7,5,,,,,,,,,,,,,,Westport County Mayo Ireland,,,,,,Seaman,,,,,
+IK164,William Dade,William,,Dade,M,,GCK84,Amy Eileen Wensley,LGR1O,Alfred John Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;&quot;&quot;Bill&quot;&quot;&quot;,
+M6KD1,William Thomas,William,,Thomas,M,,LH853,Betty,C7HEN,James Thomas,J1BCN,Charlotte Nethway,,,,,,,,,,,,,,,,,,,,,,,,Farm Labourer,,,,,
+J35Q5,William Thomas,William,,Thomas,M,,J1BCN,Charlotte Nethway,M6KD1,William Thomas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S50QZ,William Cutler Bridle,William Cutler,,Bridle,M,,,,,,LFN43,Ada Kate Dade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+I8OQ6,Winston Howard Thomas,Winston Howard,,Thomas,M,Y,SQ5MJ,Georgina Augusta Dade,U3R2C,Frank Thomas,B5CUX,Una Doreen Clapp,,1909,11,28,1991,,,,,,,,,,,,,Burnham on Sea,Burnham on Sea,,,,,Painter and Decorator,,,,,
+B5CUX,Una Doreen Clapp,Una Doreen,Clapp,Clapp,F,Y,,,,,I8OQ6,Winston Howard Thomas,,1913,3,13,1971,,,,,,,,,,,,,,,,,,,,,,,,
+L5R7G,Howell,,Howell,,M,,,,,,YVOZN,Joyce Neal Popham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E7XRT,Stanley William Wills,Stanley William,Wills,Wills,M,Y,,,,,EERKL,Irene May Thomas,,1902,11,12,1967,10,19,,,,,,,,,,,,,,,,,,,,,,
 
 ">
 <INPUT TYPE="hidden" ID="text" VALUE="
 
 Family 2
 
-Plain text downloaded by Grace Copplestone on 22 Jun 2020.
+Plain text downloaded by Grace Copplestone on 3 Aug 2020.
 
 This file should be viewed as Unicode (UTF-8) character encoding.
 
@@ -6005,6 +5895,12 @@ Created by Family Echo - http://www.familyecho.com/
 Full name:          Leonard
 Mother:             Betty
 Father:             Gerald Leonard
+
+----------------------------------------------------------------------------
+
+Full name:          Dade
+Mother:             Amy Eileen Wensley
+Father:             Alfred John Dade
 
 ----------------------------------------------------------------------------
 
@@ -6021,8 +5917,8 @@ Father:             Edgar Lavers
 ----------------------------------------------------------------------------
 
 Full name:          Wills
-Mother:             Clare
-Father:             John Wills
+Mother:             C
+Father:             J
 
 ----------------------------------------------------------------------------
 
@@ -6032,20 +5928,31 @@ Father:             William Thomas
 
 ----------------------------------------------------------------------------
 
-Full name:          Dade
-Mother:             Amy Eileen Wensley
-Father:             Alfred John Dade
-
-----------------------------------------------------------------------------
-
 Full name:          &quot;Nell&quot;
 Gender:             Female
 
 ----------------------------------------------------------------------------
 
-Full name:          Aaron
-Mother:             Sophie
-Father:             Simon Briggs
+Full name:          A
+Gender:             Male (deceased)
+Mother:             Joan Lucy Marwood
+Father:             Douglas Timmins Perry
+Wife:               N (married 28 Oct 1987 in Shrewsbury Shropshire)
+Death date:         2 Nov 2016
+
+Death place:        Bristol
+
+----------------------------------------------------------------------------
+
+Full name:          A
+Gender:             Male
+Partner:            P
+
+----------------------------------------------------------------------------
+
+Full name:          A
+Gender:             Female
+Partner:            D
 
 ----------------------------------------------------------------------------
 
@@ -6095,19 +6002,6 @@ Late partner:       Florence Emily Large
 
 Bio notes:          died when children were young
                     Army number 7162
-
-----------------------------------------------------------------------------
-
-Full name:          Alfred Henry Perry
-Gender:             Male (deceased)
-Mother:             Joan Lucy Marwood
-Father:             Douglas Timmins Perry
-Wife:               Nancy Copplestone (married 28 Oct 1987 in Shrewsbury Shropshire)
-Birth date:         14 Dec 1951
-Death date:         2 Nov 2016
-
-Birth place:        Birmingham
-Death place:        Bristol
 
 ----------------------------------------------------------------------------
 
@@ -6176,18 +6070,6 @@ Bio notes:          Married but no details.  Died approx 1996
 
 ----------------------------------------------------------------------------
 
-Full name:          Andrew Burkitt
-Gender:             Male
-Partner:            Patricia Amie Perry
-
-----------------------------------------------------------------------------
-
-Full name:          Anne
-Gender:             Female
-Partner:            David Wills
-
-----------------------------------------------------------------------------
-
 Full name:          Anne Copplestone
 Gender:             Female
 Husband:            Thomas Kendall (married 1797)
@@ -6205,12 +6087,6 @@ Death date:         4 Sep 1975
 
 Birth place:        Dartmouth
 Bio notes:          Address given for Edward Copplestone at time of marriage to AML is 26 St Georges Terrace Stoke Devonport
-
-----------------------------------------------------------------------------
-
-Full name:          Arlo
-Mother:             Rachel
-Father:             Thomas Briggs
 
 ----------------------------------------------------------------------------
 
@@ -6234,16 +6110,16 @@ Father:             Charles Arthur Weatherdon
 
 ----------------------------------------------------------------------------
 
+Full name:          Barbara
+Gender:             Female
+Partner:            Desmond Lavers
+
+----------------------------------------------------------------------------
+
 Full name:          Barbara Leonard
 Gender:             Female
 Mother:             Joan
 Father:             Gordon Leonard
-
-----------------------------------------------------------------------------
-
-Full name:          Barbara
-Gender:             Female
-Partner:            Desmond Lavers
 
 ----------------------------------------------------------------------------
 
@@ -6326,6 +6202,12 @@ Late partner:       James Thomas
 
 ----------------------------------------------------------------------------
 
+Full name:          C
+Gender:             Female
+Partner:            J
+
+----------------------------------------------------------------------------
+
 Full name:          Cath Parsons Copplestone
 Gender:             Female
 Mother:             Mary Parsons
@@ -6353,14 +6235,6 @@ Late wife:          Elsie Maud Lavers (married 6 Nov 1915)
 
 ----------------------------------------------------------------------------
 
-Full name:          Charlotte Copplestone
-Gender:             Female
-Mother:             Charlotte Trethaway
-Father:             Thomas Copplestone
-Birth date:         10 Sep 1797
-
-----------------------------------------------------------------------------
-
 Full name:          Charlotte Nethway
 Gender:             Female
 Partner:            William Thomas
@@ -6369,15 +6243,17 @@ Profession:         Nurse
 
 ----------------------------------------------------------------------------
 
-Full name:          Charlotte Trethaway
+Full name:          Charlotte Copplestone
 Gender:             Female
-Husband:            Thomas Copplestone (married 28 May 1792 in St Stephens in Brannel)
+Mother:             Charlotte Trethaway
+Father:             Thomas Copplestone
+Birth date:         10 Sep 1797
 
 ----------------------------------------------------------------------------
 
-Full name:          Clare
+Full name:          Charlotte Trethaway
 Gender:             Female
-Partner:            John Wills
+Husband:            Thomas Copplestone (married 28 May 1792 in St Stephens in Brannel)
 
 ----------------------------------------------------------------------------
 
@@ -6391,8 +6267,11 @@ Birth place:        Highbridge
 
 ----------------------------------------------------------------------------
 
-Full name:          Dave
-Gender:             Female
+Full name:          D
+Gender:             Male
+Mother:             Irene May Thomas
+Father:             Stanley William Wills
+Partner:            A
 
 ----------------------------------------------------------------------------
 
@@ -6402,11 +6281,8 @@ Partner:            Allison Webb
 
 ----------------------------------------------------------------------------
 
-Full name:          David Wills
-Gender:             Male
-Mother:             Irene May Thomas
-Father:             Stanley William Wills
-Partner:            Anne
+Full name:          Dave
+Gender:             Female
 
 ----------------------------------------------------------------------------
 
@@ -6520,24 +6396,6 @@ Father:             William Thomas
 
 ----------------------------------------------------------------------------
 
-Full name:          Elizabeth Lavers
-Gender:             Female (deceased)
-Mother:             Maria Wills
-Father:             George Henry Lavers
-Partner:            Frederick Pyne
-Birth date:         8 Nov 1885
-Death date:         26 Jun 1974
-
-Bio notes:          Great Aunt Bess to NC.  No children.
-
-----------------------------------------------------------------------------
-
-Full name:          Elizabeth Copplestone
-Gender:             Female
-Birth date:         1 Feb 1774
-
-----------------------------------------------------------------------------
-
 Full name:          Elizabeth Copplestone
 Gender:             Female (deceased)
 Birth date:         14 Feb 1769
@@ -6548,9 +6406,19 @@ Burial date:        29 May 1771
 
 Full name:          Elizabeth Copplestone
 Gender:             Female
-Mother:             Mary Dawe
-Father:             Richard Copplestone
-Birth date:         1790
+Birth date:         1 Feb 1774
+
+----------------------------------------------------------------------------
+
+Full name:          Elizabeth Lavers
+Gender:             Female (deceased)
+Mother:             Maria Wills
+Father:             George Henry Lavers
+Partner:            Frederick Pyne
+Birth date:         8 Nov 1885
+Death date:         26 Jun 1974
+
+Bio notes:          Great Aunt Bess to NC.  No children.
 
 ----------------------------------------------------------------------------
 
@@ -6573,6 +6441,14 @@ Bio notes:          Betty's mum Nell had a sister and the sister's daughters wer
 Full name:          Elizabeth Perry
 Mother:             Elizabeth &quot;Betty&quot;
 Father:             Raymond Perry
+
+----------------------------------------------------------------------------
+
+Full name:          Elizabeth Copplestone
+Gender:             Female
+Mother:             Mary Dawe
+Father:             Richard Copplestone
+Birth date:         1790
 
 ----------------------------------------------------------------------------
 
@@ -6613,12 +6489,6 @@ Father:             George Henry Lavers
 Husband:            Charles Arthur Weatherdon (married 6 Nov 1915)
 Birth date:         29 Dec 1889
 Death date:         12 Jun 1969
-
-----------------------------------------------------------------------------
-
-Full name:          Erin
-Mother:             Rachel
-Father:             Thomas Briggs
 
 ----------------------------------------------------------------------------
 
@@ -6718,6 +6588,14 @@ Company:            Burnham on Sea
 
 Full name:          Fred Thomas
 Gender:             Male
+Wife:               Laura Ellen Dade (married 1895)
+
+Profession:         Tobacconist, Baker
+
+----------------------------------------------------------------------------
+
+Full name:          Fred Thomas
+Gender:             Male
 Mother:             Ellen Morris
 Father:             Edward Thomas
 Partner:            Laura E Dade
@@ -6725,11 +6603,9 @@ Birth date:         1871
 
 ----------------------------------------------------------------------------
 
-Full name:          Fred Thomas
+Full name:          Frederick Pyne
 Gender:             Male
-Wife:               Laura Ellen Dade (married 1895)
-
-Profession:         Tobacconist, Baker
+Late partner:       Elizabeth Lavers
 
 ----------------------------------------------------------------------------
 
@@ -6739,9 +6615,17 @@ Partner:            Ellen Francis Thomas
 
 ----------------------------------------------------------------------------
 
-Full name:          Frederick Pyne
+Full name:          G
 Gender:             Male
-Late partner:       Elizabeth Lavers
+Mother:             C
+Father:             J
+Partner:            J
+
+----------------------------------------------------------------------------
+
+Full name:          G
+Mother:             N
+Father:             A
 
 ----------------------------------------------------------------------------
 
@@ -6757,18 +6641,6 @@ Birth place:        St Marys Isles of Scilly
 
 Full name:          George Henry Lavers
 Gender:             Male (deceased)
-Mother:             Matilda
-Father:             George Henry Lavers
-Birth date:         14 Dec 1872
-Death date:         17 Dec 1899
-
-Death place:        Monte Video
-Bio notes:          Drowned at Monte Video aged 27. Tombstone in Dartmouth cemetery
-
-----------------------------------------------------------------------------
-
-Full name:          George Henry Lavers
-Gender:             Male (deceased)
 Father:             Frank Lavers
 Wife:               Maria Wills (married 2 Apr 1881 in address  Kingswear Devon)
 Partner:            Matilda
@@ -6779,6 +6651,18 @@ Birth place:        Falmouth
 Death place:        Dartmouth
 Profession:         Merchant Seaman
 Bio notes:          GH Lavers was Desmond's grandfather. D writes that he was on the fishing fleet that worked the cod banks of Newfoundland.  All the records for the Lavers were supplied by Desmond and Edgar Lavers, and originally written by Doreen Lavers. 
+
+----------------------------------------------------------------------------
+
+Full name:          George Henry Lavers
+Gender:             Male (deceased)
+Mother:             Matilda
+Father:             George Henry Lavers
+Birth date:         14 Dec 1872
+Death date:         17 Dec 1899
+
+Death place:        Monte Video
+Bio notes:          Drowned at Monte Video aged 27. Tombstone in Dartmouth cemetery
 
 ----------------------------------------------------------------------------
 
@@ -6828,27 +6712,19 @@ Birth date:         1919
 
 ----------------------------------------------------------------------------
 
-Full name:          Grace May Perry Copplestone
-Gender:             Female
-Mother:             Nancy Copplestone
-Father:             Alfred Henry Perry
-Birth date:         25 Apr 1991
-
-----------------------------------------------------------------------------
-
-Full name:          Graham Wills
-Gender:             Male
-Mother:             Clare
-Father:             John Wills
-Partner:            Judy
-
-----------------------------------------------------------------------------
-
 Full name:          Gwendoline Dade
 Gender:             Female
 Mother:             Amy Eileen Wensley
 Father:             Alfred John Dade
 Partner:            Gilbert Wall
+
+----------------------------------------------------------------------------
+
+Full name:          H
+Gender:             Female
+Mother:             C
+Father:             J
+Partner:            R
 
 ----------------------------------------------------------------------------
 
@@ -6874,20 +6750,6 @@ Partner:            Sheila Clapp
 
 ----------------------------------------------------------------------------
 
-Full name:          Helen Wills
-Gender:             Female
-Mother:             Clare
-Father:             John Wills
-Partner:            Richard Rossington
-
-----------------------------------------------------------------------------
-
-Full name:          Henry Thomas
-Mother:             Betty
-Father:             James Thomas
-
-----------------------------------------------------------------------------
-
 Full name:          Henry Thomas
 Gender:             Male
 Mother:             Charlotte Nethway
@@ -6895,6 +6757,12 @@ Father:             William Thomas
 Wife:               Martha Lovell (married 1855)
 
 Profession:         Agricultural labourer
+
+----------------------------------------------------------------------------
+
+Full name:          Henry Thomas
+Mother:             Betty
+Father:             James Thomas
 
 ----------------------------------------------------------------------------
 
@@ -6921,24 +6789,53 @@ Death place:        Cheltenham
 
 ----------------------------------------------------------------------------
 
+Full name:          J
+Mother:             H
+Father:             R
+
+----------------------------------------------------------------------------
+
+Full name:          J
+Gender:             Male
+Mother:             J
+Father:             G
+
+Bio notes:          11 in Dec 2012
+
+----------------------------------------------------------------------------
+
+Full name:          J
+Gender:             Male
+Mother:             Irene May Thomas
+Father:             Stanley William Wills
+Partner:            C
+Birth date:         1925
+
+----------------------------------------------------------------------------
+
+Full name:          J
+Gender:             Female
+Mother:             Kathleen Mary Thomas
+Father:             Leonard Copplestone
+Partner:            R
+
+----------------------------------------------------------------------------
+
+Full name:          J
+Mother:             L
+Father:             R
+
+----------------------------------------------------------------------------
+
+Full name:          J
+Gender:             Female
+Partner:            G
+
+----------------------------------------------------------------------------
+
 Full name:          Jackie Leonard
 Mother:             Joyce
 Father:             Norman Leonard
-
-----------------------------------------------------------------------------
-
-Full name:          James Thomas
-Gender:             Male (deceased)
-Partner:            Betty
-
-Burial place:       St Mary the Virgin
-Burial date:        20 Mar 1808
-
-----------------------------------------------------------------------------
-
-Full name:          James Rossington
-Mother:             Helen Wills
-Father:             Richard Rossington
 
 ----------------------------------------------------------------------------
 
@@ -6958,6 +6855,15 @@ Father:             James Thomas
 
 ----------------------------------------------------------------------------
 
+Full name:          James Thomas
+Gender:             Male (deceased)
+Partner:            Betty
+
+Burial place:       St Mary the Virgin
+Burial date:        20 Mar 1808
+
+----------------------------------------------------------------------------
+
 Full name:          Jean Dade
 Gender:             Female
 Mother:             Margaret
@@ -6971,15 +6877,6 @@ Bio notes:          Jean is a physiotherapist and with her two daughters, raises
 Full name:          Jeff Webb
 Gender:             Male
 Partner:            Jean Dade
-
-----------------------------------------------------------------------------
-
-Full name:          Jill Copplestone
-Gender:             Female
-Mother:             Kathleen Mary Thomas
-Father:             Leonard Copplestone
-Partner:            Roger Briggs
-Birth date:         8 Aug 1947
 
 ----------------------------------------------------------------------------
 
@@ -7000,15 +6897,6 @@ Death place:        Newton Abbot
 
 ----------------------------------------------------------------------------
 
-Full name:          Joanna Keen
-Gender:             Female
-Mother:             Linda Copplestone
-Father:             Ronald Keen
-
-Birth place:        Birmingham
-
-----------------------------------------------------------------------------
-
 Full name:          John Perry
 Mother:             Elizabeth &quot;Betty&quot;
 Father:             Raymond Perry
@@ -7018,15 +6906,6 @@ Father:             Raymond Perry
 Full name:          John Blakemore
 Gender:             Male
 Partner:            Suzanne Perry
-
-----------------------------------------------------------------------------
-
-Full name:          John Wills
-Gender:             Male
-Mother:             Irene May Thomas
-Father:             Stanley William Wills
-Partner:            Clare
-Birth date:         1925
 
 ----------------------------------------------------------------------------
 
@@ -7074,12 +6953,6 @@ Profession:         Coastguard
 
 ----------------------------------------------------------------------------
 
-Full name:          Josh
-Mother:             Sophie
-Father:             Simon Briggs
-
-----------------------------------------------------------------------------
-
 Full name:          Joyce
 Gender:             Female
 Partner:            Norman Leonard
@@ -7092,21 +6965,6 @@ Husband:            Howell (married 1951)
 Husband:            Ernest Ronald Thomas (married 1931)
 Birth date:         1914
 Death date:         2007
-
-----------------------------------------------------------------------------
-
-Full name:          Judy
-Gender:             Female
-Partner:            Graham Wills
-
-----------------------------------------------------------------------------
-
-Full name:          Justin Wills
-Gender:             Male
-Mother:             Judy
-Father:             Graham Wills
-
-Bio notes:          11 in Dec 2012
 
 ----------------------------------------------------------------------------
 
@@ -7139,6 +6997,13 @@ Wife:               Beryl (married 25 Aug 1944)
 
 Bio notes:          KP's birthday 19.2.? year not known.
                     Both died in 1990's
+
+----------------------------------------------------------------------------
+
+Full name:          L
+Mother:             Kathleen Mary Thomas
+Father:             Leonard Copplestone
+Partner:            R
 
 ----------------------------------------------------------------------------
 
@@ -7201,15 +7066,6 @@ Birth place:        Wimborne  Dorset
 
 ----------------------------------------------------------------------------
 
-Full name:          Linda Copplestone
-Gender:             Female
-Mother:             Kathleen Mary Thomas
-Father:             Leonard Copplestone
-Partner:            Ronald Keen
-Birth date:         22 May 1949
-
-----------------------------------------------------------------------------
-
 Full name:          Lorraine Perry
 Gender:             Female
 Mother:             Nanette
@@ -7224,6 +7080,11 @@ Mother:             Mary Louise Williams
 Father:             Joseph Parsons Copplestone
 
 Birth place:        &quot;Austr&quot;
+
+----------------------------------------------------------------------------
+
+Full name:          M
+Mother:             S
 
 ----------------------------------------------------------------------------
 
@@ -7267,9 +7128,12 @@ Father:             Howell
 
 ----------------------------------------------------------------------------
 
-Full name:          Mary Parsons
-Gender:             Female
-Partner:            Richard Copplestone
+Full name:          Mary Dawe
+Gender:             Female (deceased)
+Husband:            Richard Copplestone
+Death date:         1792
+
+Death place:        Fowey Cornwall
 
 ----------------------------------------------------------------------------
 
@@ -7280,12 +7144,9 @@ Father:             James Thomas
 
 ----------------------------------------------------------------------------
 
-Full name:          Mary Dawe
-Gender:             Female (deceased)
-Husband:            Richard Copplestone
-Death date:         1792
-
-Death place:        Fowey Cornwall
+Full name:          Mary Parsons
+Gender:             Female
+Partner:            Richard Copplestone
 
 ----------------------------------------------------------------------------
 
@@ -7320,11 +7181,6 @@ Partner:            George Henry Lavers
 
 ----------------------------------------------------------------------------
 
-Full name:          Matthew
-Mother:             Suzanne Wills
-
-----------------------------------------------------------------------------
-
 Full name:          Moore
 Gender:             Male
 Partner:            Thelma Beatrice Jervis
@@ -7355,15 +7211,11 @@ Late husband:       Edward John Copplestone (married 1961 in Plymouth)
 
 ----------------------------------------------------------------------------
 
-Full name:          Nancy Copplestone
+Full name:          N
 Gender:             Female
 Mother:             Kathleen Mary Thomas
 Father:             Leonard Copplestone
-Late husband:       Alfred Henry Perry (married 28 Oct 1987 in Shrewsbury Shropshire)
-Birth date:         10 Jul 1951
-
-Birth place:        Shrewsbury Shropshire
-Profession:         Architect, Governor, Restorative Justice practitioner
+Late husband:       A (married 28 Oct 1987 in Shrewsbury Shropshire)
 
 ----------------------------------------------------------------------------
 
@@ -7392,6 +7244,14 @@ Bio notes:          John S Wills' favourite Aunt and Uncle, they lived by railwa
 
 ----------------------------------------------------------------------------
 
+Full name:          P
+Gender:             Female
+Mother:             Joan Lucy Marwood
+Father:             Douglas Timmins Perry
+Partner:            A
+
+----------------------------------------------------------------------------
+
 Full name:          Patricia Thomas
 Gender:             Female
 Mother:             Joyce Neal Popham
@@ -7399,15 +7259,6 @@ Father:             Ernest Ronald Thomas
 Birth date:         1931
 
 Bio notes:          Living in Burnham on sea in 2012
-
-----------------------------------------------------------------------------
-
-Full name:          Patricia Amie Perry
-Gender:             Female
-Mother:             Joan Lucy Marwood
-Father:             Douglas Timmins Perry
-Partner:            Andrew Burkitt
-Birth date:         1949
 
 ----------------------------------------------------------------------------
 
@@ -7423,9 +7274,29 @@ Wife:               Lorraine Perry (married in Birmingham)
 
 ----------------------------------------------------------------------------
 
-Full name:          Rachel
-Gender:             Female
-Partner:            Thomas Briggs
+Full name:          R
+Partner:            J
+
+----------------------------------------------------------------------------
+
+Full name:          R
+Gender:             Male
+Partner:            H
+
+----------------------------------------------------------------------------
+
+Full name:          R
+Gender:             Male
+Mother:             Una Doreen Clapp
+Father:             Winston Howard Thomas
+Birth date:         1939
+
+Birth place:        Burnham on Sea
+
+----------------------------------------------------------------------------
+
+Full name:          R
+Partner:            L
 
 ----------------------------------------------------------------------------
 
@@ -7479,31 +7350,22 @@ Profession:         Miller
 
 ----------------------------------------------------------------------------
 
-Full name:          Richard Rossington
-Gender:             Male
-Partner:            Helen Wills
+Full name:          S
+Gender:             Female
+Mother:             A
+Father:             D
 
 ----------------------------------------------------------------------------
 
-Full name:          Robert Frank Thomas
-Gender:             Male
-Mother:             Una Doreen Clapp
-Father:             Winston Howard Thomas
-Birth date:         1939
-
-Birth place:        Burnham on Sea
+Full name:          S
+Mother:             J
+Father:             R
 
 ----------------------------------------------------------------------------
 
-Full name:          Roger Briggs
-Gender:             Male
-Partner:            Jill Copplestone
-
-----------------------------------------------------------------------------
-
-Full name:          Ronald Keen
-Gender:             Male
-Partner:            Linda Copplestone
+Full name:          S
+Mother:             N
+Father:             A
 
 ----------------------------------------------------------------------------
 
@@ -7534,27 +7396,9 @@ Birth date:         1878
 
 ----------------------------------------------------------------------------
 
-Full name:          Simon Briggs
-Gender:             Male
-Mother:             Jill Copplestone
-Father:             Roger Briggs
-Partner:            Sophie
-
-Birth place:        Cambridge
-
-----------------------------------------------------------------------------
-
 Full name:          Simon
 Gender:             Male
 Partner:            Libby Webb
-
-----------------------------------------------------------------------------
-
-Full name:          Solomon Henry Perry Copplestone
-Gender:             Male
-Mother:             Nancy Copplestone
-Father:             Alfred Henry Perry
-Birth date:         9 Feb 1993
 
 ----------------------------------------------------------------------------
 
@@ -7562,12 +7406,6 @@ Full name:          Sonny Dade
 Gender:             Male
 Mother:             Amy Eileen Wensley
 Father:             Alfred John Dade
-
-----------------------------------------------------------------------------
-
-Full name:          Sophie
-Gender:             Female
-Partner:            Simon Briggs
 
 ----------------------------------------------------------------------------
 
@@ -7595,13 +7433,6 @@ Husband:            Thomas Copplestone (married 1823)
 
 ----------------------------------------------------------------------------
 
-Full name:          Suzanne Wills
-Gender:             Female
-Mother:             Anne
-Father:             David Wills
-
-----------------------------------------------------------------------------
-
 Full name:          Suzanne Perry
 Gender:             Female
 Mother:             Beryl
@@ -7613,11 +7444,35 @@ Bio notes:          Address  (as of July 16?)
 
 ----------------------------------------------------------------------------
 
+Full name:          T
+Gender:             Male
+Mother:             J
+Father:             G
+
+Bio notes:          17 in Dec 2012
+
+----------------------------------------------------------------------------
+
+Full name:          T
+Mother:             J
+Father:             R
+
+----------------------------------------------------------------------------
+
 Full name:          Thelma Beatrice Jervis
 Gender:             Female
 Mother:             Florence Emily Large
 Father:             John Edward  &quot;Pop&quot; Jervis
 Partner:            Moore
+
+----------------------------------------------------------------------------
+
+Full name:          Thomas Kendall
+Gender:             Male
+Wife:               Anne Copplestone (married 1797)
+
+Birth place:        Lanteglos
+Profession:         Customs Officer
 
 ----------------------------------------------------------------------------
 
@@ -7642,39 +7497,11 @@ Profession:         Miner
 
 ----------------------------------------------------------------------------
 
-Full name:          Thomas Kendall
-Gender:             Male
-Wife:               Anne Copplestone (married 1797)
-
-Birth place:        Lanteglos
-Profession:         Customs Officer
-
-----------------------------------------------------------------------------
-
-Full name:          Thomas Briggs
-Gender:             Male
-Mother:             Jill Copplestone
-Father:             Roger Briggs
-Partner:            Rachel
-
-Birth place:        Cambridge
-
-----------------------------------------------------------------------------
-
 Full name:          Thomas Edward Brooks
 Gender:             Male
 Wife:               Alice Maud Dade (married 1896)
 
 Profession:         Engine Driver
-
-----------------------------------------------------------------------------
-
-Full name:          Tom Wills
-Gender:             Male
-Mother:             Judy
-Father:             Graham Wills
-
-Bio notes:          17 in Dec 2012
 
 ----------------------------------------------------------------------------
 
@@ -7726,21 +7553,9 @@ Father:             Raymond Perry
 
 ----------------------------------------------------------------------------
 
-Full name:          Will Perry
-Gender:             Male
-Mother:             Nancy Copplestone
-Father:             Alfred Henry Perry
-Birth date:         27 Apr 1988
-
-----------------------------------------------------------------------------
-
-Full name:          William Thomas
-Gender:             Male
-Mother:             Betty
-Father:             James Thomas
-Partner:            Charlotte Nethway
-
-Profession:         Farm Labourer
+Full name:          W
+Mother:             N
+Father:             A
 
 ----------------------------------------------------------------------------
 
@@ -7755,19 +7570,29 @@ Profession:         Seaman
 
 ----------------------------------------------------------------------------
 
-Full name:          William Thomas
-Gender:             Male
-Mother:             Charlotte Nethway
-Father:             William Thomas
-
-----------------------------------------------------------------------------
-
 Full name:          William Dade
 Gender:             Male
 Mother:             Amy Eileen Wensley
 Father:             Alfred John Dade
 
 Bio notes:          &quot;Bill&quot;
+
+----------------------------------------------------------------------------
+
+Full name:          William Thomas
+Gender:             Male
+Mother:             Betty
+Father:             James Thomas
+Partner:            Charlotte Nethway
+
+Profession:         Farm Labourer
+
+----------------------------------------------------------------------------
+
+Full name:          William Thomas
+Gender:             Male
+Mother:             Charlotte Nethway
+Father:             William Thomas
 
 ----------------------------------------------------------------------------
 
@@ -7815,6 +7640,8 @@ Death date:         19 Oct 1967
 
 
 ">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-483945903" SRC="data:image/jpeg;base64,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">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-693524128" SRC="data:image/jpeg;base64,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">
 
 		<INPUT TYPE="hidden" ID="founderid" VALUE="START">
 					
@@ -7961,7 +7788,7 @@ Death date:         19 Oct 1967
 						<DIV ID="nonrelations" STYLE="display:none; margin-top:6px;">
 			
 						<DIV ID="nonediting">
-							<IFRAME ID="uploadiframe" SRC="imageupload.php" CLASS="simage" STYLE="display:none; margin-top:6px;" SCROLLING="no" WIDTH="200" HEIGHT="120" FRAMEBORDER="0"></IFRAME>
+							<IFRAME ID="uploadiframe" SRC="imageupload.php" CLASS="simage" STYLE="display:none; margin-top:6px; width:auto; height:120px;" SCROLLING="no" FRAMEBORDER="0"></IFRAME>
 							<INPUT ID="uploadbutton" TYPE="submit" VALUE="Upload photo" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="SIC(); return false;">
 	
 							<INPUT ID="hideurl" TYPE="submit" VALUE="Back to family tree" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="parent.ESM('view'); return false;">
@@ -8350,7 +8177,7 @@ Death date:         19 Oct 1967
 			<TR HEIGHT="8">
 				<TD STYLE="border-top:solid #666666 1px; padding:8px;" VALIGN="middle">
 					<DIV STYLE="float:left;">
-Read-only HTML downloaded by Grace Copplestone on 22 Jun 2020 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return export_show('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return export_show('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return export_show('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return export_show('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return export_show('text');">Plain Text</a>					</DIV>
+Read-only HTML downloaded by Grace Copplestone on 3 Aug 2020 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return export_show('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return export_show('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return export_show('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return export_show('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return export_show('text');">Plain Text</a>					</DIV>
 					<DIV STYLE="float:right;">
 <A HREF="http://www.familyecho.com/" TITLE="Family Echo - Free Online Family Tree Maker"><IMG SRC="data:;base64,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" WIDTH="80" HEIGHT="16" BORDER="0" ALT="Family Echo" ALIGN="ABSBOTTOM"></A> &copy; Familiality 2020 - All rights reserved					</DIV>
 				</TD>
